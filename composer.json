@@ -1,0 +1,51 @@
+{
+  "name": "mylistryx/yii2-hyper-asset",
+  "description": "Yii2 Hyper theme asset with Bootstrap 5 support",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "type": "yii2-extension",
+  "authors": [
+    {
+      "name": "Sergey Zhukovskiy",
+      "email": "mylistryx@gmail.com",
+      "homepage": "https://net23.ru"
+    }
+  ],
+  "keywords": [
+    "yii2",
+    "Hyper",
+    "asset",
+    "bundle",
+    "free",
+    "bootstrap5"
+  ],
+  "version": "1.0.0",
+  "readme": "README.md",
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "hyper\\": "src/",
+      "demo\\": "demo/"
+    }
+  },
+  "require": {
+    "php": ">=8.4",
+    "yiisoft/yii2": "~2.0.50",
+    "yiisoft/yii2-bootstrap5": "~2.0.4",
+    "daixianceng/yii2-echarts": "*"
+  },
+  "require-dev": {
+    "roave/security-advisories": "dev-latest",
+    "larapack/dd": "^1.1"
+  },
+  "config": {
+    "allow-plugins": {
+      "yiisoft/yii2-composer": true
+    }
+  }
+}
