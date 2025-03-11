@@ -5,6 +5,7 @@
  */
 
 use hyper\assets\HyperAsset;
+use hyper\Breadcrumbs;
 use hyper\Html;
 use yii\web\View;
 
@@ -33,7 +34,24 @@ $this->beginPage() ?>
         <!-- Start Page Content here -->
         <!-- ============================================================== -->
         <div class="content-page">
-            <?= $content ?>
+            <div class="content">
+                <!-- Start Content-->
+                <div class="container-fluid">
+                    <!-- start page title -->
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="page-title-box">
+                                <div class="page-title-right">
+                                    <?= Breadcrumbs::widget(['links' => $this->params['breadcrumbs']]) ?>
+                                </div>
+                                <h4 class="page-title"><?= Html::encode($this->title) ?></h4>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end page title -->
+                    <?= $content ?>
+                </div>
+            </div>
             <?= $this->render('footer') ?>
         </div>
         <!-- ============================================================== -->

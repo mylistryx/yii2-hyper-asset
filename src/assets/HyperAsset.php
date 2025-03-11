@@ -2,8 +2,6 @@
 
 namespace hyper\assets;
 
-use yii\bootstrap5\BootstrapAsset;
-use yii\bootstrap5\BootstrapPluginAsset;
 use yii\web\AssetBundle;
 use yii\web\JqueryAsset;
 use yii\web\View;
@@ -34,7 +32,6 @@ class HyperAsset extends AssetBundle
     ];
 
     public $depends = [
-        BootstrapAsset::class,
         BootstrapPluginAsset::class,
         JqueryAsset::class,
     ];

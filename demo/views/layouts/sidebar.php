@@ -270,40 +270,40 @@ use yii\web\View;
                             <div class="collapse" id="sidebarPagesAuth">
                                 <ul class="side-nav-third-level">
                                     <li>
-                                        <a href="pages-login.html">Login</a>
+                                        <a href="/pages-authentication/login">Login</a>
                                     </li>
                                     <li>
-                                        <a href="pages-login-2.html">Login 2</a>
+                                        <a href="/pages-authentication/login-2">Login 2</a>
                                     </li>
                                     <li>
-                                        <a href="pages-register.html">Register</a>
+                                        <a href="/pages-authentication/register">Register</a>
                                     </li>
                                     <li>
-                                        <a href="pages-register-2.html">Register 2</a>
+                                        <a href="/pages-authentication/register-2">Register 2</a>
                                     </li>
                                     <li>
-                                        <a href="pages-logout.html">Logout</a>
+                                        <a href="/pages-authentication/logout">Logout</a>
                                     </li>
                                     <li>
-                                        <a href="pages-logout-2.html">Logout 2</a>
+                                        <a href="/pages-authentication/logout-2">Logout 2</a>
                                     </li>
                                     <li>
-                                        <a href="pages-recoverpw.html">Recover Password</a>
+                                        <a href="/pages-authentication/recoverpw">Recover Password</a>
                                     </li>
                                     <li>
-                                        <a href="pages-recoverpw-2.html">Recover Password 2</a>
+                                        <a href="/pages-authentication/recoverpw-2">Recover Password 2</a>
                                     </li>
                                     <li>
-                                        <a href="pages-lock-screen.html">Lock Screen</a>
+                                        <a href="/pages-authentication/lock-screen">Lock Screen</a>
                                     </li>
                                     <li>
-                                        <a href="pages-lock-screen-2.html">Lock Screen 2</a>
+                                        <a href="/pages-authentication/lock-screen-2">Lock Screen 2</a>
                                     </li>
                                     <li>
-                                        <a href="pages-confirm-mail.html">Confirm Mail</a>
+                                        <a href="/pages-authentication/confirm-mail">Confirm Mail</a>
                                     </li>
                                     <li>
-                                        <a href="pages-confirm-mail-2.html">Confirm Mail 2</a>
+                                        <a href="/pages-authentication/confirm-mail-2">Confirm Mail 2</a>
                                     </li>
                                 </ul>
                             </div>
@@ -316,32 +316,32 @@ use yii\web\View;
                             <div class="collapse" id="sidebarPagesError">
                                 <ul class="side-nav-third-level">
                                     <li>
-                                        <a href="pages-404.html">Error 404</a>
+                                        <a href="/pages-error/404">Error 404</a>
                                     </li>
                                     <li>
-                                        <a href="pages-404-alt.html">Error 404-alt</a>
+                                        <a href="/pages-error/404-alt">Error 404-alt</a>
                                     </li>
                                     <li>
-                                        <a href="pages-500.html">Error 500</a>
+                                        <a href="/pages-error/500">Error 500</a>
                                     </li>
                                 </ul>
                             </div>
                         </li>
                         <li>
-                            <a href="pages-starter.html">Starter Page</a>
+                            <a href="/pages/starter">Starter Page</a>
                         </li>
                         <li>
-                            <a href="pages-preloader.html">With Preloader</a>
+                            <a href="/pages/preloader">With Preloader</a>
                         </li>
                         <li>
-                            <a href="pages-timeline.html">Timeline</a>
+                            <a href="/pages/timeline">Timeline</a>
                         </li>
                     </ul>
                 </div>
             </li>
 
             <li class="side-nav-item">
-                <a href="landing.html" target="_blank" class="side-nav-link">
+                <a href="/landing" target="_blank" class="side-nav-link">
                     <i class="uil-globe"></i>
                     <span class="badge bg-secondary text-light float-end">New</span>
                     <span> Landing </span>
@@ -392,79 +392,79 @@ use yii\web\View;
                 <div class="collapse" id="sidebarBaseUI">
                     <ul class="side-nav-second-level">
                         <li>
-                            <a href="ui-accordions.html">Accordions & Collapse</a>
+                            <a href="/ui/accordions">Accordions & Collapse</a>
                         </li>
                         <li>
-                            <a href="ui-alerts.html">Alerts</a>
+                            <a href="/ui/alerts">Alerts</a>
                         </li>
                         <li>
-                            <a href="ui-avatars.html">Avatars</a>
+                            <a href="/ui/avatars">Avatars</a>
                         </li>
                         <li>
-                            <a href="ui-badges.html">Badges</a>
+                            <a href="/ui/badges">Badges</a>
                         </li>
                         <li>
-                            <a href="ui-breadcrumb.html">Breadcrumb</a>
+                            <a href="/ui/breadcrumb">Breadcrumb</a>
                         </li>
                         <li>
-                            <a href="ui-buttons.html">Buttons</a>
+                            <a href="/ui/buttons">Buttons</a>
                         </li>
                         <li>
-                            <a href="ui-cards.html">Cards</a>
+                            <a href="/ui/cards">Cards</a>
                         </li>
                         <li>
-                            <a href="ui-carousel.html">Carousel</a>
+                            <a href="/ui/carousel">Carousel</a>
                         </li>
                         <li>
-                            <a href="ui-dropdowns.html">Dropdowns</a>
+                            <a href="/ui/dropdowns">Dropdowns</a>
                         </li>
                         <li>
-                            <a href="ui-embed-video.html">Embed Video</a>
+                            <a href="/ui/embed-video">Embed Video</a>
                         </li>
                         <li>
-                            <a href="ui-grid.html">Grid</a>
+                            <a href="/ui/grid">Grid</a>
                         </li>
                         <li>
-                            <a href="ui-list-group.html">List Group</a>
+                            <a href="/ui/list-group">List Group</a>
                         </li>
                         <li>
-                            <a href="ui-modals.html">Modals</a>
+                            <a href="/ui/modals">Modals</a>
                         </li>
                         <li>
-                            <a href="ui-notifications.html">Notifications</a>
+                            <a href="/ui/notifications">Notifications</a>
                         </li>
                         <li>
-                            <a href="ui-offcanvas.html">Offcanvas</a>
+                            <a href="/ui/offcanvas">Offcanvas</a>
                         </li>
                         <li>
-                            <a href="ui-placeholders.html">Placeholders</a>
+                            <a href="/ui/placeholders">Placeholders</a>
                         </li>
                         <li>
-                            <a href="ui-pagination.html">Pagination</a>
+                            <a href="/ui/pagination">Pagination</a>
                         </li>
                         <li>
-                            <a href="ui-popovers.html">Popovers</a>
+                            <a href="/ui/popovers">Popovers</a>
                         </li>
                         <li>
-                            <a href="ui-progress.html">Progress</a>
+                            <a href="/ui/progress">Progress</a>
                         </li>
                         <li>
-                            <a href="ui-ribbons.html">Ribbons</a>
+                            <a href="/ui/ribbons">Ribbons</a>
                         </li>
                         <li>
-                            <a href="ui-spinners.html">Spinners</a>
+                            <a href="/ui/spinners">Spinners</a>
                         </li>
                         <li>
-                            <a href="ui-tabs.html">Tabs</a>
+                            <a href="/ui/tabs">Tabs</a>
                         </li>
                         <li>
-                            <a href="ui-tooltips.html">Tooltips</a>
+                            <a href="/ui/tooltips">Tooltips</a>
                         </li>
                         <li>
-                            <a href="ui-typography.html">Typography</a>
+                            <a href="/ui/typography">Typography</a>
                         </li>
                         <li>
-                            <a href="ui-utilities.html">Utilities</a>
+                            <a href="/ui/utilities">Utilities</a>
                         </li>
                     </ul>
                 </div>
