@@ -638,22 +638,22 @@ use yii\web\View;
                 <div class="collapse" id="sidebarForms">
                     <ul class="side-nav-second-level">
                         <li>
-                            <a href="form-elements.html">Basic Elements</a>
+                            <a href="/form/elements">Basic Elements</a>
                         </li>
                         <li>
-                            <a href="form-advanced.html">Form Advanced</a>
+                            <a href="/form/advanced">Form Advanced</a>
                         </li>
                         <li>
-                            <a href="form-validation.html">Validation</a>
+                            <a href="/form/validation">Validation</a>
                         </li>
                         <li>
-                            <a href="form-wizard.html">Wizard</a>
+                            <a href="/form/wizard">Wizard</a>
                         </li>
                         <li>
-                            <a href="form-fileuploads.html">File Uploads</a>
+                            <a href="/form/file-uploads">File Uploads</a>
                         </li>
                         <li>
-                            <a href="form-editors.html">Editors</a>
+                            <a href="/form/editors">Editors</a>
                         </li>
                     </ul>
                 </div>
@@ -668,10 +668,10 @@ use yii\web\View;
                 <div class="collapse" id="sidebarTables">
                     <ul class="side-nav-second-level">
                         <li>
-                            <a href="tables-basic.html">Basic Tables</a>
+                            <a href="/tables/basic">Basic Tables</a>
                         </li>
                         <li>
-                            <a href="tables-datatable.html">Data Tables</a>
+                            <a href="/tables/data">Data Tables</a>
                         </li>
                     </ul>
                 </div>

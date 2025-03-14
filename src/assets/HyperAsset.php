@@ -17,9 +17,8 @@ class HyperAsset extends AssetBundle
 
     public $js = [
         ["js/hyper-config.js", 'position' => View::POS_HEAD],
-        ["js/hyper-syntax.js"],
         ["js/vendor.min.js"],
-        ["js/app.min.js"],
+        ["js/app.min.js", 'position' => View::POS_END],
     ];
 
     public $publishOptions = [
