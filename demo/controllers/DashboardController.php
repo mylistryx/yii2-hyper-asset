@@ -16,4 +16,24 @@ final class DashboardController extends Controller
     {
         return $this->render('analytics');
     }
+
+    public function actionEcommerce(): string
+    {
+        return $this->render('ecommerce');
+    }
+
+    public function actionProjects(): string
+    {
+        return $this->render('projects');
+    }
+
+    public function actionCrm(): string
+    {
+        return $this->render('crm');
+    }
+
+    public function actionWallet(): string
+    {
+        return $this->render('wallet');
+    }
 }
