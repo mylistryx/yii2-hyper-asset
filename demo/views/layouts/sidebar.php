@@ -686,10 +686,10 @@ use yii\web\View;
                 <div class="collapse" id="sidebarMaps">
                     <ul class="side-nav-second-level">
                         <li>
-                            <a href="maps-google.html">Google Maps</a>
+                            <a href="/maps/google">Google Maps</a>
                         </li>
                         <li>
-                            <a href="maps-vector.html">Vector Maps</a>
+                            <a href="/maps/vector">Vector Maps</a>
                         </li>
                     </ul>
                 </div>

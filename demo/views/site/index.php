@@ -6,12 +6,12 @@
 use hyper\assets\ApexChartAsset;
 use hyper\assets\DateRangePickerAsset;
 use hyper\assets\HyperAsset;
-use hyper\assets\VectorMapAsset;
+use hyper\assets\VectorMapsAsset;
 use yii\web\View;
 
 ApexChartAsset::register($this);
 DateRangePickerAsset::register($this);
-VectorMapAsset::register($this);
+VectorMapsAsset::register($this);
 
 /** Dashboard App js */
 $this->registerJsFile('/js/pages/demo.dashboard.js', ['depends' => HyperAsset::class]);
