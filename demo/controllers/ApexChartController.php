@@ -6,11 +6,9 @@ use yii\web\Controller;
 
 final class ApexChartController extends Controller
 {
-    public $layout = 'main-ui';
-
     public function init(): void
     {
-        $this->view->params['breadcrumbs'][] = ['label' => 'ApexCharts', 'url' => ['index']];
+        $this->view->params['breadcrumbs'][] = ['label' => 'ApexCharts'];
         parent::init();
     }
 

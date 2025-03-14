@@ -3,57 +3,60 @@
  * @var $this View
  */
 
+use hyper\assets\CodeHighLightAsset;
 use yii\web\View;
 
 $this->title = 'Pagination';
 $this->params['breadcrumbs'][] = $this->title;
+
+CodeHighLightAsset::register($this);
 ?>
+<div class="content-container">
+    <div class="row">
+        <div class="col-xl-6">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="header-title">Default Pagination</h4>
+                    <p class="text-muted font-14">Simple pagination inspired by Rdio, great for apps and search results.</p>
 
-<div class="row">
-    <div class="col-xl-6">
-        <div class="card">
-            <div class="card-body">
-                <h4 class="header-title">Default Pagination</h4>
-                <p class="text-muted font-14">Simple pagination inspired by Rdio, great for apps and search results.</p>
+                    <ul class="nav nav-tabs nav-bordered mb-3">
+                        <li class="nav-item">
+                            <a href="#default-pagination-preview" data-bs-toggle="tab" aria-expanded="false" class="nav-link active">
+                                Preview
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#default-pagination-code" data-bs-toggle="tab" aria-expanded="true" class="nav-link">
+                                Code
+                            </a>
+                        </li>
+                    </ul> <!-- end nav-->
+                    <div class="tab-content">
+                        <div class="tab-pane show active" id="default-pagination-preview">
+                            <nav>
+                                <ul class="pagination mb-0">
+                                    <li class="page-item">
+                                        <a class="page-link" href="javascript: void(0);" aria-label="Previous">
+                                            <span aria-hidden="true">&laquo;</span>
+                                        </a>
+                                    </li>
+                                    <li class="page-item"><a class="page-link" href="javascript: void(0);">1</a></li>
+                                    <li class="page-item"><a class="page-link" href="javascript: void(0);">2</a></li>
+                                    <li class="page-item"><a class="page-link" href="javascript: void(0);">3</a></li>
+                                    <li class="page-item"><a class="page-link" href="javascript: void(0);">4</a></li>
+                                    <li class="page-item"><a class="page-link" href="javascript: void(0);">5</a></li>
+                                    <li class="page-item">
+                                        <a class="page-link" href="javascript: void(0);" aria-label="Next">
+                                            <span aria-hidden="true">&raquo;</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div> <!-- end preview-->
 
-                <ul class="nav nav-tabs nav-bordered mb-3">
-                    <li class="nav-item">
-                        <a href="#default-pagination-preview" data-bs-toggle="tab" aria-expanded="false" class="nav-link active">
-                            Preview
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#default-pagination-code" data-bs-toggle="tab" aria-expanded="true" class="nav-link">
-                            Code
-                        </a>
-                    </li>
-                </ul> <!-- end nav-->
-                <div class="tab-content">
-                    <div class="tab-pane show active" id="default-pagination-preview">
-                        <nav>
-                            <ul class="pagination mb-0">
-                                <li class="page-item">
-                                    <a class="page-link" href="javascript: void(0);" aria-label="Previous">
-                                        <span aria-hidden="true">&laquo;</span>
-                                    </a>
-                                </li>
-                                <li class="page-item"><a class="page-link" href="javascript: void(0);">1</a></li>
-                                <li class="page-item"><a class="page-link" href="javascript: void(0);">2</a></li>
-                                <li class="page-item"><a class="page-link" href="javascript: void(0);">3</a></li>
-                                <li class="page-item"><a class="page-link" href="javascript: void(0);">4</a></li>
-                                <li class="page-item"><a class="page-link" href="javascript: void(0);">5</a></li>
-                                <li class="page-item">
-                                    <a class="page-link" href="javascript: void(0);" aria-label="Next">
-                                        <span aria-hidden="true">&raquo;</span>
-                                    </a>
-                                </li>
-                            </ul>
-                        </nav>
-                    </div> <!-- end preview-->
-
-                    <div class="tab-pane code" id="default-pagination-code">
-                        <button class="btn-copy-clipboard" data-clipboard-action="copy">Copy</button>
-                        <pre class="mb-0">
+                        <div class="tab-pane code" id="default-pagination-code">
+                            <button class="btn-copy-clipboard" data-clipboard-action="copy">Copy</button>
+                            <pre class="mb-0">
                                                     <span class="html escape">
                                                         &lt;nav&gt;
                                                             &lt;ul class=&quot;pagination&quot;&gt;
@@ -76,50 +79,50 @@ $this->params['breadcrumbs'][] = $this->title;
                                                         &lt;/nav&gt;
                                                     </span>
                                                 </pre> <!-- end highlight-->
-                    </div> <!-- end preview code-->
-                </div> <!-- end tab-content-->
-            </div> <!-- end card-body -->
-        </div> <!-- end card-->
+                        </div> <!-- end preview code-->
+                    </div> <!-- end tab-content-->
+                </div> <!-- end card-body -->
+            </div> <!-- end card-->
 
-        <div class="card">
-            <div class="card-body">
-                <h4 class="header-title">Disabled and active states</h4>
-                <p class="text-muted font-14">Pagination links are customizable for different circumstances. Use <code>.disabled</code> for links that appear un-clickable and <code>.active</code> to indicate the current page.</p>
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="header-title">Disabled and active states</h4>
+                    <p class="text-muted font-14">Pagination links are customizable for different circumstances. Use <code>.disabled</code> for links that appear un-clickable and <code>.active</code> to indicate the current page.</p>
 
-                <ul class="nav nav-tabs nav-bordered mb-3">
-                    <li class="nav-item">
-                        <a href="#disabled-pagination-preview" data-bs-toggle="tab" aria-expanded="false" class="nav-link active">
-                            Preview
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#disabled-pagination-code" data-bs-toggle="tab" aria-expanded="true" class="nav-link">
-                            Code
-                        </a>
-                    </li>
-                </ul> <!-- end nav-->
-                <div class="tab-content">
-                    <div class="tab-pane show active" id="disabled-pagination-preview">
-                        <nav aria-label="...">
-                            <ul class="pagination mb-0">
-                                <li class="page-item disabled">
-                                    <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
-                                </li>
-                                <li class="page-item"><a class="page-link" href="#">1</a></li>
-                                <li class="page-item active" aria-current="page">
-                                    <a class="page-link" href="#">2</a>
-                                </li>
-                                <li class="page-item"><a class="page-link" href="#">3</a></li>
-                                <li class="page-item">
-                                    <a class="page-link" href="#">Next</a>
-                                </li>
-                            </ul>
-                        </nav>
-                    </div> <!-- end preview-->
+                    <ul class="nav nav-tabs nav-bordered mb-3">
+                        <li class="nav-item">
+                            <a href="#disabled-pagination-preview" data-bs-toggle="tab" aria-expanded="false" class="nav-link active">
+                                Preview
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#disabled-pagination-code" data-bs-toggle="tab" aria-expanded="true" class="nav-link">
+                                Code
+                            </a>
+                        </li>
+                    </ul> <!-- end nav-->
+                    <div class="tab-content">
+                        <div class="tab-pane show active" id="disabled-pagination-preview">
+                            <nav aria-label="...">
+                                <ul class="pagination mb-0">
+                                    <li class="page-item disabled">
+                                        <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+                                    </li>
+                                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                    <li class="page-item active" aria-current="page">
+                                        <a class="page-link" href="#">2</a>
+                                    </li>
+                                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                    <li class="page-item">
+                                        <a class="page-link" href="#">Next</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div> <!-- end preview-->
 
-                    <div class="tab-pane code" id="disabled-pagination-code">
-                        <button class="btn-copy-clipboard" data-clipboard-action="copy">Copy</button>
-                        <pre class="mb-0">
+                        <div class="tab-pane code" id="disabled-pagination-code">
+                            <button class="btn-copy-clipboard" data-clipboard-action="copy">Copy</button>
+                            <pre class="mb-0">
                                                     <span class="html escape">
                                                         &lt;nav aria-label=&quot;...&quot;&gt;
                                                             &lt;ul class=&quot;pagination mb-0&quot;&gt;
@@ -138,62 +141,62 @@ $this->params['breadcrumbs'][] = $this->title;
                                                         &lt;/nav&gt;
                                                     </span>
                                                 </pre> <!-- end highlight-->
-                    </div> <!-- end preview code-->
-                </div> <!-- end tab-content-->
-            </div> <!-- end card-body -->
-        </div> <!-- end card-->
+                        </div> <!-- end preview code-->
+                    </div> <!-- end tab-content-->
+                </div> <!-- end card-body -->
+            </div> <!-- end card-->
 
-        <div class="card">
-            <div class="card-body">
-                <h4 class="header-title">Alignment</h4>
-                <p class="text-muted font-14">Change the alignment of pagination components with flexbox utilities.</p>
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="header-title">Alignment</h4>
+                    <p class="text-muted font-14">Change the alignment of pagination components with flexbox utilities.</p>
 
-                <ul class="nav nav-tabs nav-bordered mb-3">
-                    <li class="nav-item">
-                        <a href="#alignment-pagination-preview" data-bs-toggle="tab" aria-expanded="false" class="nav-link active">
-                            Preview
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#alignment-pagination-code" data-bs-toggle="tab" aria-expanded="true" class="nav-link">
-                            Code
-                        </a>
-                    </li>
-                </ul> <!-- end nav-->
-                <div class="tab-content">
-                    <div class="tab-pane show active" id="alignment-pagination-preview">
-                        <nav aria-label="Page navigation example">
-                            <ul class="pagination justify-content-center">
-                                <li class="page-item disabled">
-                                    <a class="page-link" href="javascript: void(0);" tabindex="-1">Previous</a>
-                                </li>
-                                <li class="page-item"><a class="page-link" href="javascript: void(0);">1</a></li>
-                                <li class="page-item"><a class="page-link" href="javascript: void(0);">2</a></li>
-                                <li class="page-item"><a class="page-link" href="javascript: void(0);">3</a></li>
-                                <li class="page-item">
-                                    <a class="page-link" href="javascript: void(0);">Next</a>
-                                </li>
-                            </ul>
-                        </nav>
+                    <ul class="nav nav-tabs nav-bordered mb-3">
+                        <li class="nav-item">
+                            <a href="#alignment-pagination-preview" data-bs-toggle="tab" aria-expanded="false" class="nav-link active">
+                                Preview
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#alignment-pagination-code" data-bs-toggle="tab" aria-expanded="true" class="nav-link">
+                                Code
+                            </a>
+                        </li>
+                    </ul> <!-- end nav-->
+                    <div class="tab-content">
+                        <div class="tab-pane show active" id="alignment-pagination-preview">
+                            <nav aria-label="Page navigation example">
+                                <ul class="pagination justify-content-center">
+                                    <li class="page-item disabled">
+                                        <a class="page-link" href="javascript: void(0);" tabindex="-1">Previous</a>
+                                    </li>
+                                    <li class="page-item"><a class="page-link" href="javascript: void(0);">1</a></li>
+                                    <li class="page-item"><a class="page-link" href="javascript: void(0);">2</a></li>
+                                    <li class="page-item"><a class="page-link" href="javascript: void(0);">3</a></li>
+                                    <li class="page-item">
+                                        <a class="page-link" href="javascript: void(0);">Next</a>
+                                    </li>
+                                </ul>
+                            </nav>
 
-                        <nav aria-label="Page navigation example">
-                            <ul class="pagination justify-content-end">
-                                <li class="page-item disabled">
-                                    <a class="page-link" href="javascript: void(0);" tabindex="-1">Previous</a>
-                                </li>
-                                <li class="page-item"><a class="page-link" href="javascript: void(0);">1</a></li>
-                                <li class="page-item"><a class="page-link" href="javascript: void(0);">2</a></li>
-                                <li class="page-item"><a class="page-link" href="javascript: void(0);">3</a></li>
-                                <li class="page-item">
-                                    <a class="page-link" href="javascript: void(0);">Next</a>
-                                </li>
-                            </ul>
-                        </nav>
-                    </div> <!-- end preview-->
+                            <nav aria-label="Page navigation example">
+                                <ul class="pagination justify-content-end">
+                                    <li class="page-item disabled">
+                                        <a class="page-link" href="javascript: void(0);" tabindex="-1">Previous</a>
+                                    </li>
+                                    <li class="page-item"><a class="page-link" href="javascript: void(0);">1</a></li>
+                                    <li class="page-item"><a class="page-link" href="javascript: void(0);">2</a></li>
+                                    <li class="page-item"><a class="page-link" href="javascript: void(0);">3</a></li>
+                                    <li class="page-item">
+                                        <a class="page-link" href="javascript: void(0);">Next</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div> <!-- end preview-->
 
-                    <div class="tab-pane code" id="alignment-pagination-code">
-                        <button class="btn-copy-clipboard" data-clipboard-action="copy">Copy</button>
-                        <pre class="mb-0">
+                        <div class="tab-pane code" id="alignment-pagination-code">
+                            <button class="btn-copy-clipboard" data-clipboard-action="copy">Copy</button>
+                            <pre class="mb-0">
                                                     <span class="html escape">
                                                         &lt;!-- Center Align --&gt;
                                                         &lt;nav aria-label=&quot;Page navigation example&quot;&gt;
@@ -226,56 +229,56 @@ $this->params['breadcrumbs'][] = $this->title;
                                                         &lt;/nav&gt;
                                                     </span>
                                                 </pre> <!-- end highlight-->
-                    </div> <!-- end preview code-->
-                </div> <!-- end tab-content-->
-            </div> <!-- end card-body -->
-        </div> <!-- end card-->
-    </div> <!-- end col -->
+                        </div> <!-- end preview code-->
+                    </div> <!-- end tab-content-->
+                </div> <!-- end card-body -->
+            </div> <!-- end card-->
+        </div> <!-- end col -->
 
-    <div class="col-xl-6">
-        <div class="card">
-            <div class="card-body">
-                <h4 class="header-title">Rounded Pagination</h4>
-                <p class="text-muted font-14">Add <code> .pagination-rounded</code> for rounded pagination.</p>
+        <div class="col-xl-6">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="header-title">Rounded Pagination</h4>
+                    <p class="text-muted font-14">Add <code> .pagination-rounded</code> for rounded pagination.</p>
 
-                <ul class="nav nav-tabs nav-bordered mb-3">
-                    <li class="nav-item">
-                        <a href="#rounded-pagination-preview" data-bs-toggle="tab" aria-expanded="false" class="nav-link active">
-                            Preview
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#rounded-pagination-code" data-bs-toggle="tab" aria-expanded="true" class="nav-link">
-                            Code
-                        </a>
-                    </li>
-                </ul> <!-- end nav-->
-                <div class="tab-content">
-                    <div class="tab-pane show active" id="rounded-pagination-preview">
-                        <nav>
-                            <ul class="pagination pagination-rounded mb-0">
-                                <li class="page-item">
-                                    <a class="page-link" href="javascript: void(0);" aria-label="Previous">
-                                        <span aria-hidden="true">&laquo;</span>
-                                    </a>
-                                </li>
-                                <li class="page-item"><a class="page-link" href="javascript: void(0);">1</a></li>
-                                <li class="page-item"><a class="page-link" href="javascript: void(0);">2</a></li>
-                                <li class="page-item active"><a class="page-link" href="javascript: void(0);">3</a></li>
-                                <li class="page-item"><a class="page-link" href="javascript: void(0);">4</a></li>
-                                <li class="page-item"><a class="page-link" href="javascript: void(0);">5</a></li>
-                                <li class="page-item">
-                                    <a class="page-link" href="javascript: void(0);" aria-label="Next">
-                                        <span aria-hidden="true">&raquo;</span>
-                                    </a>
-                                </li>
-                            </ul>
-                        </nav>
-                    </div> <!-- end preview-->
+                    <ul class="nav nav-tabs nav-bordered mb-3">
+                        <li class="nav-item">
+                            <a href="#rounded-pagination-preview" data-bs-toggle="tab" aria-expanded="false" class="nav-link active">
+                                Preview
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#rounded-pagination-code" data-bs-toggle="tab" aria-expanded="true" class="nav-link">
+                                Code
+                            </a>
+                        </li>
+                    </ul> <!-- end nav-->
+                    <div class="tab-content">
+                        <div class="tab-pane show active" id="rounded-pagination-preview">
+                            <nav>
+                                <ul class="pagination pagination-rounded mb-0">
+                                    <li class="page-item">
+                                        <a class="page-link" href="javascript: void(0);" aria-label="Previous">
+                                            <span aria-hidden="true">&laquo;</span>
+                                        </a>
+                                    </li>
+                                    <li class="page-item"><a class="page-link" href="javascript: void(0);">1</a></li>
+                                    <li class="page-item"><a class="page-link" href="javascript: void(0);">2</a></li>
+                                    <li class="page-item active"><a class="page-link" href="javascript: void(0);">3</a></li>
+                                    <li class="page-item"><a class="page-link" href="javascript: void(0);">4</a></li>
+                                    <li class="page-item"><a class="page-link" href="javascript: void(0);">5</a></li>
+                                    <li class="page-item">
+                                        <a class="page-link" href="javascript: void(0);" aria-label="Next">
+                                            <span aria-hidden="true">&raquo;</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div> <!-- end preview-->
 
-                    <div class="tab-pane code" id="rounded-pagination-code">
-                        <button class="btn-copy-clipboard" data-clipboard-action="copy">Copy</button>
-                        <pre class="mb-0">
+                        <div class="tab-pane code" id="rounded-pagination-code">
+                            <button class="btn-copy-clipboard" data-clipboard-action="copy">Copy</button>
+                            <pre class="mb-0">
                                                     <span class="html escape">
                                                         &lt;nav&gt;
                                                             &lt;ul class=&quot;pagination pagination-rounded mb-0&quot;&gt;
@@ -298,70 +301,70 @@ $this->params['breadcrumbs'][] = $this->title;
                                                         &lt;/nav&gt;
                                                     </span>
                                                 </pre> <!-- end highlight-->
-                    </div> <!-- end preview code-->
-                </div> <!-- end tab-content-->
-            </div> <!-- end card-body -->
-        </div> <!-- end card-->
+                        </div> <!-- end preview code-->
+                    </div> <!-- end tab-content-->
+                </div> <!-- end card-body -->
+            </div> <!-- end card-->
 
-        <div class="card">
-            <div class="card-body">
-                <h4 class="header-title">Sizing</h4>
-                <p class="text-muted font-14">Add <code> .pagination-lg</code> or <code> .pagination-sm</code> for additional sizes.</p>
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="header-title">Sizing</h4>
+                    <p class="text-muted font-14">Add <code> .pagination-lg</code> or <code> .pagination-sm</code> for additional sizes.</p>
 
-                <ul class="nav nav-tabs nav-bordered mb-3">
-                    <li class="nav-item">
-                        <a href="#sizing-pagination-preview" data-bs-toggle="tab" aria-expanded="false" class="nav-link active">
-                            Preview
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#sizing-pagination-code" data-bs-toggle="tab" aria-expanded="true" class="nav-link">
-                            Code
-                        </a>
-                    </li>
-                </ul> <!-- end nav-->
-                <div class="tab-content">
-                    <div class="tab-pane show active" id="sizing-pagination-preview">
-                        <nav>
-                            <ul class="pagination pagination-lg">
-                                <li class="page-item">
-                                    <a class="page-link" href="javascript: void(0);" aria-label="Previous">
-                                        <span aria-hidden="true">&laquo;</span>
-                                    </a>
-                                </li>
-                                <li class="page-item"><a class="page-link" href="javascript: void(0);">1</a></li>
-                                <li class="page-item"><a class="page-link" href="javascript: void(0);">2</a></li>
-                                <li class="page-item"><a class="page-link" href="javascript: void(0);">3</a></li>
-                                <li class="page-item">
-                                    <a class="page-link" href="javascript: void(0);" aria-label="Next">
-                                        <span aria-hidden="true">&raquo;</span>
-                                    </a>
-                                </li>
-                            </ul>
-                        </nav>
+                    <ul class="nav nav-tabs nav-bordered mb-3">
+                        <li class="nav-item">
+                            <a href="#sizing-pagination-preview" data-bs-toggle="tab" aria-expanded="false" class="nav-link active">
+                                Preview
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#sizing-pagination-code" data-bs-toggle="tab" aria-expanded="true" class="nav-link">
+                                Code
+                            </a>
+                        </li>
+                    </ul> <!-- end nav-->
+                    <div class="tab-content">
+                        <div class="tab-pane show active" id="sizing-pagination-preview">
+                            <nav>
+                                <ul class="pagination pagination-lg">
+                                    <li class="page-item">
+                                        <a class="page-link" href="javascript: void(0);" aria-label="Previous">
+                                            <span aria-hidden="true">&laquo;</span>
+                                        </a>
+                                    </li>
+                                    <li class="page-item"><a class="page-link" href="javascript: void(0);">1</a></li>
+                                    <li class="page-item"><a class="page-link" href="javascript: void(0);">2</a></li>
+                                    <li class="page-item"><a class="page-link" href="javascript: void(0);">3</a></li>
+                                    <li class="page-item">
+                                        <a class="page-link" href="javascript: void(0);" aria-label="Next">
+                                            <span aria-hidden="true">&raquo;</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
 
-                        <nav>
-                            <ul class="pagination pagination-sm mb-0">
-                                <li class="page-item">
-                                    <a class="page-link" href="javascript: void(0);" aria-label="Previous">
-                                        <span aria-hidden="true">&laquo;</span>
-                                    </a>
-                                </li>
-                                <li class="page-item"><a class="page-link" href="javascript: void(0);">1</a></li>
-                                <li class="page-item"><a class="page-link" href="javascript: void(0);">2</a></li>
-                                <li class="page-item"><a class="page-link" href="javascript: void(0);">3</a></li>
-                                <li class="page-item">
-                                    <a class="page-link" href="javascript: void(0);" aria-label="Next">
-                                        <span aria-hidden="true">&raquo;</span>
-                                    </a>
-                                </li>
-                            </ul>
-                        </nav>
-                    </div> <!-- end preview-->
+                            <nav>
+                                <ul class="pagination pagination-sm mb-0">
+                                    <li class="page-item">
+                                        <a class="page-link" href="javascript: void(0);" aria-label="Previous">
+                                            <span aria-hidden="true">&laquo;</span>
+                                        </a>
+                                    </li>
+                                    <li class="page-item"><a class="page-link" href="javascript: void(0);">1</a></li>
+                                    <li class="page-item"><a class="page-link" href="javascript: void(0);">2</a></li>
+                                    <li class="page-item"><a class="page-link" href="javascript: void(0);">3</a></li>
+                                    <li class="page-item">
+                                        <a class="page-link" href="javascript: void(0);" aria-label="Next">
+                                            <span aria-hidden="true">&raquo;</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div> <!-- end preview-->
 
-                    <div class="tab-pane code" id="sizing-pagination-code">
-                        <button class="btn-copy-clipboard" data-clipboard-action="copy">Copy</button>
-                        <pre class="mb-0">
+                        <div class="tab-pane code" id="sizing-pagination-code">
+                            <button class="btn-copy-clipboard" data-clipboard-action="copy">Copy</button>
+                            <pre class="mb-0">
                                                     <span class="html escape">
                                                         &lt;!-- Large --&gt;
                                                         &lt;nav&gt;
@@ -402,10 +405,11 @@ $this->params['breadcrumbs'][] = $this->title;
                                                         &lt;/nav&gt;
                                                     </span>
                                                 </pre> <!-- end highlight-->
-                    </div> <!-- end preview code-->
-                </div> <!-- end tab-content-->
-            </div> <!-- end card-body -->
-        </div> <!-- end card-->
-    </div> <!-- end col -->
+                        </div> <!-- end preview code-->
+                    </div> <!-- end tab-content-->
+                </div> <!-- end card-body -->
+            </div> <!-- end card-->
+        </div> <!-- end col -->
+    </div>
+    <!-- end row -->
 </div>
-<!-- end row -->

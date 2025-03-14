@@ -3,61 +3,64 @@
  * @var $this View
  */
 
+use hyper\assets\CodeHighLightAsset;
 use yii\web\View;
 
 $this->title = 'Breadcrumbs';
 $this->params['breadcrumbs'][] = $this->title;
+
+CodeHighLightAsset::register($this);
 ?>
+<div class="content-container">
+    <div class="row">
+        <div class="col-xl-6">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="header-title">Example</h4>
+                    <p class="text-muted font-14">
+                        Indicate the current page’s location within a navigational hierarchy that automatically adds separators via CSS.
+                        Please read the official <a target="_blank" href="https://getbootstrap.com/docs/5.2/components/breadcrumb/">Bootstrap</a> documentation for more options.
+                    </p>
 
-<div class="row">
-    <div class="col-xl-6">
-        <div class="card">
-            <div class="card-body">
-                <h4 class="header-title">Example</h4>
-                <p class="text-muted font-14">
-                    Indicate the current page’s location within a navigational hierarchy that automatically adds separators via CSS.
-                    Please read the official <a target="_blank" href="https://getbootstrap.com/docs/5.2/components/breadcrumb/">Bootstrap</a> documentation for more options.
-                </p>
+                    <ul class="nav nav-tabs nav-bordered mb-3">
+                        <li class="nav-item">
+                            <a href="#simple-bre-preview" data-bs-toggle="tab" aria-expanded="false" class="nav-link active">
+                                Preview
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#simple-bre-code" data-bs-toggle="tab" aria-expanded="true" class="nav-link">
+                                Code
+                            </a>
+                        </li>
+                    </ul> <!-- end nav-->
+                    <div class="tab-content">
+                        <div class="tab-pane show active" id="simple-bre-preview">
+                            <nav aria-label="breadcrumb">
+                                <ol class="breadcrumb mb-0">
+                                    <li class="breadcrumb-item active" aria-current="page">Home</li>
+                                </ol>
+                            </nav>
 
-                <ul class="nav nav-tabs nav-bordered mb-3">
-                    <li class="nav-item">
-                        <a href="#simple-bre-preview" data-bs-toggle="tab" aria-expanded="false" class="nav-link active">
-                            Preview
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#simple-bre-code" data-bs-toggle="tab" aria-expanded="true" class="nav-link">
-                            Code
-                        </a>
-                    </li>
-                </ul> <!-- end nav-->
-                <div class="tab-content">
-                    <div class="tab-pane show active" id="simple-bre-preview">
-                        <nav aria-label="breadcrumb">
-                            <ol class="breadcrumb mb-0">
-                                <li class="breadcrumb-item active" aria-current="page">Home</li>
-                            </ol>
-                        </nav>
+                            <nav aria-label="breadcrumb">
+                                <ol class="breadcrumb mb-0">
+                                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                                    <li class="breadcrumb-item active" aria-current="page">Library</li>
+                                </ol>
+                            </nav>
 
-                        <nav aria-label="breadcrumb">
-                            <ol class="breadcrumb mb-0">
-                                <li class="breadcrumb-item"><a href="#">Home</a></li>
-                                <li class="breadcrumb-item active" aria-current="page">Library</li>
-                            </ol>
-                        </nav>
+                            <nav aria-label="breadcrumb">
+                                <ol class="breadcrumb mb-0">
+                                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                                    <li class="breadcrumb-item"><a href="#">Library</a></li>
+                                    <li class="breadcrumb-item active" aria-current="page">Data</li>
+                                </ol>
+                            </nav>
+                        </div> <!-- end preview-->
 
-                        <nav aria-label="breadcrumb">
-                            <ol class="breadcrumb mb-0">
-                                <li class="breadcrumb-item"><a href="#">Home</a></li>
-                                <li class="breadcrumb-item"><a href="#">Library</a></li>
-                                <li class="breadcrumb-item active" aria-current="page">Data</li>
-                            </ol>
-                        </nav>
-                    </div> <!-- end preview-->
-
-                    <div class="tab-pane code" id="simple-bre-code">
-                        <button class="btn-copy-clipboard" data-clipboard-action="copy">Copy</button>
-                        <pre class="mb-0">
+                        <div class="tab-pane code" id="simple-bre-code">
+                            <button class="btn-copy-clipboard" data-clipboard-action="copy">Copy</button>
+                            <pre class="mb-0">
                                                     <span class="html escape">
                                                         &lt;nav aria-label=&quot;breadcrumb&quot;&gt;
                                                             &lt;ol class=&quot;breadcrumb mb-0&quot;&gt;
@@ -81,60 +84,60 @@ $this->params['breadcrumbs'][] = $this->title;
                                                         &lt;/nav&gt;
                                                     </span>
                                                 </pre> <!-- end highlight-->
-                    </div> <!-- end preview code-->
-                </div> <!-- end tab-content-->
+                        </div> <!-- end preview code-->
+                    </div> <!-- end tab-content-->
 
-            </div> <!-- end card-body -->
-        </div> <!-- end card-->
-    </div> <!-- end col -->
+                </div> <!-- end card-body -->
+            </div> <!-- end card-->
+        </div> <!-- end col -->
 
-    <div class="col-xl-6">
-        <div class="card">
-            <div class="card-body">
-                <h4 class="header-title">With Icons</h4>
-                <p class="text-muted font-14">
-                    Optionally you can also specify the icon with your breadcrumb item.
-                </p>
+        <div class="col-xl-6">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="header-title">With Icons</h4>
+                    <p class="text-muted font-14">
+                        Optionally you can also specify the icon with your breadcrumb item.
+                    </p>
 
-                <ul class="nav nav-tabs nav-bordered mb-3">
-                    <li class="nav-item">
-                        <a href="#icon-bre-preview" data-bs-toggle="tab" aria-expanded="false" class="nav-link active">
-                            Preview
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#icon-bre-code" data-bs-toggle="tab" aria-expanded="true" class="nav-link">
-                            Code
-                        </a>
-                    </li>
-                </ul> <!-- end nav-->
-                <div class="tab-content">
-                    <div class="tab-pane show active" id="icon-bre-preview">
-                        <nav aria-label="breadcrumb">
-                            <ol class="breadcrumb bg-light-lighten p-2">
-                                <li class="breadcrumb-item active" aria-current="page"><i class="uil-home-alt me-1"></i>Home</li>
-                            </ol>
-                        </nav>
+                    <ul class="nav nav-tabs nav-bordered mb-3">
+                        <li class="nav-item">
+                            <a href="#icon-bre-preview" data-bs-toggle="tab" aria-expanded="false" class="nav-link active">
+                                Preview
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#icon-bre-code" data-bs-toggle="tab" aria-expanded="true" class="nav-link">
+                                Code
+                            </a>
+                        </li>
+                    </ul> <!-- end nav-->
+                    <div class="tab-content">
+                        <div class="tab-pane show active" id="icon-bre-preview">
+                            <nav aria-label="breadcrumb">
+                                <ol class="breadcrumb bg-light-lighten p-2">
+                                    <li class="breadcrumb-item active" aria-current="page"><i class="uil-home-alt me-1"></i>Home</li>
+                                </ol>
+                            </nav>
 
-                        <nav aria-label="breadcrumb">
-                            <ol class="breadcrumb bg-light-lighten p-2">
-                                <li class="breadcrumb-item"><a href="#"><i class="uil-home-alt"></i> Home</a></li>
-                                <li class="breadcrumb-item active" aria-current="page">Library</li>
-                            </ol>
-                        </nav>
+                            <nav aria-label="breadcrumb">
+                                <ol class="breadcrumb bg-light-lighten p-2">
+                                    <li class="breadcrumb-item"><a href="#"><i class="uil-home-alt"></i> Home</a></li>
+                                    <li class="breadcrumb-item active" aria-current="page">Library</li>
+                                </ol>
+                            </nav>
 
-                        <nav aria-label="breadcrumb">
-                            <ol class="breadcrumb bg-light-lighten p-2 mb-0">
-                                <li class="breadcrumb-item"><a href="#"><i class="uil-home-alt"></i> Home</a></li>
-                                <li class="breadcrumb-item"><a href="#">Library</a></li>
-                                <li class="breadcrumb-item active" aria-current="page">Data</li>
-                            </ol>
-                        </nav>
-                    </div> <!-- end preview-->
+                            <nav aria-label="breadcrumb">
+                                <ol class="breadcrumb bg-light-lighten p-2 mb-0">
+                                    <li class="breadcrumb-item"><a href="#"><i class="uil-home-alt"></i> Home</a></li>
+                                    <li class="breadcrumb-item"><a href="#">Library</a></li>
+                                    <li class="breadcrumb-item active" aria-current="page">Data</li>
+                                </ol>
+                            </nav>
+                        </div> <!-- end preview-->
 
-                    <div class="tab-pane code" id="icon-bre-code">
-                        <button class="btn-copy-clipboard" data-clipboard-action="copy">Copy</button>
-                        <pre class="mb-0">
+                        <div class="tab-pane code" id="icon-bre-code">
+                            <button class="btn-copy-clipboard" data-clipboard-action="copy">Copy</button>
+                            <pre class="mb-0">
                                                     <span class="html escape">
                                                         &lt;nav aria-label=&quot;breadcrumb&quot;&gt;
                                                             &lt;ol class=&quot;breadcrumb bg-light-lighten p-2&quot;&gt;
@@ -158,11 +161,12 @@ $this->params['breadcrumbs'][] = $this->title;
                                                         &lt;/nav&gt;
                                                     </span>
                                                 </pre> <!-- end highlight-->
-                    </div> <!-- end preview code-->
-                </div> <!-- end tab-content-->
+                        </div> <!-- end preview code-->
+                    </div> <!-- end tab-content-->
 
-            </div> <!-- end card-body -->
-        </div> <!-- end card-->
-    </div> <!-- end col -->
+                </div> <!-- end card-body -->
+            </div> <!-- end card-->
+        </div> <!-- end col -->
 
-</div> <!-- end row -->
+    </div> <!-- end row -->
+</div>

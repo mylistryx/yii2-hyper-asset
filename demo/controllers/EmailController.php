@@ -6,6 +6,11 @@ use yii\web\Controller;
 
 final class EmailController extends Controller
 {
+    public function init(): void
+    {
+        $this->view->params['breadcrumbs'][] = ['label' => 'Email'];
+        parent::init();
+    }
     public function actionInbox(): string
     {
         return $this->render('inbox');

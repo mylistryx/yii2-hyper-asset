@@ -6,6 +6,12 @@ use yii\web\Controller;
 
 final class PagesController extends Controller
 {
+    public function init(): void
+    {
+        $this->view->params['breadcrumbs'][] = ['label' => 'Pages'];
+        parent::init();
+    }
+
     public function actionProfile(): string
     {
         return $this->render('profile');
@@ -35,5 +41,25 @@ final class PagesController extends Controller
     {
         $this->layout = 'maintenance';
         return $this->render('maintenance');
+    }
+
+    public function actionStarter(): string
+    {
+        return $this->render('starter');
+    }
+
+    public function actionPreloader(): string
+    {
+        return $this->render('preloader');
+    }
+
+    public function actionTimeline(): string
+    {
+        return $this->render('timeline');
+    }
+
+    public function actionLanding(): string
+    {
+        return $this->render('landing');
     }
 }

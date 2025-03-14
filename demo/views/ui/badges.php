@@ -3,49 +3,52 @@
  * @var $this View
  */
 
+use hyper\assets\CodeHighLightAsset;
 use yii\web\View;
 
 $this->title = 'Badges';
 $this->params['breadcrumbs'][] = $this->title;
+
+CodeHighLightAsset::register($this);
 ?>
+<div class="content-container">
+    <div class="row">
+        <div class="col-xl-6">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="header-title">Default</h4>
+                    <p class="text-muted font-14 mb-3">
+                        A simple labeling component. Badges scale to match the size of the immediate parent element by using relative font sizing and <code>em</code> units.
+                    </p>
 
-<div class="row">
-    <div class="col-xl-6">
-        <div class="card">
-            <div class="card-body">
-                <h4 class="header-title">Default</h4>
-                <p class="text-muted font-14 mb-3">
-                    A simple labeling component. Badges scale to match the size of the immediate parent element by using relative font sizing and <code>em</code> units.
-                </p>
+                    <ul class="nav nav-tabs nav-bordered mb-3">
+                        <li class="nav-item">
+                            <a href="#default-sizes-preview" data-bs-toggle="tab" aria-expanded="false"
+                               class="nav-link active">
+                                Preview
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#default-sizes-code" data-bs-toggle="tab" aria-expanded="true"
+                               class="nav-link">
+                                Code
+                            </a>
+                        </li>
+                    </ul> <!-- end nav-->
 
-                <ul class="nav nav-tabs nav-bordered mb-3">
-                    <li class="nav-item">
-                        <a href="#default-sizes-preview" data-bs-toggle="tab" aria-expanded="false"
-                           class="nav-link active">
-                            Preview
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#default-sizes-code" data-bs-toggle="tab" aria-expanded="true"
-                           class="nav-link">
-                            Code
-                        </a>
-                    </li>
-                </ul> <!-- end nav-->
+                    <div class="tab-content">
+                        <div class="tab-pane show active" id="default-sizes-preview">
+                            <h1>h1.Example heading <span class="badge bg-secondary text-light">New</span></h1>
+                            <h2>h2.Example heading <span class="badge badge-success-lighten">New</span></h2>
+                            <h3>h2.Example heading <span class="badge bg-primary">New</span></h3>
+                            <h4>h4.Example heading <a href="#" class="badge badge-info-lighten">Info Link</a></h4>
+                            <h5>h5.Example heading <span class="badge badge-outline-warning">New</span></h5>
+                            <h6>h6.Example heading <span class="badge bg-danger">New</span></h6>
+                        </div> <!-- end preview-->
 
-                <div class="tab-content">
-                    <div class="tab-pane show active" id="default-sizes-preview">
-                        <h1>h1.Example heading <span class="badge bg-secondary text-light">New</span></h1>
-                        <h2>h2.Example heading <span class="badge badge-success-lighten">New</span></h2>
-                        <h3>h2.Example heading <span class="badge bg-primary">New</span></h3>
-                        <h4>h4.Example heading <a href="#" class="badge badge-info-lighten">Info Link</a></h4>
-                        <h5>h5.Example heading <span class="badge badge-outline-warning">New</span></h5>
-                        <h6>h6.Example heading <span class="badge bg-danger">New</span></h6>
-                    </div> <!-- end preview-->
-
-                    <div class="tab-pane code" id="default-sizes-code">
-                        <button class="btn-copy-clipboard" data-clipboard-action="copy">Copy</button>
-                        <pre class="mb-0">
+                        <div class="tab-pane code" id="default-sizes-code">
+                            <button class="btn-copy-clipboard" data-clipboard-action="copy">Copy</button>
+                            <pre class="mb-0">
                                                     <span class="html escape">
                                                         &lt;h1&gt;h1.Example heading &lt;span class=&quot;badge bg-secondary text-light&quot;&gt;New&lt;/span&gt;&lt;/h1&gt;
                                                         &lt;h2&gt;h2.Example heading &lt;span class=&quot;badge badge-success-lighten&quot;&gt;New&lt;/span&gt;&lt;/h2&gt;
@@ -55,77 +58,77 @@ $this->params['breadcrumbs'][] = $this->title;
                                                         &lt;h6&gt;h6.Example heading &lt;span class=&quot;badge bg-danger&quot;&gt;New&lt;/span&gt;&lt;/h6&gt;
                                                     </span>
                                                 </pre> <!-- end highlight-->
-                    </div> <!-- end preview code-->
-                </div> <!-- end tab-content-->
+                        </div> <!-- end preview code-->
+                    </div> <!-- end tab-content-->
 
-            </div> <!-- end card-body -->
-        </div> <!-- end card-->
+                </div> <!-- end card-body -->
+            </div> <!-- end card-->
 
-        <div class="card">
-            <div class="card-body">
-                <h4 class="header-title">Pill Badges</h4>
-                <p class="text-muted font-14 mb-3">
-                    Use the <code>.rounded-pill</code> modifier class to make badges more rounded.
-                </p>
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="header-title">Pill Badges</h4>
+                    <p class="text-muted font-14 mb-3">
+                        Use the <code>.rounded-pill</code> modifier class to make badges more rounded.
+                    </p>
 
-                <ul class="nav nav-tabs nav-bordered mb-3">
-                    <li class="nav-item">
-                        <a href="#pill-badges-preview" data-bs-toggle="tab" aria-expanded="false"
-                           class="nav-link active">
-                            Preview
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#pill-badges-code" data-bs-toggle="tab" aria-expanded="true"
-                           class="nav-link">
-                            Code
-                        </a>
-                    </li>
-                </ul> <!-- end nav-->
+                    <ul class="nav nav-tabs nav-bordered mb-3">
+                        <li class="nav-item">
+                            <a href="#pill-badges-preview" data-bs-toggle="tab" aria-expanded="false"
+                               class="nav-link active">
+                                Preview
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#pill-badges-code" data-bs-toggle="tab" aria-expanded="true"
+                               class="nav-link">
+                                Code
+                            </a>
+                        </li>
+                    </ul> <!-- end nav-->
 
-                <div class="tab-content">
-                    <div class="tab-pane show active" id="pill-badges-preview">
+                    <div class="tab-content">
+                        <div class="tab-pane show active" id="pill-badges-preview">
 
-                        <span class="badge bg-primary rounded-pill">Primary</span>
-                        <span class="badge bg-secondary text-light rounded-pill">Secondary</span>
-                        <span class="badge bg-success rounded-pill">Success</span>
-                        <span class="badge bg-danger rounded-pill">Danger</span>
-                        <span class="badge bg-warning rounded-pill">Warning</span>
-                        <span class="badge bg-info rounded-pill">Info</span>
-                        <span class="badge bg-light text-dark rounded-pill">Light</span>
-                        <span class="badge bg-dark text-light rounded-pill">Dark</span>
+                            <span class="badge bg-primary rounded-pill">Primary</span>
+                            <span class="badge bg-secondary text-light rounded-pill">Secondary</span>
+                            <span class="badge bg-success rounded-pill">Success</span>
+                            <span class="badge bg-danger rounded-pill">Danger</span>
+                            <span class="badge bg-warning rounded-pill">Warning</span>
+                            <span class="badge bg-info rounded-pill">Info</span>
+                            <span class="badge bg-light text-dark rounded-pill">Light</span>
+                            <span class="badge bg-dark text-light rounded-pill">Dark</span>
 
-                        <h5 class="mt-4">Lighten Badges</h5>
-                        <p class="text-muted font-14 mb-3">
-                            Use the <code>.badge-*-lighten</code> modifier class to make badges lighten.
-                        </p>
+                            <h5 class="mt-4">Lighten Badges</h5>
+                            <p class="text-muted font-14 mb-3">
+                                Use the <code>.badge-*-lighten</code> modifier class to make badges lighten.
+                            </p>
 
-                        <span class="badge badge-primary-lighten rounded-pill">Primary</span>
-                        <span class="badge badge-secondary-lighten rounded-pill">Secondary</span>
-                        <span class="badge badge-success-lighten rounded-pill">Success</span>
-                        <span class="badge badge-danger-lighten rounded-pill">Danger</span>
-                        <span class="badge badge-warning-lighten rounded-pill">Warning</span>
-                        <span class="badge badge-info-lighten rounded-pill">Info</span>
-                        <span class="badge badge-dark-lighten rounded-pill">Dark</span>
+                            <span class="badge badge-primary-lighten rounded-pill">Primary</span>
+                            <span class="badge badge-secondary-lighten rounded-pill">Secondary</span>
+                            <span class="badge badge-success-lighten rounded-pill">Success</span>
+                            <span class="badge badge-danger-lighten rounded-pill">Danger</span>
+                            <span class="badge badge-warning-lighten rounded-pill">Warning</span>
+                            <span class="badge badge-info-lighten rounded-pill">Info</span>
+                            <span class="badge badge-dark-lighten rounded-pill">Dark</span>
 
-                        <h5 class="mt-4">Outline Badges</h5>
-                        <p class="text-muted font-14 mb-3">
-                            Using the <code>.badge-outline-*</code> to quickly create a bordered badges.
-                        </p>
+                            <h5 class="mt-4">Outline Badges</h5>
+                            <p class="text-muted font-14 mb-3">
+                                Using the <code>.badge-outline-*</code> to quickly create a bordered badges.
+                            </p>
 
-                        <span class="badge badge-outline-primary rounded-pill">Primary</span>
-                        <span class="badge badge-outline-secondary rounded-pill">Secondary</span>
-                        <span class="badge badge-outline-success rounded-pill">Success</span>
-                        <span class="badge badge-outline-danger rounded-pill">Danger</span>
-                        <span class="badge badge-outline-warning rounded-pill">Warning</span>
-                        <span class="badge badge-outline-info rounded-pill">Info</span>
-                        <span class="badge badge-outline-dark rounded-pill">Dark</span>
+                            <span class="badge badge-outline-primary rounded-pill">Primary</span>
+                            <span class="badge badge-outline-secondary rounded-pill">Secondary</span>
+                            <span class="badge badge-outline-success rounded-pill">Success</span>
+                            <span class="badge badge-outline-danger rounded-pill">Danger</span>
+                            <span class="badge badge-outline-warning rounded-pill">Warning</span>
+                            <span class="badge badge-outline-info rounded-pill">Info</span>
+                            <span class="badge badge-outline-dark rounded-pill">Dark</span>
 
-                    </div> <!-- end preview-->
+                        </div> <!-- end preview-->
 
-                    <div class="tab-pane code" id="pill-badges-code">
-                        <button class="btn-copy-clipboard" data-clipboard-action="copy">Copy</button>
-                        <pre class="mb-0">
+                        <div class="tab-pane code" id="pill-badges-code">
+                            <button class="btn-copy-clipboard" data-clipboard-action="copy">Copy</button>
+                            <pre class="mb-0">
                                                     <span class="html escape">
                                                         &lt;!-- Default Badges --&gt;
                                                         &lt;span class=&quot;badge bg-primary rounded-pill&quot;&gt;Primary&lt;/span&gt;
@@ -156,79 +159,79 @@ $this->params['breadcrumbs'][] = $this->title;
                                                         &lt;span class=&quot;badge badge-outline-dark rounded-pill&quot;&gt;Dark&lt;/span&gt;
                                                     </span>
                                                 </pre> <!-- end highlight-->
-                    </div> <!-- end preview code-->
-                </div> <!-- end tab-content-->
+                        </div> <!-- end preview code-->
+                    </div> <!-- end tab-content-->
 
-            </div> <!-- end card-body -->
-        </div> <!-- end card -->
-    </div> <!-- end col-->
-    <div class="col-xl-6">
-        <div class="card">
-            <div class="card-body">
-                <h4 class="header-title">Contextual variations</h4>
-                <p class="text-muted font-14 mb-3">
-                    Add any of the below mentioned modifier classes to change the appearance of a badge.
-                    Badge can be more contextual as well. Just use regular convention e.g. <code>badge-*color</code>, <code>bg-primary</code>
-                    to have badge with different background.
-                </p>
+                </div> <!-- end card-body -->
+            </div> <!-- end card -->
+        </div> <!-- end col-->
+        <div class="col-xl-6">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="header-title">Contextual variations</h4>
+                    <p class="text-muted font-14 mb-3">
+                        Add any of the below mentioned modifier classes to change the appearance of a badge.
+                        Badge can be more contextual as well. Just use regular convention e.g. <code>badge-*color</code>, <code>bg-primary</code>
+                        to have badge with different background.
+                    </p>
 
-                <ul class="nav nav-tabs nav-bordered mb-3">
-                    <li class="nav-item">
-                        <a href="#contextual-badges-preview" data-bs-toggle="tab" aria-expanded="false"
-                           class="nav-link active">
-                            Preview
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#contextual-badges-code" data-bs-toggle="tab" aria-expanded="true"
-                           class="nav-link">
-                            Code
-                        </a>
-                    </li>
-                </ul> <!-- end nav-->
+                    <ul class="nav nav-tabs nav-bordered mb-3">
+                        <li class="nav-item">
+                            <a href="#contextual-badges-preview" data-bs-toggle="tab" aria-expanded="false"
+                               class="nav-link active">
+                                Preview
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contextual-badges-code" data-bs-toggle="tab" aria-expanded="true"
+                               class="nav-link">
+                                Code
+                            </a>
+                        </li>
+                    </ul> <!-- end nav-->
 
-                <div class="tab-content">
-                    <div class="tab-pane show active" id="contextual-badges-preview">
-                        <span class="badge bg-primary">Primary</span>
-                        <span class="badge bg-secondary text-light">Secondary</span>
-                        <span class="badge bg-success">Success</span>
-                        <span class="badge bg-danger">Danger</span>
-                        <span class="badge bg-warning">Warning</span>
-                        <span class="badge bg-info">Info</span>
-                        <span class="badge bg-light text-dark">Light</span>
-                        <span class="badge bg-dark text-light">Dark</span>
+                    <div class="tab-content">
+                        <div class="tab-pane show active" id="contextual-badges-preview">
+                            <span class="badge bg-primary">Primary</span>
+                            <span class="badge bg-secondary text-light">Secondary</span>
+                            <span class="badge bg-success">Success</span>
+                            <span class="badge bg-danger">Danger</span>
+                            <span class="badge bg-warning">Warning</span>
+                            <span class="badge bg-info">Info</span>
+                            <span class="badge bg-light text-dark">Light</span>
+                            <span class="badge bg-dark text-light">Dark</span>
 
-                        <h5 class="mt-4">Lighten Badges</h5>
-                        <p class="text-muted font-14 mb-3">
-                            Using the <code>.badge-*-lighten</code> modifier class, you can have more soften variation.
-                        </p>
+                            <h5 class="mt-4">Lighten Badges</h5>
+                            <p class="text-muted font-14 mb-3">
+                                Using the <code>.badge-*-lighten</code> modifier class, you can have more soften variation.
+                            </p>
 
-                        <span class="badge badge-primary-lighten">Primary</span>
-                        <span class="badge badge-secondary-lighten">Secondary</span>
-                        <span class="badge badge-success-lighten">Success</span>
-                        <span class="badge badge-danger-lighten">Danger</span>
-                        <span class="badge badge-warning-lighten">Warning</span>
-                        <span class="badge badge-info-lighten">Info</span>
-                        <span class="badge badge-dark-lighten">Dark</span>
+                            <span class="badge badge-primary-lighten">Primary</span>
+                            <span class="badge badge-secondary-lighten">Secondary</span>
+                            <span class="badge badge-success-lighten">Success</span>
+                            <span class="badge badge-danger-lighten">Danger</span>
+                            <span class="badge badge-warning-lighten">Warning</span>
+                            <span class="badge badge-info-lighten">Info</span>
+                            <span class="badge badge-dark-lighten">Dark</span>
 
-                        <h5 class="mt-4">Outline Badges</h5>
-                        <p class="text-muted font-14 mb-3">
-                            Using the <code>.badge-outline-*</code> to quickly create a bordered badges.
-                        </p>
+                            <h5 class="mt-4">Outline Badges</h5>
+                            <p class="text-muted font-14 mb-3">
+                                Using the <code>.badge-outline-*</code> to quickly create a bordered badges.
+                            </p>
 
-                        <span class="badge badge-outline-primary">Primary</span>
-                        <span class="badge badge-outline-secondary">Secondary</span>
-                        <span class="badge badge-outline-success">Success</span>
-                        <span class="badge badge-outline-danger">Danger</span>
-                        <span class="badge badge-outline-warning">Warning</span>
-                        <span class="badge badge-outline-info">Info</span>
-                        <span class="badge badge-outline-dark">Dark</span>
+                            <span class="badge badge-outline-primary">Primary</span>
+                            <span class="badge badge-outline-secondary">Secondary</span>
+                            <span class="badge badge-outline-success">Success</span>
+                            <span class="badge badge-outline-danger">Danger</span>
+                            <span class="badge badge-outline-warning">Warning</span>
+                            <span class="badge badge-outline-info">Info</span>
+                            <span class="badge badge-outline-dark">Dark</span>
 
-                    </div> <!-- end preview-->
+                        </div> <!-- end preview-->
 
-                    <div class="tab-pane code" id="contextual-badges-code">
-                        <button class="btn-copy-clipboard" data-clipboard-action="copy">Copy</button>
-                        <pre class="mb-0">
+                        <div class="tab-pane code" id="contextual-badges-code">
+                            <button class="btn-copy-clipboard" data-clipboard-action="copy">Copy</button>
+                            <pre class="mb-0">
                                                     <span class="html escape">
 &lt;!-- Default Badges --&gt;
 &lt;span class=&quot;badge bg-primary&quot;&gt;Primary&lt;/span&gt;
@@ -259,67 +262,67 @@ $this->params['breadcrumbs'][] = $this->title;
                                                         &lt;span class=&quot;badge badge-outline-dark&quot;&gt;Dark&lt;/span&gt;
                                                     </span>
                                                 </pre> <!-- end highlight-->
-                    </div> <!-- end preview code-->
-                </div> <!-- end tab-content-->
+                        </div> <!-- end preview code-->
+                    </div> <!-- end tab-content-->
 
-            </div> <!-- end card-body -->
-        </div> <!-- end card-->
+                </div> <!-- end card-body -->
+            </div> <!-- end card-->
 
-        <div class="card">
-            <div class="card-body">
-                <h4 class="header-title">Badge Positioned</h4>
-                <p class="text-muted font-14 mb-3">
-                    Use utilities to modify a <code>.badge</code> and position it in the corner of a
-                    link or button.
-                </p>
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="header-title">Badge Positioned</h4>
+                    <p class="text-muted font-14 mb-3">
+                        Use utilities to modify a <code>.badge</code> and position it in the corner of a
+                        link or button.
+                    </p>
 
-                <ul class="nav nav-tabs nav-bordered mb-3">
-                    <li class="nav-item">
-                        <a href="#contextual-badges-positioned-preview" data-bs-toggle="tab" aria-expanded="false"
-                           class="nav-link active">
-                            Preview
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#contextual-badges-positioned-code" data-bs-toggle="tab" aria-expanded="true"
-                           class="nav-link">
-                            Code
-                        </a>
-                    </li>
-                </ul> <!-- end nav-->
+                    <ul class="nav nav-tabs nav-bordered mb-3">
+                        <li class="nav-item">
+                            <a href="#contextual-badges-positioned-preview" data-bs-toggle="tab" aria-expanded="false"
+                               class="nav-link active">
+                                Preview
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contextual-badges-positioned-code" data-bs-toggle="tab" aria-expanded="true"
+                               class="nav-link">
+                                Code
+                            </a>
+                        </li>
+                    </ul> <!-- end nav-->
 
-                <div class="tab-content">
-                    <div class="tab-pane show active" id="contextual-badges-positioned-preview">
-                        <div class="row">
-                            <div class="col-6">
-                                <button type="button" class="btn btn-primary position-relative">
-                                    Inbox
-                                    <span
-                                            class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                    <div class="tab-content">
+                        <div class="tab-pane show active" id="contextual-badges-positioned-preview">
+                            <div class="row">
+                                <div class="col-6">
+                                    <button type="button" class="btn btn-primary position-relative">
+                                        Inbox
+                                        <span
+                                                class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
                                                                 99+
                                                                 <span class="visually-hidden">unread messages</span>
                                                             </span>
-                                </button>
-                            </div>
-                            <div class="col-6">
-                                <button type="button" class="btn btn-primary position-relative">
-                                    Profile
-                                    <span class="position-absolute top-0 start-100 translate-middle p-1 bg-danger border border-light rounded-circle">
+                                    </button>
+                                </div>
+                                <div class="col-6">
+                                    <button type="button" class="btn btn-primary position-relative">
+                                        Profile
+                                        <span class="position-absolute top-0 start-100 translate-middle p-1 bg-danger border border-light rounded-circle">
                                                               <span class="visually-hidden">New alerts</span>
                                                             </span>
-                                </button>
-                            </div>
-                            <div class="col-6">
-                                <button type="button" class="btn btn-success mt-4">
-                                    Notifications <span class="badge bg-light text-dark ms-1">4</span>
-                                </button>
+                                    </button>
+                                </div>
+                                <div class="col-6">
+                                    <button type="button" class="btn btn-success mt-4">
+                                        Notifications <span class="badge bg-light text-dark ms-1">4</span>
+                                    </button>
+                                </div>
                             </div>
                         </div>
-                    </div>
 
-                    <div class="tab-pane code" id="contextual-badges-positioned-code">
-                        <button class="btn-copy-clipboard" data-clipboard-action="copy">Copy</button>
-                        <pre class="mb-0">
+                        <div class="tab-pane code" id="contextual-badges-positioned-code">
+                            <button class="btn-copy-clipboard" data-clipboard-action="copy">Copy</button>
+                            <pre class="mb-0">
                                                     <span class="html escape">
                                                         &lt;button type=&quot;button&quot; class=&quot;btn btn-primary position-relative&quot;&gt;
                                                             Inbox
@@ -342,13 +345,12 @@ $this->params['breadcrumbs'][] = $this->title;
                                                         &lt;/button&gt;
                                                     </span>
                                                 </pre>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
 
-    </div> <!-- end col -->
+        </div> <!-- end col -->
+    </div>
+    <!-- end row -->
 </div>
-<!-- end row -->
-
-

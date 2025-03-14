@@ -34,175 +34,175 @@ $this->params['breadcrumbs'][] = $this->title;
 
 ?>
 
+<div class="content-container">
+    <div class="row">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="header-title">Select2</h4>
+                    <p class="text-muted font-14">Select2 gives you a customizable select box with support for searching, tagging, remote data sets, infinite scrolling, and many other highly used options.</p>
 
-<div class="row">
-    <div class="col-12">
-        <div class="card">
-            <div class="card-body">
-                <h4 class="header-title">Select2</h4>
-                <p class="text-muted font-14">Select2 gives you a customizable select box with support for searching, tagging, remote data sets, infinite scrolling, and many other highly used options.</p>
+                    <ul class="nav nav-tabs nav-bordered mb-3">
+                        <li class="nav-item">
+                            <a href="#select2-preview" data-bs-toggle="tab" aria-expanded="false" class="nav-link active">
+                                Preview
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#select2-code" data-bs-toggle="tab" aria-expanded="true" class="nav-link">
+                                Code
+                            </a>
+                        </li>
+                    </ul> <!-- end nav-->
+                    <div class="tab-content">
+                        <div class="tab-pane show active" id="select2-preview">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <p class="mb-1 fw-bold text-muted">Single Select</p>
+                                    <p class="text-muted font-14">
+                                        Select2 can take a regular select box like this...
+                                    </p>
 
-                <ul class="nav nav-tabs nav-bordered mb-3">
-                    <li class="nav-item">
-                        <a href="#select2-preview" data-bs-toggle="tab" aria-expanded="false" class="nav-link active">
-                            Preview
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#select2-code" data-bs-toggle="tab" aria-expanded="true" class="nav-link">
-                            Code
-                        </a>
-                    </li>
-                </ul> <!-- end nav-->
-                <div class="tab-content">
-                    <div class="tab-pane show active" id="select2-preview">
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <p class="mb-1 fw-bold text-muted">Single Select</p>
-                                <p class="text-muted font-14">
-                                    Select2 can take a regular select box like this...
-                                </p>
+                                    <select class="form-control select2" data-toggle="select2">
+                                        <option>Select</option>
+                                        <optgroup label="Alaskan/Hawaiian Time Zone">
+                                            <option value="AK">Alaska</option>
+                                            <option value="HI">Hawaii</option>
+                                        </optgroup>
+                                        <optgroup label="Pacific Time Zone">
+                                            <option value="CA">California</option>
+                                            <option value="NV">Nevada</option>
+                                            <option value="OR">Oregon</option>
+                                            <option value="WA">Washington</option>
+                                        </optgroup>
+                                        <optgroup label="Mountain Time Zone">
+                                            <option value="AZ">Arizona</option>
+                                            <option value="CO">Colorado</option>
+                                            <option value="ID">Idaho</option>
+                                            <option value="MT">Montana</option>
+                                            <option value="NE">Nebraska</option>
+                                            <option value="NM">New Mexico</option>
+                                            <option value="ND">North Dakota</option>
+                                            <option value="UT">Utah</option>
+                                            <option value="WY">Wyoming</option>
+                                        </optgroup>
+                                        <optgroup label="Central Time Zone">
+                                            <option value="AL">Alabama</option>
+                                            <option value="AR">Arkansas</option>
+                                            <option value="IL">Illinois</option>
+                                            <option value="IA">Iowa</option>
+                                            <option value="KS">Kansas</option>
+                                            <option value="KY">Kentucky</option>
+                                            <option value="LA">Louisiana</option>
+                                            <option value="MN">Minnesota</option>
+                                            <option value="MS">Mississippi</option>
+                                            <option value="MO">Missouri</option>
+                                            <option value="OK">Oklahoma</option>
+                                            <option value="SD">South Dakota</option>
+                                            <option value="TX">Texas</option>
+                                            <option value="TN">Tennessee</option>
+                                            <option value="WI">Wisconsin</option>
+                                        </optgroup>
+                                        <optgroup label="Eastern Time Zone">
+                                            <option value="CT">Connecticut</option>
+                                            <option value="DE">Delaware</option>
+                                            <option value="FL">Florida</option>
+                                            <option value="GA">Georgia</option>
+                                            <option value="IN">Indiana</option>
+                                            <option value="ME">Maine</option>
+                                            <option value="MD">Maryland</option>
+                                            <option value="MA">Massachusetts</option>
+                                            <option value="MI">Michigan</option>
+                                            <option value="NH">New Hampshire</option>
+                                            <option value="NJ">New Jersey</option>
+                                            <option value="NY">New York</option>
+                                            <option value="NC">North Carolina</option>
+                                            <option value="OH">Ohio</option>
+                                            <option value="PA">Pennsylvania</option>
+                                            <option value="RI">Rhode Island</option>
+                                            <option value="SC">South Carolina</option>
+                                            <option value="VT">Vermont</option>
+                                            <option value="VA">Virginia</option>
+                                            <option value="WV">West Virginia</option>
+                                        </optgroup>
+                                    </select>
+                                </div> <!-- end col -->
 
-                                <select class="form-control select2" data-toggle="select2">
-                                    <option>Select</option>
-                                    <optgroup label="Alaskan/Hawaiian Time Zone">
-                                        <option value="AK">Alaska</option>
-                                        <option value="HI">Hawaii</option>
-                                    </optgroup>
-                                    <optgroup label="Pacific Time Zone">
-                                        <option value="CA">California</option>
-                                        <option value="NV">Nevada</option>
-                                        <option value="OR">Oregon</option>
-                                        <option value="WA">Washington</option>
-                                    </optgroup>
-                                    <optgroup label="Mountain Time Zone">
-                                        <option value="AZ">Arizona</option>
-                                        <option value="CO">Colorado</option>
-                                        <option value="ID">Idaho</option>
-                                        <option value="MT">Montana</option>
-                                        <option value="NE">Nebraska</option>
-                                        <option value="NM">New Mexico</option>
-                                        <option value="ND">North Dakota</option>
-                                        <option value="UT">Utah</option>
-                                        <option value="WY">Wyoming</option>
-                                    </optgroup>
-                                    <optgroup label="Central Time Zone">
-                                        <option value="AL">Alabama</option>
-                                        <option value="AR">Arkansas</option>
-                                        <option value="IL">Illinois</option>
-                                        <option value="IA">Iowa</option>
-                                        <option value="KS">Kansas</option>
-                                        <option value="KY">Kentucky</option>
-                                        <option value="LA">Louisiana</option>
-                                        <option value="MN">Minnesota</option>
-                                        <option value="MS">Mississippi</option>
-                                        <option value="MO">Missouri</option>
-                                        <option value="OK">Oklahoma</option>
-                                        <option value="SD">South Dakota</option>
-                                        <option value="TX">Texas</option>
-                                        <option value="TN">Tennessee</option>
-                                        <option value="WI">Wisconsin</option>
-                                    </optgroup>
-                                    <optgroup label="Eastern Time Zone">
-                                        <option value="CT">Connecticut</option>
-                                        <option value="DE">Delaware</option>
-                                        <option value="FL">Florida</option>
-                                        <option value="GA">Georgia</option>
-                                        <option value="IN">Indiana</option>
-                                        <option value="ME">Maine</option>
-                                        <option value="MD">Maryland</option>
-                                        <option value="MA">Massachusetts</option>
-                                        <option value="MI">Michigan</option>
-                                        <option value="NH">New Hampshire</option>
-                                        <option value="NJ">New Jersey</option>
-                                        <option value="NY">New York</option>
-                                        <option value="NC">North Carolina</option>
-                                        <option value="OH">Ohio</option>
-                                        <option value="PA">Pennsylvania</option>
-                                        <option value="RI">Rhode Island</option>
-                                        <option value="SC">South Carolina</option>
-                                        <option value="VT">Vermont</option>
-                                        <option value="VA">Virginia</option>
-                                        <option value="WV">West Virginia</option>
-                                    </optgroup>
-                                </select>
-                            </div> <!-- end col -->
+                                <div class="col-lg-6">
+                                    <p class="mb-1 fw-bold text-muted">Multiple Select</p>
+                                    <p class="text-muted font-14">
+                                        Select2 can take a regular select box like this...
+                                    </p>
 
-                            <div class="col-lg-6">
-                                <p class="mb-1 fw-bold text-muted">Multiple Select</p>
-                                <p class="text-muted font-14">
-                                    Select2 can take a regular select box like this...
-                                </p>
+                                    <select class="select2 form-control select2-multiple" data-toggle="select2" multiple="multiple" data-placeholder="Choose ...">
+                                        <optgroup label="Alaskan/Hawaiian Time Zone">
+                                            <option value="AK">Alaska</option>
+                                            <option value="HI">Hawaii</option>
+                                        </optgroup>
+                                        <optgroup label="Pacific Time Zone">
+                                            <option value="CA">California</option>
+                                            <option value="NV">Nevada</option>
+                                            <option value="OR">Oregon</option>
+                                            <option value="WA">Washington</option>
+                                        </optgroup>
+                                        <optgroup label="Mountain Time Zone">
+                                            <option value="AZ">Arizona</option>
+                                            <option value="CO">Colorado</option>
+                                            <option value="ID">Idaho</option>
+                                            <option value="MT">Montana</option>
+                                            <option value="NE">Nebraska</option>
+                                            <option value="NM">New Mexico</option>
+                                            <option value="ND">North Dakota</option>
+                                            <option value="UT">Utah</option>
+                                            <option value="WY">Wyoming</option>
+                                        </optgroup>
+                                        <optgroup label="Central Time Zone">
+                                            <option value="AL">Alabama</option>
+                                            <option value="AR">Arkansas</option>
+                                            <option value="IL">Illinois</option>
+                                            <option value="IA">Iowa</option>
+                                            <option value="KS">Kansas</option>
+                                            <option value="KY">Kentucky</option>
+                                            <option value="LA">Louisiana</option>
+                                            <option value="MN">Minnesota</option>
+                                            <option value="MS">Mississippi</option>
+                                            <option value="MO">Missouri</option>
+                                            <option value="OK">Oklahoma</option>
+                                            <option value="SD">South Dakota</option>
+                                            <option value="TX">Texas</option>
+                                            <option value="TN">Tennessee</option>
+                                            <option value="WI">Wisconsin</option>
+                                        </optgroup>
+                                        <optgroup label="Eastern Time Zone">
+                                            <option value="CT">Connecticut</option>
+                                            <option value="DE">Delaware</option>
+                                            <option value="FL">Florida</option>
+                                            <option value="GA">Georgia</option>
+                                            <option value="IN">Indiana</option>
+                                            <option value="ME">Maine</option>
+                                            <option value="MD">Maryland</option>
+                                            <option value="MA">Massachusetts</option>
+                                            <option value="MI">Michigan</option>
+                                            <option value="NH">New Hampshire</option>
+                                            <option value="NJ">New Jersey</option>
+                                            <option value="NY">New York</option>
+                                            <option value="NC">North Carolina</option>
+                                            <option value="OH">Ohio</option>
+                                            <option value="PA">Pennsylvania</option>
+                                            <option value="RI">Rhode Island</option>
+                                            <option value="SC">South Carolina</option>
+                                            <option value="VT">Vermont</option>
+                                            <option value="VA">Virginia</option>
+                                            <option value="WV">West Virginia</option>
+                                        </optgroup>
+                                    </select>
+                                </div> <!-- end col -->
+                            </div> <!-- end row -->
+                        </div> <!-- end preview-->
 
-                                <select class="select2 form-control select2-multiple" data-toggle="select2" multiple="multiple" data-placeholder="Choose ...">
-                                    <optgroup label="Alaskan/Hawaiian Time Zone">
-                                        <option value="AK">Alaska</option>
-                                        <option value="HI">Hawaii</option>
-                                    </optgroup>
-                                    <optgroup label="Pacific Time Zone">
-                                        <option value="CA">California</option>
-                                        <option value="NV">Nevada</option>
-                                        <option value="OR">Oregon</option>
-                                        <option value="WA">Washington</option>
-                                    </optgroup>
-                                    <optgroup label="Mountain Time Zone">
-                                        <option value="AZ">Arizona</option>
-                                        <option value="CO">Colorado</option>
-                                        <option value="ID">Idaho</option>
-                                        <option value="MT">Montana</option>
-                                        <option value="NE">Nebraska</option>
-                                        <option value="NM">New Mexico</option>
-                                        <option value="ND">North Dakota</option>
-                                        <option value="UT">Utah</option>
-                                        <option value="WY">Wyoming</option>
-                                    </optgroup>
-                                    <optgroup label="Central Time Zone">
-                                        <option value="AL">Alabama</option>
-                                        <option value="AR">Arkansas</option>
-                                        <option value="IL">Illinois</option>
-                                        <option value="IA">Iowa</option>
-                                        <option value="KS">Kansas</option>
-                                        <option value="KY">Kentucky</option>
-                                        <option value="LA">Louisiana</option>
-                                        <option value="MN">Minnesota</option>
-                                        <option value="MS">Mississippi</option>
-                                        <option value="MO">Missouri</option>
-                                        <option value="OK">Oklahoma</option>
-                                        <option value="SD">South Dakota</option>
-                                        <option value="TX">Texas</option>
-                                        <option value="TN">Tennessee</option>
-                                        <option value="WI">Wisconsin</option>
-                                    </optgroup>
-                                    <optgroup label="Eastern Time Zone">
-                                        <option value="CT">Connecticut</option>
-                                        <option value="DE">Delaware</option>
-                                        <option value="FL">Florida</option>
-                                        <option value="GA">Georgia</option>
-                                        <option value="IN">Indiana</option>
-                                        <option value="ME">Maine</option>
-                                        <option value="MD">Maryland</option>
-                                        <option value="MA">Massachusetts</option>
-                                        <option value="MI">Michigan</option>
-                                        <option value="NH">New Hampshire</option>
-                                        <option value="NJ">New Jersey</option>
-                                        <option value="NY">New York</option>
-                                        <option value="NC">North Carolina</option>
-                                        <option value="OH">Ohio</option>
-                                        <option value="PA">Pennsylvania</option>
-                                        <option value="RI">Rhode Island</option>
-                                        <option value="SC">South Carolina</option>
-                                        <option value="VT">Vermont</option>
-                                        <option value="VA">Virginia</option>
-                                        <option value="WV">West Virginia</option>
-                                    </optgroup>
-                                </select>
-                            </div> <!-- end col -->
-                        </div> <!-- end row -->
-                    </div> <!-- end preview-->
-
-                    <div class="tab-pane code" id="select2-code">
-                        <button class="btn-copy-clipboard" data-clipboard-action="copy">Copy</button>
-                        <pre class="mb-0">
+                        <div class="tab-pane code" id="select2-code">
+                            <button class="btn-copy-clipboard" data-clipboard-action="copy">Copy</button>
+                            <pre class="mb-0">
                                                     <span class="html escape">
                                                         &lt;!-- Select2 css --&gt;
                                                         &lt;link href=&quot;assets/vendor/select2/css/select2.min.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot; /&gt;
@@ -251,81 +251,81 @@ $this->params['breadcrumbs'][] = $this->title;
                                                         &lt;/select&gt;
                                                     </span>
                                                 </pre> <!-- end highlight-->
-                    </div> <!-- end preview code-->
-                </div> <!-- end tab-content-->
+                        </div> <!-- end preview code-->
+                    </div> <!-- end tab-content-->
 
-            </div> <!-- end card-body-->
-        </div> <!-- end card-->
-    </div> <!-- end col-->
-</div>
-<!-- end row-->
+                </div> <!-- end card-body-->
+            </div> <!-- end card-->
+        </div> <!-- end col-->
+    </div>
+    <!-- end row-->
 
-<div class="row">
-    <div class="col-12">
-        <div class="card">
-            <div class="card-body">
-                <h4 class="header-title">Date Range Picker</h4>
-                <p class="text-muted font-14">
-                    A JavaScript component for choosing date ranges, dates and times.
-                </p>
+    <div class="row">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="header-title">Date Range Picker</h4>
+                    <p class="text-muted font-14">
+                        A JavaScript component for choosing date ranges, dates and times.
+                    </p>
 
-                <ul class="nav nav-tabs nav-bordered mb-3">
-                    <li class="nav-item">
-                        <a href="#daterange-picker-preview" data-bs-toggle="tab" aria-expanded="false" class="nav-link active">
-                            Preview
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#daterange-picker-code" data-bs-toggle="tab" aria-expanded="true" class="nav-link">
-                            Code
-                        </a>
-                    </li>
-                </ul> <!-- end nav-->
-                <div class="tab-content">
-                    <div class="tab-pane show active" id="daterange-picker-preview">
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <!-- Date Range -->
-                                <div class="mb-3">
-                                    <label class="form-label">Date Range</label>
-                                    <input type="text" class="form-control date" id="singledaterange" data-toggle="date-picker" data-cancel-class="btn-warning">
+                    <ul class="nav nav-tabs nav-bordered mb-3">
+                        <li class="nav-item">
+                            <a href="#daterange-picker-preview" data-bs-toggle="tab" aria-expanded="false" class="nav-link active">
+                                Preview
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#daterange-picker-code" data-bs-toggle="tab" aria-expanded="true" class="nav-link">
+                                Code
+                            </a>
+                        </li>
+                    </ul> <!-- end nav-->
+                    <div class="tab-content">
+                        <div class="tab-pane show active" id="daterange-picker-preview">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <!-- Date Range -->
+                                    <div class="mb-3">
+                                        <label class="form-label">Date Range</label>
+                                        <input type="text" class="form-control date" id="singledaterange" data-toggle="date-picker" data-cancel-class="btn-warning">
+                                    </div>
                                 </div>
-                            </div>
 
-                            <div class="col-lg-6">
-                                <!-- Date Range Picker With Times -->
-                                <div class="mb-3">
-                                    <label class="form-label">Date Range Picker With Times</label>
-                                    <input type="text" class="form-control date" id="daterangetime" data-toggle="date-picker" data-time-picker="true" data-locale="{'format': 'DD/MM hh:mm A'}">
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <!-- Single Date Picker -->
-                                <div>
-                                    <label class="form-label">Single Date Picker</label>
-                                    <input type="text" class="form-control date" id="birthdatepicker" data-toggle="date-picker" data-single-date-picker="true">
-                                </div>
-                            </div>
-
-                            <div class="col-lg-6">
-                                <!-- Predefined Date Ranges -->
-                                <div>
-                                    <label class="form-label">Predefined Date Ranges</label>
-                                    <div id="reportrange" class="form-control" data-toggle="date-picker-range" data-target-display="#selectedValue" data-cancel-class="btn-light">
-                                        <i class="mdi mdi-calendar"></i>&nbsp;
-                                        <span id="selectedValue"></span> <i class="mdi mdi-menu-down"></i>
+                                <div class="col-lg-6">
+                                    <!-- Date Range Picker With Times -->
+                                    <div class="mb-3">
+                                        <label class="form-label">Date Range Picker With Times</label>
+                                        <input type="text" class="form-control date" id="daterangetime" data-toggle="date-picker" data-time-picker="true" data-locale="{'format': 'DD/MM hh:mm A'}">
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    </div> <!-- end preview-->
 
-                    <div class="tab-pane code" id="daterange-picker-code">
-                        <button class="btn-copy-clipboard" data-clipboard-action="copy">Copy</button>
-                        <pre class="mb-0">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <!-- Single Date Picker -->
+                                    <div>
+                                        <label class="form-label">Single Date Picker</label>
+                                        <input type="text" class="form-control date" id="birthdatepicker" data-toggle="date-picker" data-single-date-picker="true">
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6">
+                                    <!-- Predefined Date Ranges -->
+                                    <div>
+                                        <label class="form-label">Predefined Date Ranges</label>
+                                        <div id="reportrange" class="form-control" data-toggle="date-picker-range" data-target-display="#selectedValue" data-cancel-class="btn-light">
+                                            <i class="mdi mdi-calendar"></i>&nbsp;
+                                            <span id="selectedValue"></span> <i class="mdi mdi-menu-down"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> <!-- end preview-->
+
+                        <div class="tab-pane code" id="daterange-picker-code">
+                            <button class="btn-copy-clipboard" data-clipboard-action="copy">Copy</button>
+                            <pre class="mb-0">
                                                     <span class="html escape">
                                                         &lt;!-- Daterangepicker css --&gt;
                                                         &lt;link rel=&quot;stylesheet&quot; href=&quot;assets/vendor/daterangepicker/daterangepicker.css&quot; type=&quot;text/css&quot; /&gt;
@@ -362,79 +362,79 @@ $this->params['breadcrumbs'][] = $this->title;
                                                         &lt;/div&gt;
                                                     </span>
                                                 </pre> <!-- end highlight-->
-                    </div> <!-- end preview code-->
-                </div> <!-- end tab-content-->
+                        </div> <!-- end preview code-->
+                    </div> <!-- end tab-content-->
 
-            </div> <!-- end card-body -->
-        </div> <!-- end card-->
-    </div> <!-- end col -->
-</div>
-<!-- end row -->
+                </div> <!-- end card-body -->
+            </div> <!-- end card-->
+        </div> <!-- end col -->
+    </div>
+    <!-- end row -->
 
-<div class="row">
-    <div class="col-12">
-        <div class="card">
-            <div class="card-body">
-                <h4 class="header-title">Switch</h4>
-                <p class="text-muted font-14">
-                    Here are a few types of switches.
-                </p>
+    <div class="row">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="header-title">Switch</h4>
+                    <p class="text-muted font-14">
+                        Here are a few types of switches.
+                    </p>
 
-                <ul class="nav nav-tabs nav-bordered mb-4">
-                    <li class="nav-item">
-                        <a href="#switches-preview" data-bs-toggle="tab" aria-expanded="false" class="nav-link active">
-                            Preview
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#switches-code" data-bs-toggle="tab" aria-expanded="true" class="nav-link">
-                            Code
-                        </a>
-                    </li>
-                </ul> <!-- end nav-->
-                <div class="tab-content">
-                    <div class="tab-pane show active" id="switches-preview">
-                        <!-- without label-->
-                        <input type="checkbox" id="switch0" data-switch="none"/>
-                        <label for="switch0" data-on-label="" data-off-label=""></label>
+                    <ul class="nav nav-tabs nav-bordered mb-4">
+                        <li class="nav-item">
+                            <a href="#switches-preview" data-bs-toggle="tab" aria-expanded="false" class="nav-link active">
+                                Preview
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#switches-code" data-bs-toggle="tab" aria-expanded="true" class="nav-link">
+                                Code
+                            </a>
+                        </li>
+                    </ul> <!-- end nav-->
+                    <div class="tab-content">
+                        <div class="tab-pane show active" id="switches-preview">
+                            <!-- without label-->
+                            <input type="checkbox" id="switch0" data-switch="none"/>
+                            <label for="switch0" data-on-label="" data-off-label=""></label>
 
-                        <!-- Bool Switch-->
-                        <input type="checkbox" id="switch1" checked data-switch="bool"/>
-                        <label for="switch1" data-on-label="On" data-off-label="Off"></label>
+                            <!-- Bool Switch-->
+                            <input type="checkbox" id="switch1" checked data-switch="bool"/>
+                            <label for="switch1" data-on-label="On" data-off-label="Off"></label>
 
-                        <!-- Primary Switch-->
-                        <input type="checkbox" id="switch2" checked data-switch="primary"/>
-                        <label for="switch2" data-on-label="On" data-off-label="Off"></label>
+                            <!-- Primary Switch-->
+                            <input type="checkbox" id="switch2" checked data-switch="primary"/>
+                            <label for="switch2" data-on-label="On" data-off-label="Off"></label>
 
-                        <!-- Success Switch-->
-                        <input type="checkbox" id="switch3" checked data-switch="success"/>
-                        <label for="switch3" data-on-label="Yes" data-off-label="No"></label>
+                            <!-- Success Switch-->
+                            <input type="checkbox" id="switch3" checked data-switch="success"/>
+                            <label for="switch3" data-on-label="Yes" data-off-label="No"></label>
 
-                        <!-- Info Switch-->
-                        <input type="checkbox" id="switch4" checked data-switch="info"/>
-                        <label for="switch4" data-on-label="On" data-off-label="Off"></label>
+                            <!-- Info Switch-->
+                            <input type="checkbox" id="switch4" checked data-switch="info"/>
+                            <label for="switch4" data-on-label="On" data-off-label="Off"></label>
 
-                        <!-- Warning Switch-->
-                        <input type="checkbox" id="switch5" checked data-switch="warning"/>
-                        <label for="switch5" data-on-label="Yes" data-off-label="No"></label>
+                            <!-- Warning Switch-->
+                            <input type="checkbox" id="switch5" checked data-switch="warning"/>
+                            <label for="switch5" data-on-label="Yes" data-off-label="No"></label>
 
-                        <!-- Danger Switch-->
-                        <input type="checkbox" id="switch6" checked data-switch="danger"/>
-                        <label for="switch6" data-on-label="On" data-off-label="Off"></label>
+                            <!-- Danger Switch-->
+                            <input type="checkbox" id="switch6" checked data-switch="danger"/>
+                            <label for="switch6" data-on-label="On" data-off-label="Off"></label>
 
-                        <!-- Dark Switch-->
-                        <input type="checkbox" id="switch7" checked data-switch="secondary"/>
-                        <label for="switch7" data-on-label="Yes" data-off-label="No"></label>
+                            <!-- Dark Switch-->
+                            <input type="checkbox" id="switch7" checked data-switch="secondary"/>
+                            <label for="switch7" data-on-label="Yes" data-off-label="No"></label>
 
-                        <!-- Disbled Switch-->
-                        <input type="checkbox" id="switchdis" data-switch="primary" checked disabled/>
-                        <label for="switchdis" data-on-label="On" data-off-label="Off"></label>
+                            <!-- Disbled Switch-->
+                            <input type="checkbox" id="switchdis" data-switch="primary" checked disabled/>
+                            <label for="switchdis" data-on-label="On" data-off-label="Off"></label>
 
-                    </div> <!-- end preview-->
+                        </div> <!-- end preview-->
 
-                    <div class="tab-pane code" id="switches-code">
-                        <button class="btn-copy-clipboard" data-clipboard-action="copy">Copy</button>
-                        <pre class="mb-0">
+                        <div class="tab-pane code" id="switches-code">
+                            <button class="btn-copy-clipboard" data-clipboard-action="copy">Copy</button>
+                            <pre class="mb-0">
                                                     <span class="html escape">
                                                         &lt;!-- Without label--&gt;
                                                         &lt;input type=&quot;checkbox&quot; id=&quot;switch0&quot; data-switch=&quot;none&quot;/&gt;
@@ -473,99 +473,99 @@ $this->params['breadcrumbs'][] = $this->title;
                                                         &lt;label for=&quot;switchdis&quot; data-on-label=&quot;On&quot; data-off-label=&quot;Off&quot;&gt;&lt;/label&gt;
                                                     </span>
                                                 </pre> <!-- end highlight-->
-                    </div> <!-- end preview code-->
-                </div> <!-- end tab-content-->
+                        </div> <!-- end preview code-->
+                    </div> <!-- end tab-content-->
 
-            </div> <!-- end card-body -->
-        </div> <!-- end card-->
-    </div> <!-- end col -->
-</div>
-<!-- end row -->
+                </div> <!-- end card-body -->
+            </div> <!-- end card-->
+        </div> <!-- end col -->
+    </div>
+    <!-- end row -->
 
-<div class="row">
-    <div class="col-12">
-        <div class="card">
-            <div class="card-body">
-                <h4 class="header-title">Bootstrap Datepicker</h4>
-                <p class="text-muted font-14">
-                    Bootstrap-datepicker provides a flexible datepicker widget in the Bootstrap style.
-                </p>
+    <div class="row">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="header-title">Bootstrap Datepicker</h4>
+                    <p class="text-muted font-14">
+                        Bootstrap-datepicker provides a flexible datepicker widget in the Bootstrap style.
+                    </p>
 
-                <ul class="nav nav-tabs nav-bordered mb-3">
-                    <li class="nav-item">
-                        <a href="#datepicker-preview" data-bs-toggle="tab" aria-expanded="false" class="nav-link active">
-                            Preview
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#datepicker-code" data-bs-toggle="tab" aria-expanded="true" class="nav-link">
-                            Code
-                        </a>
-                    </li>
-                </ul> <!-- end nav-->
-                <div class="tab-content">
-                    <div class="tab-pane show active" id="datepicker-preview">
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <div class="mb-3 position-relative" id="datepicker1">
-                                    <label class="form-label">Date Picker</label>
-                                    <input type="text" class="form-control" data-provide="datepicker" data-date-today-highlight="true" data-date-container="#datepicker1">
+                    <ul class="nav nav-tabs nav-bordered mb-3">
+                        <li class="nav-item">
+                            <a href="#datepicker-preview" data-bs-toggle="tab" aria-expanded="false" class="nav-link active">
+                                Preview
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#datepicker-code" data-bs-toggle="tab" aria-expanded="true" class="nav-link">
+                                Code
+                            </a>
+                        </li>
+                    </ul> <!-- end nav-->
+                    <div class="tab-content">
+                        <div class="tab-pane show active" id="datepicker-preview">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="mb-3 position-relative" id="datepicker1">
+                                        <label class="form-label">Date Picker</label>
+                                        <input type="text" class="form-control" data-provide="datepicker" data-date-today-highlight="true" data-date-container="#datepicker1">
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6">
+                                    <div class="mb-3 position-relative" id="datepicker2">
+                                        <label class="form-label">Date View</label>
+                                        <input type="text" class="form-control" data-provide="datepicker" data-date-format="d-M-yyyy" data-date-container="#datepicker2">
+                                    </div>
                                 </div>
                             </div>
 
-                            <div class="col-lg-6">
-                                <div class="mb-3 position-relative" id="datepicker2">
-                                    <label class="form-label">Date View</label>
-                                    <input type="text" class="form-control" data-provide="datepicker" data-date-format="d-M-yyyy" data-date-container="#datepicker2">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="mb-3 position-relative" id="datepicker3">
+                                        <label class="form-label">Multi Datepicker</label>
+                                        <input type="text" class="form-control" data-provide="datepicker" data-date-multidate="true" data-date-container="#datepicker3">
+                                    </div>
                                 </div>
-                            </div>
-                        </div>
 
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <div class="mb-3 position-relative" id="datepicker3">
-                                    <label class="form-label">Multi Datepicker</label>
-                                    <input type="text" class="form-control" data-provide="datepicker" data-date-multidate="true" data-date-container="#datepicker3">
-                                </div>
-                            </div>
-
-                            <div class="col-lg-6">
-                                <div class="mb-3 position-relative" id="datepicker4">
-                                    <label class="form-label">Autoclose</label>
-                                    <input type="text" class="form-control" data-provide="datepicker" data-date-autoclose="true" data-date-container="#datepicker4">
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <div class="mb-3 position-relative" id="datepicker5">
-                                    <label class="form-label">Month View</label>
-                                    <input type="text" class="form-control" data-provide="datepicker" data-date-format="MM yyyy" data-date-min-view-mode="1" data-date-container="#datepicker5">
+                                <div class="col-lg-6">
+                                    <div class="mb-3 position-relative" id="datepicker4">
+                                        <label class="form-label">Autoclose</label>
+                                        <input type="text" class="form-control" data-provide="datepicker" data-date-autoclose="true" data-date-container="#datepicker4">
+                                    </div>
                                 </div>
                             </div>
 
-                            <div class="col-lg-6">
-                                <div class="mb-3 position-relative" id="datepicker6">
-                                    <label class="form-label">Year View</label>
-                                    <input type="text" class="form-control" data-provide="datepicker" data-date-min-view-mode="2" data-date-container="#datepicker6">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="mb-3 position-relative" id="datepicker5">
+                                        <label class="form-label">Month View</label>
+                                        <input type="text" class="form-control" data-provide="datepicker" data-date-format="MM yyyy" data-date-min-view-mode="1" data-date-container="#datepicker5">
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6">
+                                    <div class="mb-3 position-relative" id="datepicker6">
+                                        <label class="form-label">Year View</label>
+                                        <input type="text" class="form-control" data-provide="datepicker" data-date-min-view-mode="2" data-date-container="#datepicker6">
+                                    </div>
                                 </div>
                             </div>
-                        </div>
 
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <div>
-                                    <label class="form-label">Inline Datepicker</label>
-                                    <div data-provide="datepicker-inline"></div>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div>
+                                        <label class="form-label">Inline Datepicker</label>
+                                        <div data-provide="datepicker-inline"></div>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </div> <!-- end preview-->
+                        </div> <!-- end preview-->
 
-                    <div class="tab-pane code" id="datepicker-code">
-                        <button class="btn-copy-clipboard" data-clipboard-action="copy">Copy</button>
-                        <pre class="mb-0">
+                        <div class="tab-pane code" id="datepicker-code">
+                            <button class="btn-copy-clipboard" data-clipboard-action="copy">Copy</button>
+                            <pre class="mb-0">
                                                     <span class="html escape">
                                                         &lt;!-- Bootstrap Datepicker css --&gt;
                                                         &lt;link href=&quot;assets/vendor/bootstrap-datepicker/css/bootstrap-datepicker.min.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot; /&gt;
@@ -616,93 +616,93 @@ $this->params['breadcrumbs'][] = $this->title;
                                                         &lt;/div&gt;
                                                     </span>
                                                 </pre> <!-- end highlight-->
-                    </div> <!-- end preview code-->
-                </div> <!-- end tab-content-->
+                        </div> <!-- end preview code-->
+                    </div> <!-- end tab-content-->
 
-            </div> <!-- end card-body -->
-        </div> <!-- end card-->
-    </div> <!-- end col -->
-</div>
-<!-- end row -->
+                </div> <!-- end card-body -->
+            </div> <!-- end card-->
+        </div> <!-- end col -->
+    </div>
+    <!-- end row -->
 
-<div class="row">
-    <div class="col-12">
-        <div class="card">
-            <div class="card-body">
-                <h4 class="header-title">Flatpickr - Date picker</h4>
-                <p class="text-muted font-14">A lightweight and powerful datetimepicker</p>
+    <div class="row">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="header-title">Flatpickr - Date picker</h4>
+                    <p class="text-muted font-14">A lightweight and powerful datetimepicker</p>
 
-                <ul class="nav nav-tabs nav-bordered mb-3">
-                    <li class="nav-item">
-                        <a href="#flatpickr-datepicker-preview" data-bs-toggle="tab" aria-expanded="false" class="nav-link active">
-                            Preview
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#flatpickr-datepicker-code" data-bs-toggle="tab" aria-expanded="true" class="nav-link">
-                            Code
-                        </a>
-                    </li>
-                </ul> <!-- end nav-->
-                <div class="tab-content">
-                    <div class="tab-pane show active" id="flatpickr-datepicker-preview">
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <div class="mb-3">
-                                    <label class="form-label">Basic</label>
-                                    <input type="text" id="basic-datepicker" class="form-control" placeholder="Basic datepicker">
-                                </div>
+                    <ul class="nav nav-tabs nav-bordered mb-3">
+                        <li class="nav-item">
+                            <a href="#flatpickr-datepicker-preview" data-bs-toggle="tab" aria-expanded="false" class="nav-link active">
+                                Preview
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#flatpickr-datepicker-code" data-bs-toggle="tab" aria-expanded="true" class="nav-link">
+                                Code
+                            </a>
+                        </li>
+                    </ul> <!-- end nav-->
+                    <div class="tab-content">
+                        <div class="tab-pane show active" id="flatpickr-datepicker-preview">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="mb-3">
+                                        <label class="form-label">Basic</label>
+                                        <input type="text" id="basic-datepicker" class="form-control" placeholder="Basic datepicker">
+                                    </div>
 
-                                <div class="mb-3">
-                                    <label class="form-label">Date & Time</label>
-                                    <input type="text" id="datetime-datepicker" class="form-control" placeholder="Date and Time">
-                                </div>
+                                    <div class="mb-3">
+                                        <label class="form-label">Date & Time</label>
+                                        <input type="text" id="datetime-datepicker" class="form-control" placeholder="Date and Time">
+                                    </div>
 
-                                <div class="mb-3">
-                                    <label class="form-label">Human-friendly Dates</label>
-                                    <input type="text" id="humanfd-datepicker" class="form-control" placeholder="October 9, 2018">
-                                </div>
+                                    <div class="mb-3">
+                                        <label class="form-label">Human-friendly Dates</label>
+                                        <input type="text" id="humanfd-datepicker" class="form-control" placeholder="October 9, 2018">
+                                    </div>
 
-                                <div class="mb-3">
-                                    <label class="form-label">MinDate and MaxDate</label>
-                                    <input type="text" id="minmax-datepicker" class="form-control" placeholder="mindate - maxdate">
-                                </div>
+                                    <div class="mb-3">
+                                        <label class="form-label">MinDate and MaxDate</label>
+                                        <input type="text" id="minmax-datepicker" class="form-control" placeholder="mindate - maxdate">
+                                    </div>
 
-                                <div class="mb-3">
-                                    <label class="form-label">Disabling dates</label>
-                                    <input type="text" id="disable-datepicker" class="form-control" placeholder="Disabling dates">
-                                </div>
+                                    <div class="mb-3">
+                                        <label class="form-label">Disabling dates</label>
+                                        <input type="text" id="disable-datepicker" class="form-control" placeholder="Disabling dates">
+                                    </div>
 
-                                <div class="mb-3">
-                                    <label class="form-label">Selecting multiple dates</label>
-                                    <input type="text" id="multiple-datepicker" class="form-control" placeholder="Multiple dates">
-                                </div>
+                                    <div class="mb-3">
+                                        <label class="form-label">Selecting multiple dates</label>
+                                        <input type="text" id="multiple-datepicker" class="form-control" placeholder="Multiple dates">
+                                    </div>
 
-                            </div> <!-- end col -->
+                                </div> <!-- end col -->
 
-                            <div class="col-lg-6 mt-3 mt-lg-0">
-                                <div class="mb-3">
-                                    <label class="form-label">Selecting multiple dates - Conjunction</label>
-                                    <input type="text" id="conjunction-datepicker" class="form-control" placeholder="2018-10-10 :: 2018-10-11">
-                                </div>
+                                <div class="col-lg-6 mt-3 mt-lg-0">
+                                    <div class="mb-3">
+                                        <label class="form-label">Selecting multiple dates - Conjunction</label>
+                                        <input type="text" id="conjunction-datepicker" class="form-control" placeholder="2018-10-10 :: 2018-10-11">
+                                    </div>
 
-                                <div class="mb-3">
-                                    <label class="form-label">Range Calendar</label>
-                                    <input type="text" id="range-datepicker" class="form-control" placeholder="2018-10-03 to 2018-10-10">
-                                </div>
+                                    <div class="mb-3">
+                                        <label class="form-label">Range Calendar</label>
+                                        <input type="text" id="range-datepicker" class="form-control" placeholder="2018-10-03 to 2018-10-10">
+                                    </div>
 
-                                <div>
-                                    <label class="form-label">Inline Calendar</label>
-                                    <input type="text" id="inline-datepicker" class="form-control" placeholder="Inline calendar">
-                                </div>
-                            </div> <!-- end col -->
-                        </div>
-                        <!-- end row -->
-                    </div> <!-- end preview-->
+                                    <div>
+                                        <label class="form-label">Inline Calendar</label>
+                                        <input type="text" id="inline-datepicker" class="form-control" placeholder="Inline calendar">
+                                    </div>
+                                </div> <!-- end col -->
+                            </div>
+                            <!-- end row -->
+                        </div> <!-- end preview-->
 
-                    <div class="tab-pane code" id="flatpickr-datepicker-code">
-                        <button class="btn-copy-clipboard" data-clipboard-action="copy">Copy</button>
-                        <pre class="mb-0">
+                        <div class="tab-pane code" id="flatpickr-datepicker-code">
+                            <button class="btn-copy-clipboard" data-clipboard-action="copy">Copy</button>
+                            <pre class="mb-0">
                                                     <span class="html escape">
                                                         &lt;div class=&quot;mb-3&quot;&gt;
                                                             &lt;label class=&quot;form-label&quot;&gt;Basic&lt;/label&gt;
@@ -750,79 +750,79 @@ $this->params['breadcrumbs'][] = $this->title;
                                                         &lt;/div&gt;
                                                     </span>
                                                 </pre> <!-- end highlight-->
-                    </div> <!-- end preview code-->
-                </div> <!-- end tab-content-->
-            </div> <!-- end card-body -->
-        </div> <!-- end card-->
-    </div> <!-- end col -->
-</div>
-<!-- end row -->
+                        </div> <!-- end preview code-->
+                    </div> <!-- end tab-content-->
+                </div> <!-- end card-body -->
+            </div> <!-- end card-->
+        </div> <!-- end col -->
+    </div>
+    <!-- end row -->
 
 
-<div class="row">
-    <div class="col-12">
-        <div class="card">
-            <div class="card-body">
-                <h4 class="header-title">Flatpickr - Time Picker </h4>
-                <p class="text-muted font-14">A lightweight and powerful datetimepicker</p>
+    <div class="row">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="header-title">Flatpickr - Time Picker </h4>
+                    <p class="text-muted font-14">A lightweight and powerful datetimepicker</p>
 
-                <ul class="nav nav-tabs nav-bordered mb-3">
-                    <li class="nav-item">
-                        <a href="#timepicker-flatpickr-preview" data-bs-toggle="tab" aria-expanded="false" class="nav-link active">
-                            Preview
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#timepicker-flatpickr-code" data-bs-toggle="tab" aria-expanded="true" class="nav-link">
-                            Code
-                        </a>
-                    </li>
-                </ul> <!-- end nav-->
-                <div class="tab-content">
-                    <div class="tab-pane show active" id="timepicker-flatpickr-preview">
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <div class="mb-3">
-                                    <label class="form-label">Default Time Picker</label>
-                                    <div class="input-group">
-                                        <input id="basic-timepicker" type="text" class="form-control" placeholder="Basic timepicker">
-                                        <span class="input-group-text"><i class="ri-time-line"></i></span>
+                    <ul class="nav nav-tabs nav-bordered mb-3">
+                        <li class="nav-item">
+                            <a href="#timepicker-flatpickr-preview" data-bs-toggle="tab" aria-expanded="false" class="nav-link active">
+                                Preview
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#timepicker-flatpickr-code" data-bs-toggle="tab" aria-expanded="true" class="nav-link">
+                                Code
+                            </a>
+                        </li>
+                    </ul> <!-- end nav-->
+                    <div class="tab-content">
+                        <div class="tab-pane show active" id="timepicker-flatpickr-preview">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="mb-3">
+                                        <label class="form-label">Default Time Picker</label>
+                                        <div class="input-group">
+                                            <input id="basic-timepicker" type="text" class="form-control" placeholder="Basic timepicker">
+                                            <span class="input-group-text"><i class="ri-time-line"></i></span>
+                                        </div>
                                     </div>
-                                </div>
 
-                                <div class="mb-0">
-                                    <label class="form-label">24-hour Time Picker</label>
-                                    <div class="input-group">
-                                        <input id="24hours-timepicker" type="text" class="form-control" placeholder="16:21">
-                                        <span class="input-group-text"><i class="ri-time-line"></i></span>
+                                    <div class="mb-0">
+                                        <label class="form-label">24-hour Time Picker</label>
+                                        <div class="input-group">
+                                            <input id="24hours-timepicker" type="text" class="form-control" placeholder="16:21">
+                                            <span class="input-group-text"><i class="ri-time-line"></i></span>
+                                        </div>
                                     </div>
-                                </div>
-                            </div> <!-- end col -->
+                                </div> <!-- end col -->
 
-                            <div class="col-lg-6 mt-3 mt-lg-0">
-                                <div class="mb-3">
-                                    <label class="form-label">Time Picker w/ Limits</label>
-                                    <div class="input-group">
-                                        <input id="minmax-timepicker" type="text" class="form-control" placeholder="Limits">
-                                        <span class="input-group-text"><i class="ri-time-line"></i></span>
+                                <div class="col-lg-6 mt-3 mt-lg-0">
+                                    <div class="mb-3">
+                                        <label class="form-label">Time Picker w/ Limits</label>
+                                        <div class="input-group">
+                                            <input id="minmax-timepicker" type="text" class="form-control" placeholder="Limits">
+                                            <span class="input-group-text"><i class="ri-time-line"></i></span>
+                                        </div>
                                     </div>
-                                </div>
 
-                                <div class="mb-0">
-                                    <label class="form-label">Preloading Time</label>
-                                    <div class="input-group">
-                                        <input id="preloading-timepicker" type="text" class="form-control" placeholder="Pick a time">
-                                        <span class="input-group-text"><i class="ri-time-line"></i></span>
+                                    <div class="mb-0">
+                                        <label class="form-label">Preloading Time</label>
+                                        <div class="input-group">
+                                            <input id="preloading-timepicker" type="text" class="form-control" placeholder="Pick a time">
+                                            <span class="input-group-text"><i class="ri-time-line"></i></span>
+                                        </div>
                                     </div>
-                                </div>
-                            </div> <!-- end col -->
-                        </div>
-                        <!-- end row -->
-                    </div> <!-- end preview-->
+                                </div> <!-- end col -->
+                            </div>
+                            <!-- end row -->
+                        </div> <!-- end preview-->
 
-                    <div class="tab-pane code" id="timepicker-flatpickr-code">
-                        <button class="btn-copy-clipboard" data-clipboard-action="copy">Copy</button>
-                        <pre class="mb-0">
+                        <div class="tab-pane code" id="timepicker-flatpickr-code">
+                            <button class="btn-copy-clipboard" data-clipboard-action="copy">Copy</button>
+                            <pre class="mb-0">
                                                     <span class="html escape">
                                                         &lt;div class=&quot;mb-3&quot;&gt;
                                                             &lt;label class=&quot;form-label&quot;&gt;Default Time Picker&lt;/label&gt;
@@ -857,126 +857,126 @@ $this->params['breadcrumbs'][] = $this->title;
                                                         &lt;/div&gt;
                                                     </span>
                                                 </pre> <!-- end highlight-->
-                    </div> <!-- end preview code-->
-                </div> <!-- end tab-content-->
+                        </div> <!-- end preview code-->
+                    </div> <!-- end tab-content-->
 
-            </div> <!-- end card-body -->
-        </div> <!-- end card-->
-    </div> <!-- end col -->
-</div>
-<!-- end row -->
+                </div> <!-- end card-body -->
+            </div> <!-- end card-->
+        </div> <!-- end col -->
+    </div>
+    <!-- end row -->
 
-<div class="row">
-    <div class="col-12">
-        <div class="card">
-            <div class="card-body">
-                <h4 class="header-title">Input Masks</h4>
-                <p class="text-muted font-14">
-                    A jQuery Plugin to make masks on form fields and HTML elements.
-                </p>
+    <div class="row">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="header-title">Input Masks</h4>
+                    <p class="text-muted font-14">
+                        A jQuery Plugin to make masks on form fields and HTML elements.
+                    </p>
 
-                <ul class="nav nav-tabs nav-bordered mb-3">
-                    <li class="nav-item">
-                        <a href="#input-masks-preview" data-bs-toggle="tab" aria-expanded="false" class="nav-link active">
-                            Preview
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#input-masks-code" data-bs-toggle="tab" aria-expanded="true" class="nav-link">
-                            Code
-                        </a>
-                    </li>
-                </ul> <!-- end nav-->
-                <div class="tab-content">
-                    <div class="tab-pane show active" id="input-masks-preview">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <form action="#">
-                                    <div class="mb-3">
-                                        <label class="form-label">Date</label>
-                                        <input type="text" class="form-control" data-toggle="input-mask" data-mask-format="00/00/0000">
-                                        <span class="font-13 text-muted">e.g "DD/MM/YYYY"</span>
-                                    </div>
-                                    <div class="mb-3">
-                                        <label class="form-label">Hour</label>
-                                        <input type="text" class="form-control" data-toggle="input-mask" data-mask-format="00:00:00">
-                                        <span class="font-13 text-muted">e.g "HH:MM:SS"</span>
-                                    </div>
-                                    <div class="mb-3">
-                                        <label class="form-label">Date & Hour</label>
-                                        <input type="text" class="form-control" data-toggle="input-mask" data-mask-format="00/00/0000 00:00:00">
-                                        <span class="font-13 text-muted">e.g "DD/MM/YYYY HH:MM:SS"</span>
-                                    </div>
-                                    <div class="mb-3">
-                                        <label class="form-label">ZIP Code</label>
-                                        <input type="text" class="form-control" data-toggle="input-mask" data-mask-format="00000-000">
-                                        <span class="font-13 text-muted">e.g "xxxxx-xxx"</span>
-                                    </div>
-                                    <div class="mb-3">
-                                        <label class="form-label">Crazy Zip Code</label>
-                                        <input type="text" class="form-control" data-toggle="input-mask" data-mask-format="0-00-00-00">
-                                        <span class="font-13 text-muted">e.g "x-xx-xx-xx"</span>
-                                    </div>
-                                    <div class="mb-3">
-                                        <label class="form-label">Money</label>
-                                        <input type="text" class="form-control" data-toggle="input-mask" data-mask-format="000.000.000.000.000,00" data-reverse="true">
-                                        <span class="font-13 text-muted">e.g "Your money"</span>
-                                    </div>
-                                    <div>
-                                        <label class="form-label">Money 2</label>
-                                        <input type="text" class="form-control" data-toggle="input-mask" data-mask-format="#.##0,00" data-reverse="true">
-                                        <span class="font-13 text-muted">e.g "#.##0,00"</span>
-                                    </div>
+                    <ul class="nav nav-tabs nav-bordered mb-3">
+                        <li class="nav-item">
+                            <a href="#input-masks-preview" data-bs-toggle="tab" aria-expanded="false" class="nav-link active">
+                                Preview
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#input-masks-code" data-bs-toggle="tab" aria-expanded="true" class="nav-link">
+                                Code
+                            </a>
+                        </li>
+                    </ul> <!-- end nav-->
+                    <div class="tab-content">
+                        <div class="tab-pane show active" id="input-masks-preview">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <form action="#">
+                                        <div class="mb-3">
+                                            <label class="form-label">Date</label>
+                                            <input type="text" class="form-control" data-toggle="input-mask" data-mask-format="00/00/0000">
+                                            <span class="font-13 text-muted">e.g "DD/MM/YYYY"</span>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label class="form-label">Hour</label>
+                                            <input type="text" class="form-control" data-toggle="input-mask" data-mask-format="00:00:00">
+                                            <span class="font-13 text-muted">e.g "HH:MM:SS"</span>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label class="form-label">Date & Hour</label>
+                                            <input type="text" class="form-control" data-toggle="input-mask" data-mask-format="00/00/0000 00:00:00">
+                                            <span class="font-13 text-muted">e.g "DD/MM/YYYY HH:MM:SS"</span>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label class="form-label">ZIP Code</label>
+                                            <input type="text" class="form-control" data-toggle="input-mask" data-mask-format="00000-000">
+                                            <span class="font-13 text-muted">e.g "xxxxx-xxx"</span>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label class="form-label">Crazy Zip Code</label>
+                                            <input type="text" class="form-control" data-toggle="input-mask" data-mask-format="0-00-00-00">
+                                            <span class="font-13 text-muted">e.g "x-xx-xx-xx"</span>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label class="form-label">Money</label>
+                                            <input type="text" class="form-control" data-toggle="input-mask" data-mask-format="000.000.000.000.000,00" data-reverse="true">
+                                            <span class="font-13 text-muted">e.g "Your money"</span>
+                                        </div>
+                                        <div>
+                                            <label class="form-label">Money 2</label>
+                                            <input type="text" class="form-control" data-toggle="input-mask" data-mask-format="#.##0,00" data-reverse="true">
+                                            <span class="font-13 text-muted">e.g "#.##0,00"</span>
+                                        </div>
 
-                                </form>
-                            </div> <!-- end col -->
+                                    </form>
+                                </div> <!-- end col -->
 
-                            <div class="col-md-6">
-                                <form action="#">
-                                    <div class="mb-3">
-                                        <label class="form-label">Telephone</label>
-                                        <input type="text" class="form-control" data-toggle="input-mask" data-mask-format="0000-0000">
-                                        <span class="font-13 text-muted">e.g "xxxx-xxxx"</span>
-                                    </div>
-                                    <div class="mb-3">
-                                        <label class="form-label">Telephone with Code Area</label>
-                                        <input type="text" class="form-control" data-toggle="input-mask" data-mask-format="(00) 0000-0000">
-                                        <span class="font-13 text-muted">e.g "(xx) xxxx-xxxx"</span>
-                                    </div>
-                                    <div class="mb-3">
-                                        <label class="form-label">US Telephone</label>
-                                        <input type="text" class="form-control" data-toggle="input-mask" data-mask-format="(000) 000-0000">
-                                        <span class="font-13 text-muted">e.g "(xxx) xxx-xxxx"</span>
-                                    </div>
-                                    <div class="mb-3">
-                                        <label class="form-label">São Paulo Celphones</label>
-                                        <input type="text" class="form-control" data-toggle="input-mask" data-mask-format="(00) 00000-0000">
-                                        <span class="font-13 text-muted">e.g "(xx) xxxxx-xxxx"</span>
-                                    </div>
-                                    <div class="mb-3">
-                                        <label class="form-label">CPF</label>
-                                        <input type="text" class="form-control" data-toggle="input-mask" data-mask-format="000.000.000-00" data-reverse="true">
-                                        <span class="font-13 text-muted">e.g "xxx.xxx.xxxx-xx"</span>
-                                    </div>
-                                    <div class="mb-3">
-                                        <label class="form-label">CNPJ</label>
-                                        <input type="text" class="form-control" data-toggle="input-mask" data-mask-format="00.000.000/0000-00" data-reverse="true">
-                                        <span class="font-13 text-muted">e.g "xx.xxx.xxx/xxxx-xx"</span>
-                                    </div>
-                                    <div>
-                                        <label class="form-label">IP Address</label>
-                                        <input type="text" class="form-control" data-toggle="input-mask" data-mask-format="099.099.099.099" data-reverse="true">
-                                        <span class="font-13 text-muted">e.g "xxx.xxx.xxx.xxx"</span>
-                                    </div>
-                                </form>
-                            </div> <!-- end col -->
-                        </div>
-                        <!-- end row -->
-                    </div> <!-- end preview-->
+                                <div class="col-md-6">
+                                    <form action="#">
+                                        <div class="mb-3">
+                                            <label class="form-label">Telephone</label>
+                                            <input type="text" class="form-control" data-toggle="input-mask" data-mask-format="0000-0000">
+                                            <span class="font-13 text-muted">e.g "xxxx-xxxx"</span>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label class="form-label">Telephone with Code Area</label>
+                                            <input type="text" class="form-control" data-toggle="input-mask" data-mask-format="(00) 0000-0000">
+                                            <span class="font-13 text-muted">e.g "(xx) xxxx-xxxx"</span>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label class="form-label">US Telephone</label>
+                                            <input type="text" class="form-control" data-toggle="input-mask" data-mask-format="(000) 000-0000">
+                                            <span class="font-13 text-muted">e.g "(xxx) xxx-xxxx"</span>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label class="form-label">São Paulo Celphones</label>
+                                            <input type="text" class="form-control" data-toggle="input-mask" data-mask-format="(00) 00000-0000">
+                                            <span class="font-13 text-muted">e.g "(xx) xxxxx-xxxx"</span>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label class="form-label">CPF</label>
+                                            <input type="text" class="form-control" data-toggle="input-mask" data-mask-format="000.000.000-00" data-reverse="true">
+                                            <span class="font-13 text-muted">e.g "xxx.xxx.xxxx-xx"</span>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label class="form-label">CNPJ</label>
+                                            <input type="text" class="form-control" data-toggle="input-mask" data-mask-format="00.000.000/0000-00" data-reverse="true">
+                                            <span class="font-13 text-muted">e.g "xx.xxx.xxx/xxxx-xx"</span>
+                                        </div>
+                                        <div>
+                                            <label class="form-label">IP Address</label>
+                                            <input type="text" class="form-control" data-toggle="input-mask" data-mask-format="099.099.099.099" data-reverse="true">
+                                            <span class="font-13 text-muted">e.g "xxx.xxx.xxx.xxx"</span>
+                                        </div>
+                                    </form>
+                                </div> <!-- end col -->
+                            </div>
+                            <!-- end row -->
+                        </div> <!-- end preview-->
 
-                    <div class="tab-pane code" id="input-masks-code">
-                        <button class="btn-copy-clipboard" data-clipboard-action="copy">Copy</button>
-                        <pre class="mb-0">
+                        <div class="tab-pane code" id="input-masks-code">
+                            <button class="btn-copy-clipboard" data-clipboard-action="copy">Copy</button>
+                            <pre class="mb-0">
                                                     <span class="html escape">
                                                         &lt;!-- Input Mask js --&gt;
                                                         &lt;script src=&quot;assets/vendor/jquery-mask-plugin/jquery.mask.min.js&quot;&gt;&lt;/script&gt;
@@ -1068,84 +1068,84 @@ $this->params['breadcrumbs'][] = $this->title;
                                                         &lt;/div&gt;
                                                     </span>
                                                 </pre> <!-- end highlight-->
-                    </div> <!-- end preview code-->
-                </div> <!-- end tab-content-->
+                        </div> <!-- end preview code-->
+                    </div> <!-- end tab-content-->
 
-            </div> <!-- end card-body -->
-        </div> <!-- end card -->
-    </div> <!-- end col -->
-</div> <!-- end row -->
+                </div> <!-- end card-body -->
+            </div> <!-- end card -->
+        </div> <!-- end col -->
+    </div> <!-- end row -->
 
-<div class="row">
-    <div class="col-12">
-        <div class="card">
-            <div class="card-body">
-                <h4 class="header-title">Bootstrap Touchspin</h4>
-                <p class="text-muted font-14">
-                    A mobile and touch friendly input spinner component for Bootstrap.
-                    Specify attribute <code>data-toggle="touchspin"</code> and your input would be conveterted into touch friendly spinner.
-                </p>
+    <div class="row">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="header-title">Bootstrap Touchspin</h4>
+                    <p class="text-muted font-14">
+                        A mobile and touch friendly input spinner component for Bootstrap.
+                        Specify attribute <code>data-toggle="touchspin"</code> and your input would be conveterted into touch friendly spinner.
+                    </p>
 
-                <ul class="nav nav-tabs nav-bordered mb-3">
-                    <li class="nav-item">
-                        <a href="#touchspin-preview" data-bs-toggle="tab" aria-expanded="false" class="nav-link active">
-                            Preview
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#touchspin-code" data-bs-toggle="tab" aria-expanded="true" class="nav-link">
-                            Code
-                        </a>
-                    </li>
-                </ul> <!-- end nav-->
-                <div class="tab-content">
-                    <div class="tab-pane show active" id="touchspin-preview">
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <div class="mb-3">
-                                    <label class="form-label">Using data attributes</label>
-                                    <input data-toggle="touchspin" type="text" value="55">
-                                </div>
+                    <ul class="nav nav-tabs nav-bordered mb-3">
+                        <li class="nav-item">
+                            <a href="#touchspin-preview" data-bs-toggle="tab" aria-expanded="false" class="nav-link active">
+                                Preview
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#touchspin-code" data-bs-toggle="tab" aria-expanded="true" class="nav-link">
+                                Code
+                            </a>
+                        </li>
+                    </ul> <!-- end nav-->
+                    <div class="tab-content">
+                        <div class="tab-pane show active" id="touchspin-preview">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="mb-3">
+                                        <label class="form-label">Using data attributes</label>
+                                        <input data-toggle="touchspin" type="text" value="55">
+                                    </div>
 
-                                <div class="mb-3">
-                                    <label class="form-label">Example with postfix (large)</label>
-                                    <input data-toggle="touchspin" value="18.20" type="text" data-step="0.1" data-decimals="2" data-bts-postfix="%">
-                                </div>
+                                    <div class="mb-3">
+                                        <label class="form-label">Example with postfix (large)</label>
+                                        <input data-toggle="touchspin" value="18.20" type="text" data-step="0.1" data-decimals="2" data-bts-postfix="%">
+                                    </div>
 
-                                <div class="mb-3">
-                                    <label class="form-label">With prefix</label>
-                                    <input data-toggle="touchspin" type="text" data-bts-prefix="$">
-                                </div>
+                                    <div class="mb-3">
+                                        <label class="form-label">With prefix</label>
+                                        <input data-toggle="touchspin" type="text" data-bts-prefix="$">
+                                    </div>
 
-                                <div class="mb-0">
-                                    <label class="form-label">Change button class</label>
-                                    <input data-toggle="touchspin" value="77" type="text" data-bts-button-down-class="btn btn-danger" data-bts-button-up-class="btn btn-info">
-                                </div>
-                            </div> <!-- end col -->
+                                    <div class="mb-0">
+                                        <label class="form-label">Change button class</label>
+                                        <input data-toggle="touchspin" value="77" type="text" data-bts-button-down-class="btn btn-danger" data-bts-button-up-class="btn btn-info">
+                                    </div>
+                                </div> <!-- end col -->
 
-                            <div class="col-lg-6 mt-3 mt-lg-0">
-                                <div class="mb-3">
-                                    <label class="form-label">Init with empty value:</label>
-                                    <input data-toggle="touchspin" type="text">
-                                </div>
+                                <div class="col-lg-6 mt-3 mt-lg-0">
+                                    <div class="mb-3">
+                                        <label class="form-label">Init with empty value:</label>
+                                        <input data-toggle="touchspin" type="text">
+                                    </div>
 
-                                <div class="mb-3">
-                                    <label class="form-label">Max value - (Default value 100)</label>
-                                    <input data-toggle="touchspin" data-bts-max="500" value="128" data-btn-vertical="true" type="text">
-                                </div>
+                                    <div class="mb-3">
+                                        <label class="form-label">Max value - (Default value 100)</label>
+                                        <input data-toggle="touchspin" data-bts-max="500" value="128" data-btn-vertical="true" type="text">
+                                    </div>
 
-                                <div class="mb-3">
-                                    <label class="form-label">With prefix and postfix button</label>
-                                    <input data-toggle="touchspin" data-bts-prefix="A Button" data-bts-prefix-extra-class="btn btn-light" data-bts-postfix="A Button" data-bts-postfix-extra-class="btn btn-light" type="text">
-                                </div>
-                            </div> <!-- end col -->
-                        </div>
-                        <!-- end row -->
-                    </div> <!-- end preview-->
+                                    <div class="mb-3">
+                                        <label class="form-label">With prefix and postfix button</label>
+                                        <input data-toggle="touchspin" data-bts-prefix="A Button" data-bts-prefix-extra-class="btn btn-light" data-bts-postfix="A Button" data-bts-postfix-extra-class="btn btn-light" type="text">
+                                    </div>
+                                </div> <!-- end col -->
+                            </div>
+                            <!-- end row -->
+                        </div> <!-- end preview-->
 
-                    <div class="tab-pane code" id="touchspin-code">
-                        <button class="btn-copy-clipboard" data-clipboard-action="copy">Copy</button>
-                        <pre class="mb-0">
+                        <div class="tab-pane code" id="touchspin-code">
+                            <button class="btn-copy-clipboard" data-clipboard-action="copy">Copy</button>
+                            <pre class="mb-0">
                                                     <span class="html escape">
                                                         &lt;!-- Bootstrap Touchspin css --&gt;
                                                         &lt;link href=&quot;assets/vendor/bootstrap-touchspin/jquery.bootstrap-touchspin.min.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot; /&gt;
@@ -1189,93 +1189,93 @@ $this->params['breadcrumbs'][] = $this->title;
                                                         &lt;/div&gt;
                                                     </span>
                                                 </pre> <!-- end highlight-->
-                    </div> <!-- end preview code-->
-                </div> <!-- end tab-content-->
+                        </div> <!-- end preview code-->
+                    </div> <!-- end tab-content-->
 
-            </div> <!-- end card-body -->
-        </div> <!-- end card-->
-    </div> <!-- end col -->
-</div>
-<!-- end row -->
+                </div> <!-- end card-body -->
+            </div> <!-- end card-->
+        </div> <!-- end col -->
+    </div>
+    <!-- end row -->
 
-<div class="row">
-    <div class="col-12">
-        <div class="card">
-            <div class="card-body">
-                <h4 class="header-title">Bootstrap Maxlength</h4>
-                <p class="text-muted font-14">
-                    Uses the HTML5 attribute "maxlength" to work. Just specify <code>data-toggle="maxlength"</code> attribute
-                    to have maxlength indication on any input.
-                </p>
+    <div class="row">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="header-title">Bootstrap Maxlength</h4>
+                    <p class="text-muted font-14">
+                        Uses the HTML5 attribute "maxlength" to work. Just specify <code>data-toggle="maxlength"</code> attribute
+                        to have maxlength indication on any input.
+                    </p>
 
-                <ul class="nav nav-tabs nav-bordered mb-3">
-                    <li class="nav-item">
-                        <a href="#maxlength-preview" data-bs-toggle="tab" aria-expanded="false" class="nav-link active">
-                            Preview
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#maxlength-code" data-bs-toggle="tab" aria-expanded="true" class="nav-link">
-                            Code
-                        </a>
-                    </li>
-                </ul> <!-- end nav-->
-                <div class="tab-content">
-                    <div class="tab-pane show active" id="maxlength-preview">
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <div class="mb-3">
-                                    <label class="form-label">Default usage</label>
-                                    <p class="text-muted font-13">
-                                        The badge will show up by default when the remaining chars are 10 or less:
-                                    </p>
-                                    <input type="text" class="form-control" maxlength="25" data-toggle="maxlength">
-                                </div>
+                    <ul class="nav nav-tabs nav-bordered mb-3">
+                        <li class="nav-item">
+                            <a href="#maxlength-preview" data-bs-toggle="tab" aria-expanded="false" class="nav-link active">
+                                Preview
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#maxlength-code" data-bs-toggle="tab" aria-expanded="true" class="nav-link">
+                                Code
+                            </a>
+                        </li>
+                    </ul> <!-- end nav-->
+                    <div class="tab-content">
+                        <div class="tab-pane show active" id="maxlength-preview">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="mb-3">
+                                        <label class="form-label">Default usage</label>
+                                        <p class="text-muted font-13">
+                                            The badge will show up by default when the remaining chars are 10 or less:
+                                        </p>
+                                        <input type="text" class="form-control" maxlength="25" data-toggle="maxlength">
+                                    </div>
 
-                                <div class="mb-3">
-                                    <label class="form-label">Threshold value</label>
-                                    <p class="text-muted font-13">
-                                        Satrt displaying the indication when reached to some threshhold. Specift the data attribute <code>threshold</code>. E.g.
-                                        <code>data-threshold="12"</code>
-                                    </p>
-                                    <input type="text" class="form-control" maxlength="25" data-toggle="maxlength" data-threshold="12">
-                                </div>
-                            </div> <!-- end col -->
+                                    <div class="mb-3">
+                                        <label class="form-label">Threshold value</label>
+                                        <p class="text-muted font-13">
+                                            Satrt displaying the indication when reached to some threshhold. Specift the data attribute <code>threshold</code>. E.g.
+                                            <code>data-threshold="12"</code>
+                                        </p>
+                                        <input type="text" class="form-control" maxlength="25" data-toggle="maxlength" data-threshold="12">
+                                    </div>
+                                </div> <!-- end col -->
 
-                            <div class="col-lg-6 mt-3 mt-lg-0">
-                                <div class="mb-3">
-                                    <label class="form-label">Position</label>
-                                    <p class="text-muted font-13">
-                                        All you need to do is specify the data attribute <code>placement</code>. The possible positions are left, top, right, bottom-right, top-right, top-left,
-                                        bottom, bottom-left and centered-right. If none is specified, the positioning will be defauted to 'bottom'.
-                                        E.g. <code>data-placement="top"</code>
-                                    </p>
-                                    <input type="text" class="form-control" maxlength="25" data-toggle="maxlength" data-placement="top">
-                                </div>
+                                <div class="col-lg-6 mt-3 mt-lg-0">
+                                    <div class="mb-3">
+                                        <label class="form-label">Position</label>
+                                        <p class="text-muted font-13">
+                                            All you need to do is specify the data attribute <code>placement</code>. The possible positions are left, top, right, bottom-right, top-right, top-left,
+                                            bottom, bottom-left and centered-right. If none is specified, the positioning will be defauted to 'bottom'.
+                                            E.g. <code>data-placement="top"</code>
+                                        </p>
+                                        <input type="text" class="form-control" maxlength="25" data-toggle="maxlength" data-placement="top">
+                                    </div>
 
-                                <div>
-                                    <label class="form-label">Textareas</label>
-                                    <p class="text-muted font-13">
-                                        Bootstrap maxlength supports textarea as well as inputs. Even on old IE.
-                                    </p>
-                                    <textarea data-toggle="maxlength" class="form-control" maxlength="225" rows="3"
-                                              placeholder="This textarea has a limit of 225 chars."></textarea>
-                                </div>
-                            </div> <!-- end col -->
-                        </div>
-                        <!-- end row -->
-                    </div> <!-- end preview-->
+                                    <div>
+                                        <label class="form-label">Textareas</label>
+                                        <p class="text-muted font-13">
+                                            Bootstrap maxlength supports textarea as well as inputs. Even on old IE.
+                                        </p>
+                                        <textarea data-toggle="maxlength" class="form-control" maxlength="225" rows="3"
+                                                  placeholder="This textarea has a limit of 225 chars."></textarea>
+                                    </div>
+                                </div> <!-- end col -->
+                            </div>
+                            <!-- end row -->
+                        </div> <!-- end preview-->
 
-                    <div class="tab-pane code" id="maxlength-code">
-                        <button class="btn-copy-clipboard" data-clipboard-action="copy">Copy</button>
-                        <pre class="mb-0">
+                        <div class="tab-pane code" id="maxlength-code">
+                            <button class="btn-copy-clipboard" data-clipboard-action="copy">Copy</button>
+                            <pre class="mb-0">
                                                     <span class="html escape">
                                                         &lt;!-- Bootstrap Maxlength js --&gt;
                                                         &lt;script src=&quot;assets/vendor/bootstrap-maxlength/bootstrap-maxlength.min.js&quot;&gt;&lt;/script&gt;
                                                     </span>
                                                 </pre> <!-- end highlight-->
-                        <button class="btn-copy-clipboard" data-clipboard-action="copy">Copy</button>
-                        <pre class="mb-0">
+                            <button class="btn-copy-clipboard" data-clipboard-action="copy">Copy</button>
+                            <pre class="mb-0">
                                                     <span class="html escape">
                                                         &lt;div class=&quot;mb-3&quot;&gt;
                                                             &lt;label class=&quot;form-label&quot;&gt;Default usage&lt;/label&gt;
@@ -1314,75 +1314,75 @@ $this->params['breadcrumbs'][] = $this->title;
                                                         &lt;/div&gt;
                                                     </span>
                                                 </pre> <!-- end highlight-->
-                    </div> <!-- end preview code-->
-                </div> <!-- end tab-content-->
+                        </div> <!-- end preview code-->
+                    </div> <!-- end tab-content-->
 
-            </div> <!-- end card-body -->
-        </div> <!-- end card-->
-    </div> <!-- end col -->
-</div>
-<!-- end row -->
+                </div> <!-- end card-body -->
+            </div> <!-- end card-->
+        </div> <!-- end col -->
+    </div>
+    <!-- end row -->
 
 
-<div class="row">
-    <div class="col-12">
-        <div class="card">
-            <div class="card-body">
-                <h4 class="header-title">Timepicker</h4>
-                <p class="text-muted font-14">
-                    Easily select a time for a text input using your mouse or keyboards arrow keys. Specify attribute <code>data-toggle="timepicker"</code>
-                    and you would have nice timepicker input element.
-                </p>
+    <div class="row">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="header-title">Timepicker</h4>
+                    <p class="text-muted font-14">
+                        Easily select a time for a text input using your mouse or keyboards arrow keys. Specify attribute <code>data-toggle="timepicker"</code>
+                        and you would have nice timepicker input element.
+                    </p>
 
-                <ul class="nav nav-tabs nav-bordered mb-3">
-                    <li class="nav-item">
-                        <a href="#timepicker-preview" data-bs-toggle="tab" aria-expanded="false" class="nav-link active">
-                            Preview
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#timepicker-code" data-bs-toggle="tab" aria-expanded="true" class="nav-link">
-                            Code
-                        </a>
-                    </li>
-                </ul> <!-- end nav-->
-                <div class="tab-content">
-                    <div class="tab-pane show active" id="timepicker-preview">
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <div class="mb-3">
-                                    <label class="form-label">Default Time Picker</label>
-                                    <div class="input-group" id="timepicker-input-group1">
-                                        <input id="timepicker" type="text" class="form-control" data-provide="timepicker">
-                                        <span class="input-group-text"><i class="ri-time-line"></i></span>
+                    <ul class="nav nav-tabs nav-bordered mb-3">
+                        <li class="nav-item">
+                            <a href="#timepicker-preview" data-bs-toggle="tab" aria-expanded="false" class="nav-link active">
+                                Preview
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#timepicker-code" data-bs-toggle="tab" aria-expanded="true" class="nav-link">
+                                Code
+                            </a>
+                        </li>
+                    </ul> <!-- end nav-->
+                    <div class="tab-content">
+                        <div class="tab-pane show active" id="timepicker-preview">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="mb-3">
+                                        <label class="form-label">Default Time Picker</label>
+                                        <div class="input-group" id="timepicker-input-group1">
+                                            <input id="timepicker" type="text" class="form-control" data-provide="timepicker">
+                                            <span class="input-group-text"><i class="ri-time-line"></i></span>
+                                        </div>
                                     </div>
-                                </div>
 
-                                <div class="mb-0">
-                                    <label class="form-label">24 Hour Mode Time Picker E.g. <code>data-show-meridian="false"</code></label>
-                                    <div class="input-group" id="timepicker-input-group2">
-                                        <input id="timepicker2" type="text" class="form-control" data-provide='timepicker' data-show-meridian="false">
-                                        <span class="input-group-text"><i class="ri-time-line"></i></span>
+                                    <div class="mb-0">
+                                        <label class="form-label">24 Hour Mode Time Picker E.g. <code>data-show-meridian="false"</code></label>
+                                        <div class="input-group" id="timepicker-input-group2">
+                                            <input id="timepicker2" type="text" class="form-control" data-provide='timepicker' data-show-meridian="false">
+                                            <span class="input-group-text"><i class="ri-time-line"></i></span>
+                                        </div>
                                     </div>
-                                </div>
-                            </div> <!-- end col -->
+                                </div> <!-- end col -->
 
-                            <div class="col-lg-6 mt-3 mt-lg-0">
-                                <div class="mb-0">
-                                    <label class="form-label">Specify a step for the minute field E.g. <code>data-minute-step="5"</code></label>
-                                    <div class="input-group" id="timepicker-input-group3">
-                                        <input id="timepicker3" type="text" class="form-control" data-provide='timepicker' data-minute-step="5">
-                                        <span class="input-group-text"><i class="ri-time-line"></i></span>
+                                <div class="col-lg-6 mt-3 mt-lg-0">
+                                    <div class="mb-0">
+                                        <label class="form-label">Specify a step for the minute field E.g. <code>data-minute-step="5"</code></label>
+                                        <div class="input-group" id="timepicker-input-group3">
+                                            <input id="timepicker3" type="text" class="form-control" data-provide='timepicker' data-minute-step="5">
+                                            <span class="input-group-text"><i class="ri-time-line"></i></span>
+                                        </div>
                                     </div>
-                                </div>
-                            </div> <!-- end col -->
-                        </div>
-                        <!-- end row -->
-                    </div> <!-- end preview-->
+                                </div> <!-- end col -->
+                            </div>
+                            <!-- end row -->
+                        </div> <!-- end preview-->
 
-                    <div class="tab-pane code" id="timepicker-code">
-                        <button class="btn-copy-clipboard" data-clipboard-action="copy">Copy</button>
-                        <pre class="mb-0">
+                        <div class="tab-pane code" id="timepicker-code">
+                            <button class="btn-copy-clipboard" data-clipboard-action="copy">Copy</button>
+                            <pre class="mb-0">
                                                     <span class="html escape">
                                                         &lt;!-- Bootstrap Timepicker css --&gt;
                                                         &lt;link href=&quot;assets/vendor/bootstrap-timepicker/css/bootstrap-timepicker.min.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot; /&gt;
@@ -1391,8 +1391,8 @@ $this->params['breadcrumbs'][] = $this->title;
                                                         &lt;script src=&quot;assets/vendor/bootstrap-timepicker/js/bootstrap-timepicker.min.js&quot;&gt;&lt;/script&gt;
                                                     </span>
                                                 </pre> <!-- end highlight-->
-                        <button class="btn-copy-clipboard" data-clipboard-action="copy">Copy</button>
-                        <pre class="mb-0">
+                            <button class="btn-copy-clipboard" data-clipboard-action="copy">Copy</button>
+                            <pre class="mb-0">
                                                     <span class="html escape">
                                                         &lt;div class=&quot;mb-3&quot;&gt;
                                                             &lt;label class=&quot;form-label&quot;&gt;Default Time Picker&lt;/label&gt;
@@ -1419,103 +1419,103 @@ $this->params['breadcrumbs'][] = $this->title;
                                                         &lt;/div&gt;
                                                     </span>
                                                 </pre> <!-- end highlight-->
-                    </div> <!-- end preview code-->
-                </div> <!-- end tab-content-->
+                        </div> <!-- end preview code-->
+                    </div> <!-- end tab-content-->
 
-            </div> <!-- end card-body -->
-        </div> <!-- end card-->
-    </div> <!-- end col -->
-</div>
-<!-- end row -->
+                </div> <!-- end card-body -->
+            </div> <!-- end card-->
+        </div> <!-- end col -->
+    </div>
+    <!-- end row -->
 
-<div class="row">
-    <div class="col-12">
-        <div class="card">
-            <div class="card-body">
-                <h4 class="header-title">Typeahead</h4>
-                <p class="text-muted font-14">
-                    Typeahead.js is a fast and fully-featured autocomplete library.
-                </p>
+    <div class="row">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="header-title">Typeahead</h4>
+                    <p class="text-muted font-14">
+                        Typeahead.js is a fast and fully-featured autocomplete library.
+                    </p>
 
-                <ul class="nav nav-tabs nav-bordered mb-3">
-                    <li class="nav-item">
-                        <a href="#typeahead-preview" data-bs-toggle="tab" aria-expanded="false" class="nav-link active">
-                            Preview
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#typeahead-code" data-bs-toggle="tab" aria-expanded="true" class="nav-link">
-                            Code
-                        </a>
-                    </li>
-                </ul> <!-- end nav-->
-                <div class="tab-content">
-                    <div class="tab-pane show active" id="typeahead-preview">
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <div class="mb-3">
-                                    <label class="form-label">The Basics</label>
-                                    <input type="text" class="form-control" data-provide="typeahead" id="the-basics" placeholder="Basic Example">
-                                </div>
-                            </div> <!-- end col -->
+                    <ul class="nav nav-tabs nav-bordered mb-3">
+                        <li class="nav-item">
+                            <a href="#typeahead-preview" data-bs-toggle="tab" aria-expanded="false" class="nav-link active">
+                                Preview
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#typeahead-code" data-bs-toggle="tab" aria-expanded="true" class="nav-link">
+                                Code
+                            </a>
+                        </li>
+                    </ul> <!-- end nav-->
+                    <div class="tab-content">
+                        <div class="tab-pane show active" id="typeahead-preview">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="mb-3">
+                                        <label class="form-label">The Basics</label>
+                                        <input type="text" class="form-control" data-provide="typeahead" id="the-basics" placeholder="Basic Example">
+                                    </div>
+                                </div> <!-- end col -->
 
-                            <div class="col-lg-6 mt-3 mt-lg-0">
-                                <div class="mb-3">
-                                    <label class="form-label">Bloodhound (Suggestion Engine)</label>
-                                    <input id="bloodhound" class="form-control" type="text" placeholder="States of USA">
-                                </div>
-                            </div> <!-- end col -->
-                        </div>
-                        <!-- end row -->
+                                <div class="col-lg-6 mt-3 mt-lg-0">
+                                    <div class="mb-3">
+                                        <label class="form-label">Bloodhound (Suggestion Engine)</label>
+                                        <input id="bloodhound" class="form-control" type="text" placeholder="States of USA">
+                                    </div>
+                                </div> <!-- end col -->
+                            </div>
+                            <!-- end row -->
 
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <div class="mb-3">
-                                    <label class="form-label">Prefetch</label>
-                                    <input type="text" class="form-control" data-provide="typeahead" id="prefetch" placeholder="States of USA">
-                                </div>
-                            </div> <!-- end col -->
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="mb-3">
+                                        <label class="form-label">Prefetch</label>
+                                        <input type="text" class="form-control" data-provide="typeahead" id="prefetch" placeholder="States of USA">
+                                    </div>
+                                </div> <!-- end col -->
 
-                            <div class="col-lg-6 mt-3 mt-lg-0">
-                                <div class="mb-3">
-                                    <label class="form-label">Remote</label>
-                                    <input type="text" class="form-control" data-provide="typeahead" id="remote" placeholder="States of USA">
-                                </div>
-                            </div> <!-- end col -->
-                        </div>
-                        <!-- end row -->
+                                <div class="col-lg-6 mt-3 mt-lg-0">
+                                    <div class="mb-3">
+                                        <label class="form-label">Remote</label>
+                                        <input type="text" class="form-control" data-provide="typeahead" id="remote" placeholder="States of USA">
+                                    </div>
+                                </div> <!-- end col -->
+                            </div>
+                            <!-- end row -->
 
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <div class="mb-3">
-                                    <label class="form-label">Custom Templates</label>
-                                    <input id="custom-templates" class="form-control" type="text" placeholder="States of USA">
-                                </div>
-                            </div> <!-- end col -->
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="mb-3">
+                                        <label class="form-label">Custom Templates</label>
+                                        <input id="custom-templates" class="form-control" type="text" placeholder="States of USA">
+                                    </div>
+                                </div> <!-- end col -->
 
-                            <div class="col-lg-6 mt-3 mt-lg-0">
-                                <div class="mb-3">
-                                    <label class="form-label">Default Suggestions</label>
-                                    <input type="text" class="form-control" data-provide="typeahead" id="default-suggestions">
-                                </div>
-                            </div> <!-- end col -->
-                        </div>
-                        <!-- end row -->
+                                <div class="col-lg-6 mt-3 mt-lg-0">
+                                    <div class="mb-3">
+                                        <label class="form-label">Default Suggestions</label>
+                                        <input type="text" class="form-control" data-provide="typeahead" id="default-suggestions">
+                                    </div>
+                                </div> <!-- end col -->
+                            </div>
+                            <!-- end row -->
 
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <div class="mb-0">
-                                    <label class="form-label">Multiple Datasets</label>
-                                    <input type="text" class="form-control" data-provide="typeahead" id="multiple-datasets">
-                                </div>
-                            </div> <!-- end col -->
-                        </div>
-                        <!-- end row -->
-                    </div> <!-- end preview-->
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="mb-0">
+                                        <label class="form-label">Multiple Datasets</label>
+                                        <input type="text" class="form-control" data-provide="typeahead" id="multiple-datasets">
+                                    </div>
+                                </div> <!-- end col -->
+                            </div>
+                            <!-- end row -->
+                        </div> <!-- end preview-->
 
-                    <div class="tab-pane code" id="typeahead-code">
-                        <button class="btn-copy-clipboard" data-clipboard-action="copy">Copy</button>
-                        <pre class="mb-0">
+                        <div class="tab-pane code" id="typeahead-code">
+                            <button class="btn-copy-clipboard" data-clipboard-action="copy">Copy</button>
+                            <pre class="mb-0">
                                                     <span class="html escape">
                                                         &lt;!-- Typehead --&gt;
                                                         &lt;script src=&quot;assets/vendor/handlebars/handlebars.min.js&quot;&gt;&lt;/script&gt;
@@ -1560,11 +1560,12 @@ $this->params['breadcrumbs'][] = $this->title;
                                                         &lt;/div&gt;
                                                     </span>
                                                 </pre> <!-- end highlight-->
-                    </div> <!-- end preview code-->
-                </div> <!-- end tab-content-->
+                        </div> <!-- end preview code-->
+                    </div> <!-- end tab-content-->
 
-            </div> <!-- end card-body -->
-        </div> <!-- end card-->
-    </div> <!-- end col -->
+                </div> <!-- end card-body -->
+            </div> <!-- end card-->
+        </div> <!-- end col -->
+    </div>
+    <!-- end row -->
 </div>
-<!-- end row -->

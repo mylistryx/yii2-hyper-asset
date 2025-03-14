@@ -6,11 +6,9 @@ use yii\web\Controller;
 
 final class TablesController extends Controller
 {
-    public $layout = 'main-ui';
-
     public function init(): void
     {
-        $this->view->params['breadcrumbs'][] = ['label' => 'Tables', 'url' => ['index']];
+        $this->view->params['breadcrumbs'][] = ['label' => 'Tables'];
         parent::init();
     }
 

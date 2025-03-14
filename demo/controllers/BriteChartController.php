@@ -6,11 +6,9 @@ use yii\web\Controller;
 
 final class BriteChartController extends Controller
 {
-    public $layout = 'main-ui';
-
     public function init(): void
     {
-        $this->view->params['breadcrumbs'][] = ['label' => 'Brite charts', 'url' => ['index']];
+        $this->view->params['breadcrumbs'][] = ['label' => 'Brite charts'];
         parent::init();
     }
 

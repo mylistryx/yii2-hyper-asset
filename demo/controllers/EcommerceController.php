@@ -6,6 +6,11 @@ use yii\web\Controller;
 
 final class EcommerceController extends Controller
 {
+    public function init(): void
+    {
+        $this->view->params['breadcrumbs'][] = ['label' => 'Ecommerce'];
+        parent::init();
+    }
     public function actionCheckout(): string
     {
         return $this->render('checkout');

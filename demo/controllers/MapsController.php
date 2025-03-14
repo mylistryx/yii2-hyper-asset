@@ -6,11 +6,9 @@ use yii\web\Controller;
 
 final class MapsController extends Controller
 {
-    public $layout = 'main-ui';
-
     public function init(): void
     {
-        $this->view->params['breadcrumbs'][] = ['label' => 'Maps', 'url' => ['index']];
+        $this->view->params['breadcrumbs'][] = ['label' => 'Maps'];
         parent::init();
     }
 

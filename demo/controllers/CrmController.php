@@ -5,6 +5,11 @@ use yii\web\Controller;
 
 final class CrmController extends Controller
 {
+    public function init(): void
+    {
+        $this->view->params['breadcrumbs'][] = ['label' => 'CRM'];
+        parent::init();
+    }
     public function actionClients(): string
     {
         return $this->render('clients');

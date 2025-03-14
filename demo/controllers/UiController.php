@@ -6,11 +6,9 @@ use yii\web\Controller;
 
 final class UiController extends Controller
 {
-    public $layout = 'main-ui';
-
     public function init(): void
     {
-        $this->view->params['breadcrumbs'][] = ['label' => 'Base UI', 'url' => ['index']];
+        $this->view->params['breadcrumbs'][] = ['label' => 'Base UI'];
         parent::init();
     }
 

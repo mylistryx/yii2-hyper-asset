@@ -6,11 +6,9 @@ use yii\web\Controller;
 
 final class SparklineChartController extends Controller
 {
-    public $layout = 'main-ui';
-
     public function init(): void
     {
-        $this->view->params['breadcrumbs'][] = ['label' => 'Sparkline charts', 'url' => ['index']];
+        $this->view->params['breadcrumbs'][] = ['label' => 'Sparkline charts'];
         parent::init();
     }
 

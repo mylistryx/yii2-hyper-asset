@@ -6,6 +6,11 @@ use yii\web\Controller;
 
 final class ProjectsController extends Controller
 {
+    public function init(): void
+    {
+        $this->view->params['breadcrumbs'][] = ['label' => 'Projects'];
+        parent::init();
+    }
     public function actionAdd(): string
     {
         return $this->render('add');

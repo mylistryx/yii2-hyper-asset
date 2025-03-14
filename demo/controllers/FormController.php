@@ -6,11 +6,9 @@ use yii\web\Controller;
 
 final class FormController extends Controller
 {
-    public $layout = 'main-ui';
-
     public function init(): void
     {
-        $this->view->params['breadcrumbs'][] = ['label' => 'Forms', 'url' => ['index']];
+        $this->view->params['breadcrumbs'][] = ['label' => 'Forms'];
         parent::init();
     }
 

@@ -6,6 +6,12 @@ use yii\web\Controller;
 
 final class TasksController extends Controller
 {
+    public function init(): void
+    {
+        $this->view->params['breadcrumbs'][] = ['label' => 'Tasks'];
+        parent::init();
+    }
+
     public function actionIndex(): string
     {
         return $this->render('index');

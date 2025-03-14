@@ -516,7 +516,7 @@ use yii\web\View;
                 <div class="collapse" id="sidebarIcons">
                     <ul class="side-nav-second-level">
                         <li>
-                            <a href="/icons/remixicons">Remix Icons</a>
+                            <a href="/icons/remix">Remix Icons</a>
                         </li>
                         <li>
                             <a href="/icons/mdi">Material Design</a>
