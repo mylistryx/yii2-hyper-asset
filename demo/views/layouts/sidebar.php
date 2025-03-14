@@ -479,29 +479,29 @@ use yii\web\View;
                 <div class="collapse" id="sidebarExtendedUI">
                     <ul class="side-nav-second-level">
                         <li>
-                            <a href="extended-dragula.html">Dragula</a>
+                            <a href="/extended/dragula">Dragula</a>
                         </li>
                         <li>
-                            <a href="extended-range-slider.html">Range Slider</a>
+                            <a href="/extended/range-slider">Range Slider</a>
                         </li>
                         <li>
-                            <a href="extended-ratings.html">Ratings</a>
+                            <a href="/extended/ratings">Ratings</a>
                         </li>
                         <li>
-                            <a href="extended-scrollbar.html">Scrollbar</a>
+                            <a href="/extended/scrollbar">Scrollbar</a>
                         </li>
                         <li>
-                            <a href="extended-scrollspy.html">Scrollspy</a>
+                            <a href="/extended/scrollspy">Scrollspy</a>
                         </li>
                         <li>
-                            <a href="extended-treeview.html">Treeview</a>
+                            <a href="/extended/treeview">Treeview</a>
                         </li>
                     </ul>
                 </div>
             </li>
 
             <li class="side-nav-item">
-                <a href="widgets.html" class="side-nav-link">
+                <a href="/widgets" class="side-nav-link">
                     <i class="uil-layer-group"></i>
                     <span> Widgets </span>
                 </a>
@@ -516,13 +516,13 @@ use yii\web\View;
                 <div class="collapse" id="sidebarIcons">
                     <ul class="side-nav-second-level">
                         <li>
-                            <a href="icons-remixicons.html">Remix Icons</a>
+                            <a href="/icons/remixicons">Remix Icons</a>
                         </li>
                         <li>
-                            <a href="icons-mdi.html">Material Design</a>
+                            <a href="/icons/mdi">Material Design</a>
                         </li>
                         <li>
-                            <a href="icons-unicons.html">Unicons</a>
+                            <a href="/icons/unicons">Unicons</a>
                         </li>
                     </ul>
                 </div>
@@ -544,55 +544,55 @@ use yii\web\View;
                             <div class="collapse" id="sidebarApexCharts">
                                 <ul class="side-nav-third-level">
                                     <li>
-                                        <a href="charts-apex-area.html">Area</a>
+                                        <a href="/apex-chart/area">Area</a>
                                     </li>
                                     <li>
-                                        <a href="charts-apex-bar.html">Bar</a>
+                                        <a href="/apex-chart/bar">Bar</a>
                                     </li>
                                     <li>
-                                        <a href="charts-apex-bubble.html">Bubble</a>
+                                        <a href="/apex-chart/boxplot">Boxplot</a>
                                     </li>
                                     <li>
-                                        <a href="charts-apex-candlestick.html">Candlestick</a>
+                                        <a href="/apex-chart/bubble">Bubble</a>
                                     </li>
                                     <li>
-                                        <a href="charts-apex-column.html">Column</a>
+                                        <a href="/apex-chart/candlestick">Candlestick</a>
                                     </li>
                                     <li>
-                                        <a href="charts-apex-heatmap.html">Heatmap</a>
+                                        <a href="/apex-chart/column">Column</a>
                                     </li>
                                     <li>
-                                        <a href="charts-apex-line.html">Line</a>
+                                        <a href="/apex-chart/heatmap">Heatmap</a>
                                     </li>
                                     <li>
-                                        <a href="charts-apex-mixed.html">Mixed</a>
+                                        <a href="/apex-chart/line">Line</a>
                                     </li>
                                     <li>
-                                        <a href="charts-apex-timeline.html">Timeline</a>
+                                        <a href="/apex-chart/mixed">Mixed</a>
                                     </li>
                                     <li>
-                                        <a href="charts-apex-boxplot.html">Boxplot</a>
+                                        <a href="/apex-chart/pie">Pie</a>
                                     </li>
                                     <li>
-                                        <a href="charts-apex-treemap.html">Treemap</a>
+                                        <a href="/apex-chart/polar-area">Polar Area</a>
                                     </li>
                                     <li>
-                                        <a href="charts-apex-pie.html">Pie</a>
+                                        <a href="/apex-chart/radar">Radar</a>
                                     </li>
                                     <li>
-                                        <a href="charts-apex-radar.html">Radar</a>
+                                        <a href="/apex-chart/radialbar">Radial Bar</a>
                                     </li>
                                     <li>
-                                        <a href="charts-apex-radialbar.html">RadialBar</a>
+                                        <a href="/apex-chart/scatter">Scatter</a>
                                     </li>
                                     <li>
-                                        <a href="charts-apex-scatter.html">Scatter</a>
+                                        <a href="/apex-chart/sparklines">Sparklines</a>
                                     </li>
                                     <li>
-                                        <a href="charts-apex-polar-area.html">Polar Area</a>
+                                        <a href="/apex-chart/timeline">Timeline</a>
                                     </li>
                                     <li>
-                                        <a href="charts-apex-sparklines.html">Sparklines</a>
+                                        <a href="/apex-chart/treemap">Treemap</a>
                                     </li>
                                 </ul>
                             </div>
@@ -605,26 +605,25 @@ use yii\web\View;
                             <div class="collapse" id="sidebarChartJSCharts">
                                 <ul class="side-nav-third-level">
                                     <li>
-                                        <a href="charts-chartjs-area.html">Area</a>
+                                        <a href="/chart-js/area">Area</a>
                                     </li>
                                     <li>
-                                        <a href="charts-chartjs-bar.html">Bar</a>
+                                        <a href="/chart-js/bar">Bar</a>
                                     </li>
                                     <li>
-                                        <a href="charts-chartjs-line.html">Line</a>
+                                        <a href="/chart-js/line">Line</a>
                                     </li>
                                     <li>
-                                        <a href="charts-chartjs-other.html">Other</a>
+                                        <a href="/chart-js/other">Other</a>
                                     </li>
-
                                 </ul>
                             </div>
                         </li>
                         <li>
-                            <a href="charts-brite.html">Britecharts</a>
+                            <a href="/brite-chart">Britecharts</a>
                         </li>
                         <li>
-                            <a href="charts-sparkline.html">Sparklines</a>
+                            <a href="/sparkline-chart">Sparklines</a>
                         </li>
                     </ul>
                 </div>

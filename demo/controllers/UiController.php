@@ -83,4 +83,59 @@ final class UiController extends Controller
     {
         return $this->render('notifications');
     }
+
+    public function actionOffcanvas(): string
+    {
+        return $this->render('offcanvas');
+    }
+
+    public function actionPagination(): string
+    {
+        return $this->render('pagination');
+    }
+
+    public function actionPlaceholders(): string
+    {
+        return $this->render('placeholders');
+    }
+
+    public function actionPopovers(): string
+    {
+        return $this->render('popovers');
+    }
+
+    public function actionProgress(): string
+    {
+        return $this->render('progress');
+    }
+
+    public function actionRibbons(): string
+    {
+        return $this->render('ribbons');
+    }
+
+    public function actionSpinners(): string
+    {
+        return $this->render('spinners');
+    }
+
+    public function actionTabs(): string
+    {
+        return $this->render('tabs');
+    }
+
+    public function actionTooltips(): string
+    {
+        return $this->render('tooltips');
+    }
+
+    public function actionTypography(): string
+    {
+        return $this->render('typography');
+    }
+
+    public function actionUtilities(): string
+    {
+        return $this->render('utilities');
+    }
 }
