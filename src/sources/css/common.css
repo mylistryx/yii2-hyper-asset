@@ -1,0 +1,6 @@
+.table-header a {
+    color: var(--ct-table-color);
+    /*text-decoration-style: dashed;*/
+    /*text-decoration-line: underline;*/
+    /*text-underline-offset: 2px;*/
+}
