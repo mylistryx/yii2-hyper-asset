@@ -80,7 +80,7 @@ CodeHighLightAsset::register($this);
                                                         &lt;div class=&quot;row&quot;&gt;
                                                             &lt;div class=&quot;col-md-6&quot;&gt;
                                                                 &lt;div class=&quot;card border shadow-none mb-md-0&quot;&gt;
-                                                                    &lt;img src=&quot;assets/images/small/small-1.jpg&quot; class=&quot;card-img-top&quot; alt=&quot;...&quot;&gt;
+                                                                    &lt;img src=&quot;/images/small/small-1.jpg&quot; class=&quot;card-img-top&quot; alt=&quot;...&quot;&gt;
 
                                                                     &lt;div class=&quot;card-body&quot;&gt;
                                                                         &lt;h5 class=&quot;card-title&quot;&gt;Card title&lt;/h5&gt;
@@ -93,7 +93,7 @@ CodeHighLightAsset::register($this);
 
                                                             &lt;div class=&quot;col-md-6&quot;&gt;
                                                                 &lt;div class=&quot;card border shadow-none mb-0&quot; aria-hidden=&quot;true&quot;&gt;
-                                                                    &lt;img src=&quot;assets/images/small/small-2.jpg&quot; class=&quot;card-img-top&quot; alt=&quot;...&quot;&gt;
+                                                                    &lt;img src=&quot;/images/small/small-2.jpg&quot; class=&quot;card-img-top&quot; alt=&quot;...&quot;&gt;
                                                                     &lt;div class=&quot;card-body&quot;&gt;
                                                                         &lt;h5 class=&quot;card-title placeholder-glow&quot;&gt;
                                                                             &lt;span class=&quot;placeholder col-6&quot;&gt;&lt;/span&gt;

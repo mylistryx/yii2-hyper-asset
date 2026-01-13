@@ -130,8 +130,8 @@ $this->registerJsFile('/js/ui/component.dragula.js', ['depends' => DragulaAsset:
                             <button class="btn-copy-clipboard" data-clipboard-action="copy">Copy</button>
                             <pre class="mb-0">
                                                     <span class="html escape">
-                                                        &lt;script src=&quot;assets/vendor/dragula/dragula.min.js&quot;&gt;&lt;/script&gt;
-                                                        &lt;script src=&quot;assets/js/ui/component.dragula.js&quot;&gt;&lt;/script&gt;
+                                                        &lt;script src=&quot;/vendor/dragula/dragula.min.js&quot;&gt;&lt;/script&gt;
+                                                        &lt;script src=&quot;/js/ui/component.dragula.js&quot;&gt;&lt;/script&gt;
                                                     </span>
 
                                                     <span class="html escape">
@@ -369,8 +369,8 @@ $this->registerJsFile('/js/ui/component.dragula.js', ['depends' => DragulaAsset:
                             <button class="btn-copy-clipboard" data-clipboard-action="copy">Copy</button>
                             <pre class="mb-0">
                                                     <span class="html escape">
-                                                        &lt;script src=&quot;assets/vendor/dragula/dragula.min.js&quot;&gt;&lt;/script&gt;
-                                                        &lt;script src=&quot;assets/js/ui/component.dragula.js&quot;&gt;&lt;/script&gt;
+                                                        &lt;script src=&quot;/vendor/dragula/dragula.min.js&quot;&gt;&lt;/script&gt;
+                                                        &lt;script src=&quot;/js/ui/component.dragula.js&quot;&gt;&lt;/script&gt;
                                                     </span>
 
                                                     <span class="html escape">
@@ -383,7 +383,7 @@ $this->registerJsFile('/js/ui/component.dragula.js', ['depends' => DragulaAsset:
                                                                         &lt;div class=&quot;card mb-0 mt-2&quot;&gt;
                                                                             &lt;div class=&quot;card-body&quot;&gt;
                                                                                 &lt;div class=&quot;d-flex align-items-start&quot;&gt;
-                                                                                    &lt;img src=&quot;assets/images/users/avatar-1.jpg&quot; alt=&quot;image&quot; class=&quot;me-3 d-none d-sm-block avatar-sm rounded-circle&quot;&gt;
+                                                                                    &lt;img src=&quot;/images/users/avatar-1.jpg&quot; alt=&quot;image&quot; class=&quot;me-3 d-none d-sm-block avatar-sm rounded-circle&quot;&gt;
                                                                                     &lt;div class=&quot;w-100 overflow-hidden&quot;&gt;
                                                                                         &lt;h5 class=&quot;mb-1 mt-0&quot;&gt;Louis K. Bond&lt;/h5&gt;
                                                                                         &lt;p&gt; Founder &amp; CEO &lt;/p&gt;
@@ -398,7 +398,7 @@ $this->registerJsFile('/js/ui/component.dragula.js', ['depends' => DragulaAsset:
                                                                         &lt;div class=&quot;card mb-0 mt-2&quot;&gt;
                                                                             &lt;div class=&quot;card-body&quot;&gt;
                                                                                 &lt;div class=&quot;d-flex align-items-start&quot;&gt;
-                                                                                    &lt;img src=&quot;assets/images/users/avatar-2.jpg&quot; alt=&quot;image&quot; class=&quot;me-3 d-none d-sm-block avatar-sm rounded-circle&quot;&gt;
+                                                                                    &lt;img src=&quot;/images/users/avatar-2.jpg&quot; alt=&quot;image&quot; class=&quot;me-3 d-none d-sm-block avatar-sm rounded-circle&quot;&gt;
                                                                                     &lt;div class=&quot;w-100 overflow-hidden&quot;&gt;
                                                                                         &lt;h5 class=&quot;mb-1 mt-0&quot;&gt;Dennis N. Cloutier&lt;/h5&gt;
                                                                                         &lt;p&gt; Software Engineer &lt;/p&gt;
@@ -413,7 +413,7 @@ $this->registerJsFile('/js/ui/component.dragula.js', ['depends' => DragulaAsset:
                                                                         &lt;div class=&quot;card mb-0 mt-2&quot;&gt;
                                                                             &lt;div class=&quot;card-body&quot;&gt;
                                                                                 &lt;div class=&quot;d-flex align-items-start&quot;&gt;
-                                                                                    &lt;img src=&quot;assets/images/users/avatar-3.jpg&quot; alt=&quot;image&quot; class=&quot;me-3 d-none d-sm-block avatar-sm rounded-circle&quot;&gt;
+                                                                                    &lt;img src=&quot;/images/users/avatar-3.jpg&quot; alt=&quot;image&quot; class=&quot;me-3 d-none d-sm-block avatar-sm rounded-circle&quot;&gt;
                                                                                     &lt;div class=&quot;w-100 overflow-hidden&quot;&gt;
                                                                                         &lt;h5 class=&quot;mb-1 mt-0&quot;&gt;Susan J. Sander&lt;/h5&gt;
                                                                                         &lt;p&gt; Web Designer &lt;/p&gt;
@@ -437,7 +437,7 @@ $this->registerJsFile('/js/ui/component.dragula.js', ['depends' => DragulaAsset:
 
                                                                             &lt;div class=&quot;card-body p-3&quot;&gt;
                                                                                 &lt;div class=&quot;d-flex align-items-start&quot;&gt;
-                                                                                    &lt;img src=&quot;assets/images/users/avatar-4.jpg&quot; alt=&quot;image&quot; class=&quot;me-3 d-none d-sm-block avatar-sm rounded-circle&quot;&gt;
+                                                                                    &lt;img src=&quot;/images/users/avatar-4.jpg&quot; alt=&quot;image&quot; class=&quot;me-3 d-none d-sm-block avatar-sm rounded-circle&quot;&gt;
                                                                                     &lt;div class=&quot;w-100 overflow-hidden&quot;&gt;
                                                                                         &lt;h5 class=&quot;mb-1 mt-0&quot;&gt;James M. Short&lt;/h5&gt;
                                                                                         &lt;p&gt; Web Developer &lt;/p&gt;
@@ -452,7 +452,7 @@ $this->registerJsFile('/js/ui/component.dragula.js', ['depends' => DragulaAsset:
                                                                         &lt;div class=&quot;card mb-0 mt-2&quot;&gt;
                                                                             &lt;div class=&quot;card-body p-3&quot;&gt;
                                                                                 &lt;div class=&quot;d-flex align-items-start&quot;&gt;
-                                                                                    &lt;img src=&quot;assets/images/users/avatar-5.jpg&quot; alt=&quot;image&quot; class=&quot;me-3 d-none d-sm-block avatar-sm rounded-circle&quot;&gt;
+                                                                                    &lt;img src=&quot;/images/users/avatar-5.jpg&quot; alt=&quot;image&quot; class=&quot;me-3 d-none d-sm-block avatar-sm rounded-circle&quot;&gt;
                                                                                     &lt;div class=&quot;w-100 overflow-hidden&quot;&gt;
                                                                                         &lt;h5 class=&quot;mb-1 mt-0&quot;&gt;Gabriel J. Snyder&lt;/h5&gt;
                                                                                         &lt;p&gt; Business Analyst &lt;/p&gt;
@@ -467,7 +467,7 @@ $this->registerJsFile('/js/ui/component.dragula.js', ['depends' => DragulaAsset:
                                                                         &lt;div class=&quot;card mb-0 mt-2&quot;&gt;
                                                                             &lt;div class=&quot;card-body p-3&quot;&gt;
                                                                                 &lt;div class=&quot;d-flex align-items-start&quot;&gt;
-                                                                                    &lt;img src=&quot;assets/images/users/avatar-6.jpg&quot; alt=&quot;image&quot; class=&quot;me-3 d-none d-sm-block avatar-sm rounded-circle&quot;&gt;
+                                                                                    &lt;img src=&quot;/images/users/avatar-6.jpg&quot; alt=&quot;image&quot; class=&quot;me-3 d-none d-sm-block avatar-sm rounded-circle&quot;&gt;
                                                                                     &lt;div class=&quot;w-100 overflow-hidden&quot;&gt;
                                                                                         &lt;h5 class=&quot;mb-1 mt-0&quot;&gt;Louie C. Mason&lt;/h5&gt;
                                                                                         &lt;p&gt;Human Resources&lt;/p&gt;
@@ -627,8 +627,8 @@ $this->registerJsFile('/js/ui/component.dragula.js', ['depends' => DragulaAsset:
 
                             <pre class="mb-0">
                                                     <span class="html escape">
-                                                        &lt;script src=&quot;assets/vendor/dragula/dragula.min.js&quot;&gt;&lt;/script&gt;
-                                                        &lt;script src=&quot;assets/js/ui/component.dragula.js&quot;&gt;&lt;/script&gt;
+                                                        &lt;script src=&quot;/vendor/dragula/dragula.min.js&quot;&gt;&lt;/script&gt;
+                                                        &lt;script src=&quot;/js/ui/component.dragula.js&quot;&gt;&lt;/script&gt;
                                                     </span>
 
                                                     <span class="html escape">
@@ -641,7 +641,7 @@ $this->registerJsFile('/js/ui/component.dragula.js', ['depends' => DragulaAsset:
                                                                         &lt;div class=&quot;card mb-0 mt-2&quot;&gt;
                                                                             &lt;div class=&quot;card-body&quot;&gt;
                                                                                 &lt;div class=&quot;d-flex align-items-start&quot;&gt;
-                                                                                    &lt;img src=&quot;assets/images/users/avatar-7.jpg&quot; alt=&quot;image&quot; class=&quot;me-3 d-none d-sm-block avatar-sm rounded-circle&quot;&gt;
+                                                                                    &lt;img src=&quot;/images/users/avatar-7.jpg&quot; alt=&quot;image&quot; class=&quot;me-3 d-none d-sm-block avatar-sm rounded-circle&quot;&gt;
                                                                                     &lt;div class=&quot;w-100 overflow-hidden&quot;&gt;
                                                                                         &lt;h5 class=&quot;mb-1 mt-1&quot;&gt;Louis K. Bond&lt;/h5&gt;
                                                                                         &lt;p class=&quot;mb-0&quot;&gt; Founder &amp; CEO &lt;/p&gt;
@@ -654,7 +654,7 @@ $this->registerJsFile('/js/ui/component.dragula.js', ['depends' => DragulaAsset:
                                                                         &lt;div class=&quot;card mb-0 mt-2&quot;&gt;
                                                                             &lt;div class=&quot;card-body&quot;&gt;
                                                                                 &lt;div class=&quot;d-flex align-items-start&quot;&gt;
-                                                                                    &lt;img src=&quot;assets/images/users/avatar-8.jpg&quot; alt=&quot;image&quot; class=&quot;me-3 d-none d-sm-block avatar-sm rounded-circle&quot;&gt;
+                                                                                    &lt;img src=&quot;/images/users/avatar-8.jpg&quot; alt=&quot;image&quot; class=&quot;me-3 d-none d-sm-block avatar-sm rounded-circle&quot;&gt;
                                                                                     &lt;div class=&quot;w-100 overflow-hidden&quot;&gt;
                                                                                         &lt;h5 class=&quot;mb-1 mt-1&quot;&gt;Dennis N. Cloutier&lt;/h5&gt;
                                                                                         &lt;p class=&quot;mb-0&quot;&gt; Software Engineer &lt;/p&gt;
@@ -667,7 +667,7 @@ $this->registerJsFile('/js/ui/component.dragula.js', ['depends' => DragulaAsset:
                                                                         &lt;div class=&quot;card mb-0 mt-2&quot;&gt;
                                                                             &lt;div class=&quot;card-body&quot;&gt;
                                                                                 &lt;div class=&quot;d-flex align-items-start&quot;&gt;
-                                                                                    &lt;img src=&quot;assets/images/users/avatar-9.jpg&quot; alt=&quot;image&quot; class=&quot;me-3 d-none d-sm-block avatar-sm rounded-circle&quot;&gt;
+                                                                                    &lt;img src=&quot;/images/users/avatar-9.jpg&quot; alt=&quot;image&quot; class=&quot;me-3 d-none d-sm-block avatar-sm rounded-circle&quot;&gt;
                                                                                     &lt;div class=&quot;w-100 overflow-hidden&quot;&gt;
                                                                                         &lt;h5 class=&quot;mb-1 mt-1&quot;&gt;Susan J. Sander&lt;/h5&gt;
                                                                                         &lt;p class=&quot;mb-0&quot;&gt; Web Designer &lt;/p&gt;
@@ -689,7 +689,7 @@ $this->registerJsFile('/js/ui/component.dragula.js', ['depends' => DragulaAsset:
 
                                                                             &lt;div class=&quot;card-body p-3&quot;&gt;
                                                                                 &lt;div class=&quot;d-flex align-items-start&quot;&gt;
-                                                                                    &lt;img src=&quot;assets/images/users/avatar-10.jpg&quot; alt=&quot;image&quot; class=&quot;me-3 d-none d-sm-block avatar-sm rounded-circle&quot;&gt;
+                                                                                    &lt;img src=&quot;/images/users/avatar-10.jpg&quot; alt=&quot;image&quot; class=&quot;me-3 d-none d-sm-block avatar-sm rounded-circle&quot;&gt;
                                                                                     &lt;div class=&quot;w-100 overflow-hidden&quot;&gt;
                                                                                         &lt;h5 class=&quot;mb-1 mt-1&quot;&gt;James M. Short&lt;/h5&gt;
                                                                                         &lt;p class=&quot;mb-0&quot;&gt; Web Developer &lt;/p&gt;
@@ -702,7 +702,7 @@ $this->registerJsFile('/js/ui/component.dragula.js', ['depends' => DragulaAsset:
                                                                         &lt;div class=&quot;card mb-0 mt-2&quot;&gt;
                                                                             &lt;div class=&quot;card-body p-3&quot;&gt;
                                                                                 &lt;div class=&quot;d-flex align-items-start&quot;&gt;
-                                                                                    &lt;img src=&quot;assets/images/users/avatar-5.jpg&quot; alt=&quot;image&quot; class=&quot;me-3 d-none d-sm-block avatar-sm rounded-circle&quot;&gt;
+                                                                                    &lt;img src=&quot;/images/users/avatar-5.jpg&quot; alt=&quot;image&quot; class=&quot;me-3 d-none d-sm-block avatar-sm rounded-circle&quot;&gt;
                                                                                     &lt;div class=&quot;w-100 overflow-hidden&quot;&gt;
                                                                                         &lt;h5 class=&quot;mb-1 mt-1&quot;&gt;Gabriel J. Snyder&lt;/h5&gt;
                                                                                         &lt;p class=&quot;mb-0&quot;&gt; Business Analyst &lt;/p&gt;
@@ -715,7 +715,7 @@ $this->registerJsFile('/js/ui/component.dragula.js', ['depends' => DragulaAsset:
                                                                         &lt;div class=&quot;card mb-0 mt-2&quot;&gt;
                                                                             &lt;div class=&quot;card-body p-3&quot;&gt;
                                                                                 &lt;div class=&quot;d-flex align-items-start&quot;&gt;
-                                                                                    &lt;img src=&quot;assets/images/users/avatar-3.jpg&quot; alt=&quot;image&quot; class=&quot;me-3 d-none d-sm-block avatar-sm rounded-circle&quot;&gt;
+                                                                                    &lt;img src=&quot;/images/users/avatar-3.jpg&quot; alt=&quot;image&quot; class=&quot;me-3 d-none d-sm-block avatar-sm rounded-circle&quot;&gt;
                                                                                     &lt;div class=&quot;w-100 overflow-hidden&quot;&gt;
                                                                                         &lt;h5 class=&quot;mb-1 mt-1&quot;&gt;Louie C. Mason&lt;/h5&gt;
                                                                                         &lt;p class=&quot;mb-0&quot;&gt;Human Resources&lt;/p&gt;

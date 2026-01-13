@@ -14,7 +14,6 @@ $this->params['breadcrumbs'][] = $this->title;
 SimpleMdeAsset::register($this);
 $this->registerJsFile('/js/pages/demo.inbox.js', ['depends' => HyperAsset::class]);
 ?>
-
 <div class="content-container">
 
     <div class="row">

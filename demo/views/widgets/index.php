@@ -4,6 +4,7 @@
  */
 
 use demo\assets\AppAsset;
+use hyper\assets\ApexChartAsset;
 use hyper\assets\CodeHighLightAsset;
 use hyper\assets\DateRangePickerAsset;
 use hyper\assets\HyperAsset;
@@ -12,6 +13,7 @@ use yii\web\View;
 $this->title = 'Widgets';
 $this->params['breadcrumbs'][] = $this->title;
 
+ApexChartAsset::register($this);
 CodeHighLightAsset::register($this);
 AppAsset::register($this);
 DateRangePickerAsset::register($this);

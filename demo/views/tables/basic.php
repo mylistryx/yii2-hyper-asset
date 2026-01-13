@@ -442,7 +442,7 @@ $this->params['breadcrumbs'][] = $this->title;
                                                             &lt;tbody&gt;
                                                                 &lt;tr&gt;
                                                                     &lt;td class=&quot;table-user&quot;&gt;
-                                                                        &lt;img src=&quot;assets/images/users/avatar-2.jpg&quot; alt=&quot;table-user&quot; class=&quot;me-2 rounded-circle&quot; /&gt;
+                                                                        &lt;img src=&quot;/images/users/avatar-2.jpg&quot; alt=&quot;table-user&quot; class=&quot;me-2 rounded-circle&quot; /&gt;
                                                                         Risa D. Pearson
                                                                     &lt;/td&gt;
                                                                     &lt;td&gt;AC336 508 2157&lt;/td&gt;
@@ -454,7 +454,7 @@ $this->params['breadcrumbs'][] = $this->title;
                                                                 &lt;/tr&gt;
                                                                 &lt;tr&gt;
                                                                     &lt;td class=&quot;table-user&quot;&gt;
-                                                                        &lt;img src=&quot;assets/images/users/avatar-3.jpg&quot; alt=&quot;table-user&quot; class=&quot;me-2 rounded-circle&quot; /&gt;
+                                                                        &lt;img src=&quot;/images/users/avatar-3.jpg&quot; alt=&quot;table-user&quot; class=&quot;me-2 rounded-circle&quot; /&gt;
                                                                         Ann C. Thompson
                                                                     &lt;/td&gt;
                                                                     &lt;td&gt;SB646 473 2057&lt;/td&gt;
@@ -466,7 +466,7 @@ $this->params['breadcrumbs'][] = $this->title;
                                                                 &lt;/tr&gt;
                                                                 &lt;tr&gt;
                                                                     &lt;td class=&quot;table-user&quot;&gt;
-                                                                        &lt;img src=&quot;assets/images/users/avatar-4.jpg&quot; alt=&quot;table-user&quot; class=&quot;me-2 rounded-circle&quot; /&gt;
+                                                                        &lt;img src=&quot;/images/users/avatar-4.jpg&quot; alt=&quot;table-user&quot; class=&quot;me-2 rounded-circle&quot; /&gt;
                                                                         Paul J. Friend
                                                                     &lt;/td&gt;
                                                                     &lt;td&gt;DL281 308 0793&lt;/td&gt;
@@ -478,7 +478,7 @@ $this->params['breadcrumbs'][] = $this->title;
                                                                 &lt;/tr&gt;
                                                                 &lt;tr&gt;
                                                                     &lt;td class=&quot;table-user&quot;&gt;
-                                                                        &lt;img src=&quot;assets/images/users/avatar-5.jpg&quot; alt=&quot;table-user&quot; class=&quot;me-2 rounded-circle&quot; /&gt;
+                                                                        &lt;img src=&quot;/images/users/avatar-5.jpg&quot; alt=&quot;table-user&quot; class=&quot;me-2 rounded-circle&quot; /&gt;
                                                                         Sean C. Nguyen
                                                                     &lt;/td&gt;
                                                                     &lt;td&gt;CA269 714 6825&lt;/td&gt;
@@ -995,7 +995,7 @@ $this->params['breadcrumbs'][] = $this->title;
                                                             &lt;tbody&gt;
                                                                 &lt;tr&gt;
                                                                     &lt;td class=&quot;table-user&quot;&gt;
-                                                                        &lt;img src=&quot;assets/images/users/avatar-6.jpg&quot; alt=&quot;table-user&quot; class=&quot;me-2 rounded-circle&quot; /&gt;
+                                                                        &lt;img src=&quot;/images/users/avatar-6.jpg&quot; alt=&quot;table-user&quot; class=&quot;me-2 rounded-circle&quot; /&gt;
                                                                         Risa D. Pearson
                                                                     &lt;/td&gt;
                                                                     &lt;td&gt;AC336 508 2157&lt;/td&gt;
@@ -1006,7 +1006,7 @@ $this->params['breadcrumbs'][] = $this->title;
                                                                 &lt;/tr&gt;
                                                                 &lt;tr&gt;
                                                                     &lt;td class=&quot;table-user&quot;&gt;
-                                                                        &lt;img src=&quot;assets/images/users/avatar-7.jpg&quot; alt=&quot;table-user&quot; class=&quot;me-2 rounded-circle&quot; /&gt;
+                                                                        &lt;img src=&quot;/images/users/avatar-7.jpg&quot; alt=&quot;table-user&quot; class=&quot;me-2 rounded-circle&quot; /&gt;
                                                                         Ann C. Thompson
                                                                     &lt;/td&gt;
                                                                     &lt;td&gt;SB646 473 2057&lt;/td&gt;
@@ -1017,7 +1017,7 @@ $this->params['breadcrumbs'][] = $this->title;
                                                                 &lt;/tr&gt;
                                                                 &lt;tr&gt;
                                                                     &lt;td class=&quot;table-user&quot;&gt;
-                                                                        &lt;img src=&quot;assets/images/users/avatar-8.jpg&quot; alt=&quot;table-user&quot; class=&quot;me-2 rounded-circle&quot; /&gt;
+                                                                        &lt;img src=&quot;/images/users/avatar-8.jpg&quot; alt=&quot;table-user&quot; class=&quot;me-2 rounded-circle&quot; /&gt;
                                                                         Paul J. Friend
                                                                     &lt;/td&gt;
                                                                     &lt;td&gt;DL281 308 0793&lt;/td&gt;
@@ -1028,7 +1028,7 @@ $this->params['breadcrumbs'][] = $this->title;
                                                                 &lt;/tr&gt;
                                                                 &lt;tr&gt;
                                                                     &lt;td class=&quot;table-user&quot;&gt;
-                                                                        &lt;img src=&quot;assets/images/users/avatar-9.jpg&quot; alt=&quot;table-user&quot; class=&quot;me-2 rounded-circle&quot; /&gt;
+                                                                        &lt;img src=&quot;/images/users/avatar-9.jpg&quot; alt=&quot;table-user&quot; class=&quot;me-2 rounded-circle&quot; /&gt;
                                                                         Sean C. Nguyen
                                                                     &lt;/td&gt;
                                                                     &lt;td&gt;CA269 714 6825&lt;/td&gt;
@@ -1146,7 +1146,7 @@ $this->params['breadcrumbs'][] = $this->title;
                                                             &lt;tbody&gt;
                                                                 &lt;tr&gt;
                                                                     &lt;td class=&quot;table-user&quot;&gt;
-                                                                        &lt;img src=&quot;assets/images/users/avatar-6.jpg&quot; alt=&quot;table-user&quot; class=&quot;me-2 rounded-circle&quot; /&gt;
+                                                                        &lt;img src=&quot;/images/users/avatar-6.jpg&quot; alt=&quot;table-user&quot; class=&quot;me-2 rounded-circle&quot; /&gt;
                                                                         Risa D. Pearson
                                                                     &lt;/td&gt;
                                                                     &lt;td&gt;AC336 508 2157&lt;/td&gt;
@@ -1157,7 +1157,7 @@ $this->params['breadcrumbs'][] = $this->title;
                                                                 &lt;/tr&gt;
                                                                 &lt;tr&gt;
                                                                     &lt;td class=&quot;table-user&quot;&gt;
-                                                                        &lt;img src=&quot;assets/images/users/avatar-7.jpg&quot; alt=&quot;table-user&quot; class=&quot;me-2 rounded-circle&quot; /&gt;
+                                                                        &lt;img src=&quot;/images/users/avatar-7.jpg&quot; alt=&quot;table-user&quot; class=&quot;me-2 rounded-circle&quot; /&gt;
                                                                         Ann C. Thompson
                                                                     &lt;/td&gt;
                                                                     &lt;td&gt;SB646 473 2057&lt;/td&gt;
@@ -1168,7 +1168,7 @@ $this->params['breadcrumbs'][] = $this->title;
                                                                 &lt;/tr&gt;
                                                                 &lt;tr&gt;
                                                                     &lt;td class=&quot;table-user&quot;&gt;
-                                                                        &lt;img src=&quot;assets/images/users/avatar-8.jpg&quot; alt=&quot;table-user&quot; class=&quot;me-2 rounded-circle&quot; /&gt;
+                                                                        &lt;img src=&quot;/images/users/avatar-8.jpg&quot; alt=&quot;table-user&quot; class=&quot;me-2 rounded-circle&quot; /&gt;
                                                                         Paul J. Friend
                                                                     &lt;/td&gt;
                                                                     &lt;td&gt;DL281 308 0793&lt;/td&gt;
@@ -1179,7 +1179,7 @@ $this->params['breadcrumbs'][] = $this->title;
                                                                 &lt;/tr&gt;
                                                                 &lt;tr&gt;
                                                                     &lt;td class=&quot;table-user&quot;&gt;
-                                                                        &lt;img src=&quot;assets/images/users/avatar-9.jpg&quot; alt=&quot;table-user&quot; class=&quot;me-2 rounded-circle&quot; /&gt;
+                                                                        &lt;img src=&quot;/images/users/avatar-9.jpg&quot; alt=&quot;table-user&quot; class=&quot;me-2 rounded-circle&quot; /&gt;
                                                                         Sean C. Nguyen
                                                                     &lt;/td&gt;
                                                                     &lt;td&gt;CA269 714 6825&lt;/td&gt;

@@ -1,10 +1,9 @@
 <?php
-
-use yii\web\View;
-
 /**
  * @var $this View
  */
+
+use yii\web\View;
 
 $this->title = 'File manager';
 $this->params['breadcrumbs'][] = $this->title;
@@ -19,7 +18,7 @@ $this->params['breadcrumbs'][] = $this->title;
             <div class="card">
                 <div class="card-body">
                     <!-- Left sidebar -->
-                    <div class="page-aside-left">
+                    <div class="page-aside-left" style="float: left; width: 240px; padding: 0 20px 20px 10px; position: relative">
 
                         <div class="btn-group d-block mb-2">
                             <button type="button" class="btn btn-success dropdown-toggle w-100" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="mdi mdi-plus"></i> Create New</button>

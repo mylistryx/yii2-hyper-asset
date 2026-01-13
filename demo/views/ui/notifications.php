@@ -191,7 +191,7 @@ $this->registerJsFile('/js/pages/demo.toastr.js', ['depends' => [JqueryToastAsse
                                                         &lt;!-- Basic Toast --&gt;
                                                         &lt;div class=&quot;toast fade show&quot; role=&quot;alert&quot; aria-live=&quot;assertive&quot; aria-atomic=&quot;true&quot;&gt;
                                                             &lt;div class=&quot;toast-header&quot;&gt;
-                                                                &lt;img src=&quot;assets/images/logo-dark-sm.png&quot; alt=&quot;brand-logo&quot; height=&quot;12&quot; class=&quot;me-1&quot; /&gt;
+                                                                &lt;img src=&quot;/images/logo-dark-sm.png&quot; alt=&quot;brand-logo&quot; height=&quot;12&quot; class=&quot;me-1&quot; /&gt;
                                                                 &lt;strong class=&quot;me-auto&quot;&gt;Hyper&lt;/strong&gt;
                                                                 &lt;small&gt;11 mins ago&lt;/small&gt;
                                                                 &lt;button type=&quot;button&quot; class=&quot;ms-2 mb-1 btn-close&quot; data-bs-dismiss=&quot;toast&quot; aria-label=&quot;Close&quot;&gt;&lt;/button&gt;
@@ -204,7 +204,7 @@ $this->registerJsFile('/js/pages/demo.toastr.js', ['depends' => [JqueryToastAsse
                                                         &lt;!-- Translucent Toast --&gt;
                                                         &lt;div class=&quot;toast fade show&quot; role=&quot;alert&quot; aria-live=&quot;assertive&quot; aria-atomic=&quot;true&quot;&gt;
                                                             &lt;div class=&quot;toast-header&quot;&gt;
-                                                                &lt;img src=&quot;assets/images/logo-dark-sm.png&quot; alt=&quot;brand-logo&quot; height=&quot;12&quot; class=&quot;me-1&quot; /&gt;
+                                                                &lt;img src=&quot;/images/logo-dark-sm.png&quot; alt=&quot;brand-logo&quot; height=&quot;12&quot; class=&quot;me-1&quot; /&gt;
                                                                 &lt;strong class=&quot;me-auto&quot;&gt;Hyper&lt;/strong&gt;
                                                                 &lt;small&gt;11 mins ago&lt;/small&gt;
                                                                 &lt;button type=&quot;button&quot; class=&quot;ms-2 mb-1 btn-close&quot; data-bs-dismiss=&quot;toast&quot; aria-label=&quot;Close&quot;&gt;&lt;/button&gt;
@@ -222,7 +222,7 @@ $this->registerJsFile('/js/pages/demo.toastr.js', ['depends' => [JqueryToastAsse
                                                                 &lt;!-- Then put toasts within --&gt;
                                                                 &lt;div class=&quot;toast fade show&quot; role=&quot;alert&quot; aria-live=&quot;assertive&quot; aria-atomic=&quot;true&quot;&gt;
                                                                     &lt;div class=&quot;toast-header&quot;&gt;
-                                                                        &lt;img src=&quot;assets/images/logo-dark-sm.png&quot; alt=&quot;brand-logo&quot; height=&quot;12&quot; class=&quot;me-1&quot; /&gt;
+                                                                        &lt;img src=&quot;/images/logo-dark-sm.png&quot; alt=&quot;brand-logo&quot; height=&quot;12&quot; class=&quot;me-1&quot; /&gt;
                                                                         &lt;strong class=&quot;me-auto&quot;&gt;Hyper&lt;/strong&gt;
                                                                         &lt;small class=&quot;text-muted&quot;&gt;just now&lt;/small&gt;
                                                                         &lt;button type=&quot;button&quot; class=&quot;ms-2 mb-1 btn-close&quot; data-bs-dismiss=&quot;toast&quot; aria-label=&quot;Close&quot;&gt;&lt;/button&gt;
@@ -234,7 +234,7 @@ $this->registerJsFile('/js/pages/demo.toastr.js', ['depends' => [JqueryToastAsse
 
                                                                 &lt;div class=&quot;toast fade show&quot; role=&quot;alert&quot; aria-live=&quot;assertive&quot; aria-atomic=&quot;true&quot;&gt;
                                                                     &lt;div class=&quot;toast-header&quot;&gt;
-                                                                        &lt;img src=&quot;assets/images/logo-dark-sm.png&quot; alt=&quot;brand-logo&quot; height=&quot;12&quot; class=&quot;me-1&quot; /&gt;
+                                                                        &lt;img src=&quot;/images/logo-dark-sm.png&quot; alt=&quot;brand-logo&quot; height=&quot;12&quot; class=&quot;me-1&quot; /&gt;
                                                                         &lt;strong class=&quot;me-auto&quot;&gt;Hyper&lt;/strong&gt;
                                                                         &lt;small class=&quot;text-muted&quot;&gt;2 seconds ago&lt;/small&gt;
                                                                         &lt;button type=&quot;button&quot; class=&quot;ms-2 mb-1 btn-close&quot; data-bs-dismiss=&quot;toast&quot; aria-label=&quot;Close&quot;&gt;&lt;/button&gt;
@@ -251,7 +251,7 @@ $this->registerJsFile('/js/pages/demo.toastr.js', ['depends' => [JqueryToastAsse
                                                             &lt;!-- Then put toasts within --&gt;
                                                             &lt;div class=&quot;toast fade show&quot; role=&quot;alert&quot; aria-live=&quot;assertive&quot; aria-atomic=&quot;true&quot;&gt;
                                                                 &lt;div class=&quot;toast-header&quot;&gt;
-                                                                    &lt;img src=&quot;assets/images/logo-dark-sm.png&quot; alt=&quot;brand-logo&quot; height=&quot;12&quot; class=&quot;me-1&quot; /&gt;
+                                                                    &lt;img src=&quot;/images/logo-dark-sm.png&quot; alt=&quot;brand-logo&quot; height=&quot;12&quot; class=&quot;me-1&quot; /&gt;
                                                                     &lt;strong class=&quot;me-auto&quot;&gt;Hyper&lt;/strong&gt;
                                                                     &lt;small&gt;11 mins ago&lt;/small&gt;
                                                                     &lt;button type=&quot;button&quot; class=&quot;ms-2 mb-1 btn-close&quot; data-bs-dismiss=&quot;toast&quot; aria-label=&quot;Close&quot;&gt;&lt;/button&gt;
@@ -487,7 +487,7 @@ $this->registerJsFile('/js/pages/demo.toastr.js', ['depends' => [JqueryToastAsse
                                                             &lt;div class=&quot;toast-container position-absolute p-3&quot; id=&quot;toastPlacement&quot;&gt;
                                                                 &lt;div class=&quot;toast show&quot;&gt;
                                                                     &lt;div class=&quot;toast-header&quot;&gt;
-                                                                        &lt;img src=&quot;assets/images/logo-dark-sm.png&quot; alt=&quot;brand-logo&quot; height=&quot;12&quot; class=&quot;me-1&quot; /&gt;
+                                                                        &lt;img src=&quot;/images/logo-dark-sm.png&quot; alt=&quot;brand-logo&quot; height=&quot;12&quot; class=&quot;me-1&quot; /&gt;
                                                                         &lt;strong class=&quot;me-auto&quot;&gt;Hyper&lt;/strong&gt;
                                                                         &lt;small&gt;11 mins ago&lt;/small&gt;
                                                                     &lt;/div&gt;

@@ -49,7 +49,7 @@ $this->registerJsFile('/js/ui/component.rating.js', ['depends' => RateAsset::cla
                             <button class="btn-copy-clipboard" data-clipboard-action="copy">Copy</button>
                             <pre class="mb-0">
                                                     <span class="html escape">
-                                                        &lt;script src=&quot;assets/vendor/jquery.rateit/scripts/jquery.rateit.min.js&quot;&gt;&lt;/script&gt;
+                                                        &lt;script src=&quot;/vendor/jquery.rateit/scripts/jquery.rateit.min.js&quot;&gt;&lt;/script&gt;
                                                     </span>
                                                 </pre> <!-- end highlight-->
 
@@ -183,8 +183,8 @@ $this->registerJsFile('/js/ui/component.rating.js', ['depends' => RateAsset::cla
                             <pre class="mb-0">
                                                     <span class="html escape">
                                                         &lt;!-- Plgins only --&gt;
-                                                        &lt;script src=&quot;assets/vendor/jquery.rateit/scripts/jquery.rateit.min.js&quot;&gt;&lt;/script&gt;
-                                                        &lt;script src=&quot;assets/js/ui/component.rating.js&quot;&gt;&lt;/script&gt;
+                                                        &lt;script src=&quot;/vendor/jquery.rateit/scripts/jquery.rateit.min.js&quot;&gt;&lt;/script&gt;
+                                                        &lt;script src=&quot;/js/ui/component.rating.js&quot;&gt;&lt;/script&gt;
                                                     </span>
                                                 </pre> <!-- end highlight-->
 

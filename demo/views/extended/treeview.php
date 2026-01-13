@@ -77,13 +77,13 @@ $this->registerJsFile('/js/pages/demo.jstree.js', ['depends' => JsTreeAsset::cla
                             <pre class="mb-0">
                                                     <span class="html escape">
                                                         &lt;!-- jstree css --&gt;
-                                                        &lt;link href=&quot;assets/vendor/jstree/themes/default/style.min.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;&gt;
+                                                        &lt;link href=&quot;/vendor/jstree/themes/default/style.min.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;&gt;
                                                     </span>
 
                                                     <span class="html escape">
                                                         &lt;!-- jstree js --&gt;
-                                                        &lt;script src=&quot;assets/vendor/jstree/jstree.min.js&quot;&gt;&lt;/script&gt;
-                                                        &lt;script src=&quot;assets/js/pages/demo.jstree.js&quot;&gt;&lt;/script&gt;
+                                                        &lt;script src=&quot;/vendor/jstree/jstree.min.js&quot;&gt;&lt;/script&gt;
+                                                        &lt;script src=&quot;/js/pages/demo.jstree.js&quot;&gt;&lt;/script&gt;
                                                     </span>
 
                                                     <span class="html escape">
@@ -184,13 +184,13 @@ $this->registerJsFile('/js/pages/demo.jstree.js', ['depends' => JsTreeAsset::cla
                             <pre class="mb-0">
                                                     <span class="html escape">
                                                         &lt;!-- jstree css --&gt;
-                                                        &lt;link href=&quot;assets/vendor/jstree/themes/default/style.min.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;&gt;
+                                                        &lt;link href=&quot;/vendor/jstree/themes/default/style.min.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;&gt;
                                                     </span>
 
                                                     <span class="html escape">
                                                         &lt;!-- jstree js --&gt;
-                                                        &lt;script src=&quot;assets/vendor/jstree/jstree.min.js&quot;&gt;&lt;/script&gt;
-                                                        &lt;script src=&quot;assets/js/pages/demo.jstree.js&quot;&gt;&lt;/script&gt;
+                                                        &lt;script src=&quot;/vendor/jstree/jstree.min.js&quot;&gt;&lt;/script&gt;
+                                                        &lt;script src=&quot;/js/pages/demo.jstree.js&quot;&gt;&lt;/script&gt;
                                                     </span>
 
                                                     <span class="html escape">
@@ -260,13 +260,13 @@ $this->registerJsFile('/js/pages/demo.jstree.js', ['depends' => JsTreeAsset::cla
                             <pre class="mb-0">
                                                     <span class="html escape">
                                                         &lt;!-- jstree css --&gt;
-                                                        &lt;link href=&quot;assets/vendor/jstree/themes/default/style.min.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;&gt;
+                                                        &lt;link href=&quot;/vendor/jstree/themes/default/style.min.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;&gt;
                                                     </span>
 
                                                     <span class="html escape">
                                                         &lt;!-- jstree js --&gt;
-                                                        &lt;script src=&quot;assets/vendor/jstree/jstree.min.js&quot;&gt;&lt;/script&gt;
-                                                        &lt;script src=&quot;assets/js/pages/demo.jstree.js&quot;&gt;&lt;/script&gt;
+                                                        &lt;script src=&quot;/vendor/jstree/jstree.min.js&quot;&gt;&lt;/script&gt;
+                                                        &lt;script src=&quot;/js/pages/demo.jstree.js&quot;&gt;&lt;/script&gt;
                                                     </span>
 
                                                     <span class="html escape">
@@ -304,13 +304,13 @@ $this->registerJsFile('/js/pages/demo.jstree.js', ['depends' => JsTreeAsset::cla
                             <pre class="mb-0">
                                                     <span class="html escape">
                                                         &lt;!-- jstree css --&gt;
-                                                        &lt;link href=&quot;assets/vendor/jstree/themes/default/style.min.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;&gt;
+                                                        &lt;link href=&quot;/vendor/jstree/themes/default/style.min.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;&gt;
                                                     </span>
 
                                                     <span class="html escape">
                                                         &lt;!-- jstree js --&gt;
-                                                        &lt;script src=&quot;assets/vendor/jstree/jstree.min.js&quot;&gt;&lt;/script&gt;
-                                                        &lt;script src=&quot;assets/js/pages/demo.jstree.js&quot;&gt;&lt;/script&gt;
+                                                        &lt;script src=&quot;/vendor/jstree/jstree.min.js&quot;&gt;&lt;/script&gt;
+                                                        &lt;script src=&quot;/js/pages/demo.jstree.js&quot;&gt;&lt;/script&gt;
                                                     </span>
 
                                                     <span class="html escape">
@@ -346,13 +346,13 @@ $this->registerJsFile('/js/pages/demo.jstree.js', ['depends' => JsTreeAsset::cla
                             <pre class="mb-0">
                                                     <span class="html escape">
                                                         &lt;!-- jstree css --&gt;
-                                                        &lt;link href=&quot;assets/vendor/jstree/themes/default/style.min.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;&gt;
+                                                        &lt;link href=&quot;/vendor/jstree/themes/default/style.min.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;&gt;
                                                     </span>
 
                                                     <span class="html escape">
                                                         &lt;!-- jstree js --&gt;
-                                                        &lt;script src=&quot;assets/vendor/jstree/jstree.min.js&quot;&gt;&lt;/script&gt;
-                                                        &lt;script src=&quot;assets/js/pages/demo.jstree.js&quot;&gt;&lt;/script&gt;
+                                                        &lt;script src=&quot;/vendor/jstree/jstree.min.js&quot;&gt;&lt;/script&gt;
+                                                        &lt;script src=&quot;/js/pages/demo.jstree.js&quot;&gt;&lt;/script&gt;
                                                     </span>
 
                                                     <span class="html escape">
@@ -388,13 +388,13 @@ $this->registerJsFile('/js/pages/demo.jstree.js', ['depends' => JsTreeAsset::cla
                             <pre class="mb-0">
                                                     <span class="html escape">
                                                         &lt;!-- jstree css --&gt;
-                                                        &lt;link href=&quot;assets/vendor/jstree/themes/default/style.min.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;&gt;
+                                                        &lt;link href=&quot;/vendor/jstree/themes/default/style.min.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;&gt;
                                                     </span>
 
                                                     <span class="html escape">
                                                         &lt;!-- jstree js --&gt;
-                                                        &lt;script src=&quot;assets/vendor/jstree/jstree.min.js&quot;&gt;&lt;/script&gt;
-                                                        &lt;script src=&quot;assets/js/pages/demo.jstree.js&quot;&gt;&lt;/script&gt;
+                                                        &lt;script src=&quot;/vendor/jstree/jstree.min.js&quot;&gt;&lt;/script&gt;
+                                                        &lt;script src=&quot;/js/pages/demo.jstree.js&quot;&gt;&lt;/script&gt;
                                                     </span>
 
                                                     <span class="html escape">

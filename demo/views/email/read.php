@@ -13,6 +13,22 @@ $this->params['breadcrumbs'][] = $this->title;
 SimpleMdeAsset::register($this);
 $this->registerJsFile('/js/pages/demo.inbox.js', ['depends' => HyperAsset::class]);
 ?>
+
+<style>
+    .page-aside-left: {
+        float: left;
+        width: 240px;
+        padding: 0 20px 20px 10px;
+        position: relative
+    }
+
+    .page-aside-right: {
+        margin: -1.5rem 0 -1.5rem 250px;
+        border-left: 5px solid #fafbfe;
+        padding: 1.5rem 0 1.5rem 25px;
+    }
+</style>
+
 <div class="content-container">
     <!-- end page email-title -->
 

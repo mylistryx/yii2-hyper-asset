@@ -444,7 +444,7 @@ $this->registerJs(
                                                                     &lt;div class=&quot;modal-body&quot;&gt;
                                                                         &lt;div class=&quot;text-center mt-2 mb-4&quot;&gt;
                                                                             &lt;a href=&quot;index.html&quot; class=&quot;text-success&quot;&gt;
-                                                                                &lt;span&gt;&lt;img src=&quot;assets/images/logo-dark.png&quot; alt=&quot;&quot; height=&quot;18&quot;&gt;&lt;/span&gt;
+                                                                                &lt;span&gt;&lt;img src=&quot;/images/logo-dark.png&quot; alt=&quot;&quot; height=&quot;18&quot;&gt;&lt;/span&gt;
                                                                             &lt;/a&gt;
                                                                         &lt;/div&gt;
 
@@ -491,7 +491,7 @@ $this->registerJs(
                                                                     &lt;div class=&quot;modal-body&quot;&gt;
                                                                         &lt;div class=&quot;text-center mt-2 mb-4&quot;&gt;
                                                                             &lt;a href=&quot;index.html&quot; class=&quot;text-success&quot;&gt;
-                                                                                &lt;span&gt;&lt;img src=&quot;assets/images/logo-dark.png&quot; alt=&quot;&quot; height=&quot;18&quot;&gt;&lt;/span&gt;
+                                                                                &lt;span&gt;&lt;img src=&quot;/images/logo-dark.png&quot; alt=&quot;&quot; height=&quot;18&quot;&gt;&lt;/span&gt;
                                                                             &lt;/a&gt;
                                                                         &lt;/div&gt;
 

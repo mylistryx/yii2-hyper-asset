@@ -2,6 +2,7 @@
 
 namespace hyper\assets;
 
+use yii\font\assets\FontNunitoAsset;
 use yii\web\AssetBundle;
 use yii\web\JqueryAsset;
 use yii\web\View;
@@ -11,8 +12,8 @@ class HyperAsset extends AssetBundle
     public $sourcePath = __DIR__ . '/../sources';
 
     public $css = [
-        ["css/app-saas.min.css", 'id' => 'app-style'],
-        ["css/icons.min.css", 'id' => 'app-icons-style'],
+        ["css/app.css", 'id' => 'app-style'],
+        ["css/icons.css", 'id' => 'app-icons-style'],
     ];
 
     public $js = [
@@ -31,7 +32,8 @@ class HyperAsset extends AssetBundle
     ];
 
     public $depends = [
-        BootstrapPluginAsset::class,
+        FontNunitoAsset::class,
+//        BootstrapPluginAsset::class,
         JqueryAsset::class,
     ];
 }

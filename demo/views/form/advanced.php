@@ -205,10 +205,10 @@ $this->params['breadcrumbs'][] = $this->title;
                             <pre class="mb-0">
                                                     <span class="html escape">
                                                         &lt;!-- Select2 css --&gt;
-                                                        &lt;link href=&quot;assets/vendor/select2/css/select2.min.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot; /&gt;
+                                                        &lt;link href=&quot;/vendor/select2/css/select2.min.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot; /&gt;
 
                                                         &lt;!--  Select2 Js --&gt;
-                                                        &lt;script src=&quot;assets/vendor/select2/js/select2.min.js&quot;&gt;&lt;/script&gt;
+                                                        &lt;script src=&quot;/vendor/select2/js/select2.min.js&quot;&gt;&lt;/script&gt;
 
                                                         &lt;!-- Single Select --&gt;
                                                         &lt;select class=&quot;form-control select2&quot; data-toggle=&quot;select2&quot;&gt;
@@ -328,11 +328,11 @@ $this->params['breadcrumbs'][] = $this->title;
                             <pre class="mb-0">
                                                     <span class="html escape">
                                                         &lt;!-- Daterangepicker css --&gt;
-                                                        &lt;link rel=&quot;stylesheet&quot; href=&quot;assets/vendor/daterangepicker/daterangepicker.css&quot; type=&quot;text/css&quot; /&gt;
+                                                        &lt;link rel=&quot;stylesheet&quot; href=&quot;/vendor/daterangepicker/daterangepicker.css&quot; type=&quot;text/css&quot; /&gt;
 
                                                         &lt;!-- Daterangepicker js --&gt;
-                                                        &lt;script src=&quot;assets/vendor/daterangepicker/moment.min.js&quot;&gt;&lt;/script&gt;
-                                                        &lt;script src=&quot;assets/vendor/daterangepicker/daterangepicker.js&quot;&gt;&lt;/script&gt;
+                                                        &lt;script src=&quot;/vendor/daterangepicker/moment.min.js&quot;&gt;&lt;/script&gt;
+                                                        &lt;script src=&quot;/vendor/daterangepicker/daterangepicker.js&quot;&gt;&lt;/script&gt;
 
                                                         &lt;!-- Date Range --&gt;
                                                         &lt;div class=&quot;mb-3&quot;&gt;
@@ -568,10 +568,10 @@ $this->params['breadcrumbs'][] = $this->title;
                             <pre class="mb-0">
                                                     <span class="html escape">
                                                         &lt;!-- Bootstrap Datepicker css --&gt;
-                                                        &lt;link href=&quot;assets/vendor/bootstrap-datepicker/css/bootstrap-datepicker.min.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot; /&gt;
+                                                        &lt;link href=&quot;/vendor/bootstrap-datepicker/css/bootstrap-datepicker.min.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot; /&gt;
 
                                                         &lt;!-- Bootstrap Datepicker js --&gt;
-                                                        &lt;script src=&quot;assets/vendor/bootstrap-datepicker/js/bootstrap-datepicker.min.js&quot;&gt;&lt;/script&gt;
+                                                        &lt;script src=&quot;/vendor/bootstrap-datepicker/js/bootstrap-datepicker.min.js&quot;&gt;&lt;/script&gt;
 
                                                         &lt;!-- Date Picker --&gt;
                                                         &lt;div class=&quot;mb-3 position-relative&quot; id=&quot;datepicker1&quot;&gt;
@@ -979,7 +979,7 @@ $this->params['breadcrumbs'][] = $this->title;
                             <pre class="mb-0">
                                                     <span class="html escape">
                                                         &lt;!-- Input Mask js --&gt;
-                                                        &lt;script src=&quot;assets/vendor/jquery-mask-plugin/jquery.mask.min.js&quot;&gt;&lt;/script&gt;
+                                                        &lt;script src=&quot;/vendor/jquery-mask-plugin/jquery.mask.min.js&quot;&gt;&lt;/script&gt;
                                                     </span>
 
                                                     <span class="html escape">
@@ -1148,10 +1148,10 @@ $this->params['breadcrumbs'][] = $this->title;
                             <pre class="mb-0">
                                                     <span class="html escape">
                                                         &lt;!-- Bootstrap Touchspin css --&gt;
-                                                        &lt;link href=&quot;assets/vendor/bootstrap-touchspin/jquery.bootstrap-touchspin.min.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot; /&gt;
+                                                        &lt;link href=&quot;/vendor/bootstrap-touchspin/jquery.bootstrap-touchspin.min.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot; /&gt;
 
                                                         &lt;!-- Bootstrap Touchspin js --&gt;
-                                                        &lt;script src=&quot;assets/vendor/bootstrap-touchspin/jquery.bootstrap-touchspin.min.js&quot;&gt;&lt;/script&gt;
+                                                        &lt;script src=&quot;/vendor/bootstrap-touchspin/jquery.bootstrap-touchspin.min.js&quot;&gt;&lt;/script&gt;
 
                                                         &lt;div class=&quot;mb-3&quot;&gt;
                                                             &lt;label class=&quot;form-label&quot;&gt;Using data attributes&lt;/label&gt;
@@ -1271,7 +1271,7 @@ $this->params['breadcrumbs'][] = $this->title;
                             <pre class="mb-0">
                                                     <span class="html escape">
                                                         &lt;!-- Bootstrap Maxlength js --&gt;
-                                                        &lt;script src=&quot;assets/vendor/bootstrap-maxlength/bootstrap-maxlength.min.js&quot;&gt;&lt;/script&gt;
+                                                        &lt;script src=&quot;/vendor/bootstrap-maxlength/bootstrap-maxlength.min.js&quot;&gt;&lt;/script&gt;
                                                     </span>
                                                 </pre> <!-- end highlight-->
                             <button class="btn-copy-clipboard" data-clipboard-action="copy">Copy</button>
@@ -1385,10 +1385,10 @@ $this->params['breadcrumbs'][] = $this->title;
                             <pre class="mb-0">
                                                     <span class="html escape">
                                                         &lt;!-- Bootstrap Timepicker css --&gt;
-                                                        &lt;link href=&quot;assets/vendor/bootstrap-timepicker/css/bootstrap-timepicker.min.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot; /&gt;
+                                                        &lt;link href=&quot;/vendor/bootstrap-timepicker/css/bootstrap-timepicker.min.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot; /&gt;
 
                                                         &lt;!-- Bootstrap Timepicker js --&gt;
-                                                        &lt;script src=&quot;assets/vendor/bootstrap-timepicker/js/bootstrap-timepicker.min.js&quot;&gt;&lt;/script&gt;
+                                                        &lt;script src=&quot;/vendor/bootstrap-timepicker/js/bootstrap-timepicker.min.js&quot;&gt;&lt;/script&gt;
                                                     </span>
                                                 </pre> <!-- end highlight-->
                             <button class="btn-copy-clipboard" data-clipboard-action="copy">Copy</button>
@@ -1518,11 +1518,11 @@ $this->params['breadcrumbs'][] = $this->title;
                             <pre class="mb-0">
                                                     <span class="html escape">
                                                         &lt;!-- Typehead --&gt;
-                                                        &lt;script src=&quot;assets/vendor/handlebars/handlebars.min.js&quot;&gt;&lt;/script&gt;
-                                                        &lt;script src=&quot;assets/vendor/typeahead.js/typeahead.bundle.min.js&quot;&gt;&lt;/script&gt;
+                                                        &lt;script src=&quot;/vendor/handlebars/handlebars.min.js&quot;&gt;&lt;/script&gt;
+                                                        &lt;script src=&quot;/vendor/typeahead.js/typeahead.bundle.min.js&quot;&gt;&lt;/script&gt;
 
                                                         &lt;!-- Typehead Demo js --&gt;
-                                                        &lt;script src=&quot;assets/js/pages/demo.typehead.js&quot;&gt;&lt;/script&gt;
+                                                        &lt;script src=&quot;/js/pages/demo.typehead.js&quot;&gt;&lt;/script&gt;
 
                                                         &lt;div class=&quot;mb-3&quot;&gt;
                                                             &lt;label class=&quot;form-label&quot;&gt;The Basics&lt;/label&gt;

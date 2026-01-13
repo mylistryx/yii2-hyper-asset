@@ -70,13 +70,13 @@ $this->params['breadcrumbs'][] = $this->title;
                                     <pre class="mb-0">
                                                             <span class="html escape">
                                                                 &lt;!-- Quill css --&gt;
-                                                                &lt;link href=&quot;assets/vendor/quill/quill.core.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot; /&gt;
-                                                                &lt;link href=&quot;assets/vendor/quill/quill.snow.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot; /&gt;
+                                                                &lt;link href=&quot;/vendor/quill/quill.core.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot; /&gt;
+                                                                &lt;link href=&quot;/vendor/quill/quill.snow.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot; /&gt;
 
                                                                 &lt;!-- quill js --&gt;
-                                                                &lt;script src=&quot;assets/vendor/quill/quill.min.js&quot;&gt;&lt;/script&gt;
+                                                                &lt;script src=&quot;/vendor/quill/quill.min.js&quot;&gt;&lt;/script&gt;
                                                                 &lt;!-- quill Init js--&gt;
-                                                                &lt;script src=&quot;assets/js/pages/demo.quilljs.js&quot;&gt;&lt;/script&gt;
+                                                                &lt;script src=&quot;/js/pages/demo.quilljs.js&quot;&gt;&lt;/script&gt;
 
                                                                 &lt;!-- HTML --&gt;
                                                                 &lt;div id=&quot;snow-editor&quot; style=&quot;height: 300px;&quot;&gt;
@@ -150,7 +150,7 @@ $this->params['breadcrumbs'][] = $this->title;
                                     <pre class="mb-0">
                                                             <span class="html escape">
                                                                 &lt;!-- Quill css --&gt;
-                                                                &lt;link href=&quot;assets/vendor/quill/quill.bubble.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot; /&gt;
+                                                                &lt;link href=&quot;/vendor/quill/quill.bubble.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot; /&gt;
 
                                                                 &lt;div id=&quot;bubble-editor&quot; style=&quot;height: 300px;&quot;&gt;
                                                                     &lt;h3&gt;&lt;span class=&quot;ql-size-large&quot;&gt;Hello World!&lt;/span&gt;&lt;/h3&gt;
@@ -213,12 +213,12 @@ $this->params['breadcrumbs'][] = $this->title;
                             <pre class="mb-0">
                                                     <span class="html escape">
                                                         &lt;!-- SimpleMDE css --&gt;
-                                                        &lt;link href=&quot;assets/vendor/simplemde/simplemde.min.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot; /&gt;
+                                                        &lt;link href=&quot;/vendor/simplemde/simplemde.min.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot; /&gt;
 
                                                         &lt;!-- SimpleMDE js --&gt;
-                                                        &lt;script src=&quot;assets/vendor/simplemde/simplemde.min.js&quot;&gt;&lt;/script&gt;
+                                                        &lt;script src=&quot;/vendor/simplemde/simplemde.min.js&quot;&gt;&lt;/script&gt;
                                                         &lt;!-- SimpleMDE demo --&gt;
-                                                        &lt;script src=&quot;assets/js/pages/demo.simplemde.js&quot;&gt;&lt;/script&gt;
+                                                        &lt;script src=&quot;/js/pages/demo.simplemde.js&quot;&gt;&lt;/script&gt;
 
                                                         &lt;!-- HTML --&gt;
                                                         &lt;textarea id=&quot;simplemde1&quot;&gt;&lt;/textarea&gt;

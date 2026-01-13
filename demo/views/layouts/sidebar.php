@@ -270,40 +270,40 @@ use yii\web\View;
                             <div class="collapse" id="sidebarPagesAuth">
                                 <ul class="side-nav-third-level">
                                     <li>
-                                        <a href="/pages-authentication/login">Login</a>
+                                        <a href="/pages/authentication/login">Login</a>
                                     </li>
                                     <li>
-                                        <a href="/pages-authentication/login-2">Login 2</a>
+                                        <a href="/pages/authentication/login-2">Login 2</a>
                                     </li>
                                     <li>
-                                        <a href="/pages-authentication/register">Register</a>
+                                        <a href="/pages/authentication/register">Register</a>
                                     </li>
                                     <li>
-                                        <a href="/pages-authentication/register-2">Register 2</a>
+                                        <a href="/pages/authentication/register-2">Register 2</a>
                                     </li>
                                     <li>
-                                        <a href="/pages-authentication/logout">Logout</a>
+                                        <a href="/pages/authentication/logout">Logout</a>
                                     </li>
                                     <li>
-                                        <a href="/pages-authentication/logout-2">Logout 2</a>
+                                        <a href="/pages/authentication/logout-2">Logout 2</a>
                                     </li>
                                     <li>
-                                        <a href="/pages-authentication/recoverpw">Recover Password</a>
+                                        <a href="/pages/authentication/recoverpw">Recover Password</a>
                                     </li>
                                     <li>
-                                        <a href="/pages-authentication/recoverpw-2">Recover Password 2</a>
+                                        <a href="/pages/authentication/recoverpw-2">Recover Password 2</a>
                                     </li>
                                     <li>
-                                        <a href="/pages-authentication/lock-screen">Lock Screen</a>
+                                        <a href="/pages/authentication/lock-screen">Lock Screen</a>
                                     </li>
                                     <li>
-                                        <a href="/pages-authentication/lock-screen-2">Lock Screen 2</a>
+                                        <a href="/pages/authentication/lock-screen-2">Lock Screen 2</a>
                                     </li>
                                     <li>
-                                        <a href="/pages-authentication/confirm-mail">Confirm Mail</a>
+                                        <a href="/pages/authentication/confirm-mail">Confirm Mail</a>
                                     </li>
                                     <li>
-                                        <a href="/pages-authentication/confirm-mail-2">Confirm Mail 2</a>
+                                        <a href="/pages/authentication/confirm-mail-2">Confirm Mail 2</a>
                                     </li>
                                 </ul>
                             </div>

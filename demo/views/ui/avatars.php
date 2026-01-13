@@ -81,19 +81,19 @@ CodeHighLightAsset::register($this);
                             <pre class="mb-0">
                                                     <span class="html escape">
                                                             &lt;!-- Avatar Extra Small --&gt;
-                                                            &lt;img src=&quot;assets/images/users/avatar-2.jpg&quot; alt=&quot;image&quot; class=&quot;img-fluid avatar-xs&quot;&gt;
+                                                            &lt;img src=&quot;/images/users/avatar-2.jpg&quot; alt=&quot;image&quot; class=&quot;img-fluid avatar-xs&quot;&gt;
                                                             
                                                             &lt;!-- Avatar Small --&gt;
-                                                            &lt;img src=&quot;assets/images/users/avatar-2.jpg&quot; alt=&quot;image&quot; class=&quot;img-fluid avatar-sm&quot;&gt;
+                                                            &lt;img src=&quot;/images/users/avatar-2.jpg&quot; alt=&quot;image&quot; class=&quot;img-fluid avatar-sm&quot;&gt;
                                                             
                                                             &lt;!-- Avatar Medium --&gt;
-                                                            &lt;img src=&quot;assets/images/users/avatar-2.jpg&quot; alt=&quot;image&quot; class=&quot;img-fluid avatar-md&quot;&gt;
+                                                            &lt;img src=&quot;/images/users/avatar-2.jpg&quot; alt=&quot;image&quot; class=&quot;img-fluid avatar-md&quot;&gt;
                                                             
                                                             &lt;!-- Avatar Large --&gt;
-                                                            &lt;img src=&quot;assets/images/users/avatar-2.jpg&quot; alt=&quot;image&quot; class=&quot;img-fluid avatar-lg&quot;&gt;
+                                                            &lt;img src=&quot;/images/users/avatar-2.jpg&quot; alt=&quot;image&quot; class=&quot;img-fluid avatar-lg&quot;&gt;
                                                             
                                                             &lt;!-- Avatar Extra Large --&gt;
-                                                            &lt;img src=&quot;assets/images/users/avatar-2.jpg&quot; alt=&quot;image&quot; class=&quot;img-fluid avatar-xl&quot;&gt;
+                                                            &lt;img src=&quot;/images/users/avatar-2.jpg&quot; alt=&quot;image&quot; class=&quot;img-fluid avatar-xl&quot;&gt;
                                                     </span>
                                                 </pre> <!-- end highlight-->
                         </div> <!-- end preview code-->
@@ -159,13 +159,13 @@ CodeHighLightAsset::register($this);
                             <pre class="mb-0">
                                                     <span class="html escape">
                                                         &lt;!-- Avatar Medium --&gt;
-                                                        &lt;img src=&quot;assets/images/users/avatar-2.jpg&quot; alt=&quot;image&quot; class=&quot;img-fluid avatar-md rounded-circle&quot;&gt;
+                                                        &lt;img src=&quot;/images/users/avatar-2.jpg&quot; alt=&quot;image&quot; class=&quot;img-fluid avatar-md rounded-circle&quot;&gt;
                                                         
                                                         &lt;!-- Avatar Large --&gt;
-                                                        &lt;img src=&quot;assets/images/users/avatar-2.jpg&quot; alt=&quot;image&quot; class=&quot;img-fluid avatar-lg rounded-circle&quot;&gt;
-                                                        
+                                                        &lt;img src=&quot;/images/users/avatar-2.jpg&quot; alt=&quot;image&quot; class=&quot;img-fluid avatar-lg rounded-circle&quot;&gt;
+
                                                         &lt;!-- Avatar Extra Large --&gt;
-                                                        &lt;img src=&quot;assets/images/users/avatar-2.jpg&quot; alt=&quot;image&quot; class=&quot;img-fluid avatar-xl rounded-circle&quot;&gt;
+                                                        &lt;img src=&quot;/images/users/avatar-2.jpg&quot; alt=&quot;image&quot; class=&quot;img-fluid avatar-xl rounded-circle&quot;&gt;
                                                     </span>
                                                 </pre> <!-- end highlight-->
                         </div> <!-- end preview code-->
@@ -480,16 +480,16 @@ CodeHighLightAsset::register($this);
                             <pre class="mb-0">
                                                     <span class="html escape">
                                                         &lt;!-- Rounded --&gt;
-                                                        &lt;img src=&quot;assets/images/small/small-2.jpg&quot; alt=&quot;image&quot; class=&quot;img-fluid rounded&quot; width=&quot;200&quot;/&gt;
+                                                        &lt;img src=&quot;/images/small/small-2.jpg&quot; alt=&quot;image&quot; class=&quot;img-fluid rounded&quot; width=&quot;200&quot;/&gt;
                                                         
                                                         &lt;!-- Rounded Circle--&gt;
-                                                        &lt;img src=&quot;assets/images/user/avatar-1.jpg&quot; alt=&quot;image&quot; class=&quot;img-fluid rounded-circle&quot; width=&quot;120&quot;/&gt;
+                                                        &lt;img src=&quot;/images/user/avatar-1.jpg&quot; alt=&quot;image&quot; class=&quot;img-fluid rounded-circle&quot; width=&quot;120&quot;/&gt;
                                                         
                                                         &lt;!-- Thumbnail--&gt;
-                                                        &lt;img src=&quot;assets/images/small/small-3.jpg&quot; alt=&quot;image&quot; class=&quot;img-fluid img-thumbnail&quot; width=&quot;200&quot;/&gt;
+                                                        &lt;img src=&quot;/images/small/small-3.jpg&quot; alt=&quot;image&quot; class=&quot;img-fluid img-thumbnail&quot; width=&quot;200&quot;/&gt;
                                                         
                                                         &lt;!-- Thumbnail Circle--&gt;
-                                                        &lt;img src=&quot;assets/images/user/avatar-2.jpg&quot; alt=&quot;image&quot; class=&quot;img-fluid img-thumbnail rounded-circle&quot; width=&quot;120&quot;/&gt;
+                                                        &lt;img src=&quot;/images/user/avatar-2.jpg&quot; alt=&quot;image&quot; class=&quot;img-fluid img-thumbnail rounded-circle&quot; width=&quot;120&quot;/&gt;
                                                     </span>
                                                 </pre> <!-- end highlight-->
                         </div> <!-- end preview code-->

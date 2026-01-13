@@ -65,9 +65,9 @@ $this->params['breadcrumbs'][] = $this->title;
                             <pre class="mb-0">
                                                     <span class="html escape">
                                                         &lt;!-- plugin js --&gt;
-                                                        &lt;script src=&quot;assets/vendor/dropzone/min/dropzone.min.js&quot;&gt;&lt;/script&gt;
+                                                        &lt;script src=&quot;/vendor/dropzone/min/dropzone.min.js&quot;&gt;&lt;/script&gt;
                                                         &lt;!-- init js --&gt;
-                                                        &lt;script src=&quot;assets/js/ui/component.fileupload.js&quot;&gt;&lt;/script&gt;
+                                                        &lt;script src=&quot;/js/ui/component.fileupload.js&quot;&gt;&lt;/script&gt;
 
                                                         &lt;!-- File Upload --&gt;
                                                         &lt;form action=&quot;/&quot; method=&quot;post&quot; class=&quot;dropzone&quot; id=&quot;myAwesomeDropzone&quot; data-plugin=&quot;dropzone&quot; data-previews-container=&quot;#file-previews&quot;
