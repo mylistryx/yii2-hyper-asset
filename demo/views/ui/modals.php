@@ -339,10 +339,10 @@ $this->registerJs(
                                         <div class="modal-body">
                                             <div class="auth-brand text-center mt-2 mb-4 position-relative top-0">
                                                 <a href="index.html" class="logo-dark">
-                                                    <span><img src="../sources/images/logo-dark.png" alt="dark logo" height="22"></span>
+                                                    <span><img src="/images/logo-dark.png" alt="dark logo" height="22"></span>
                                                 </a>
                                                 <a href="index.html" class="logo-light">
-                                                    <span><img src="../sources/images/logo.png" alt="logo" height="22"></span>
+                                                    <span><img src="/images/logo.png" alt="logo" height="22"></span>
                                                 </a>
                                             </div>
 
@@ -389,10 +389,10 @@ $this->registerJs(
                                         <div class="modal-body">
                                             <div class="auth-brand text-center mt-2 mb-4 position-relative top-0">
                                                 <a href="index.html" class="logo-dark">
-                                                    <span><img src="../sources/images/logo-dark.png" alt="dark logo" height="22"></span>
+                                                    <span><img src="/images/logo-dark.png" alt="dark logo" height="22"></span>
                                                 </a>
                                                 <a href="index.html" class="logo-light">
-                                                    <span><img src="../sources/images/logo.png" alt="logo" height="22"></span>
+                                                    <span><img src="/images/logo.png" alt="logo" height="22"></span>
                                                 </a>
                                             </div>
 
