@@ -4,7 +4,10 @@
  */
 
 use hyper\assets\HyperAsset;
+use yii\mdi\assets\MaterialDesignIconsAsset;
 use yii\web\View;
+
+MaterialDesignIconsAsset::register($this);
 
 $this->title = 'Material design icons';
 $this->params['breadcrumbs'][] = $this->title;
@@ -16,7 +19,7 @@ $this->registerJsFile('/js/pages/demo.materialdesignicons.js', ['depends' => Hyp
         <div class="col-12">
             <div class="card">
                 <div class="card-body">
-                    <h4 class="header-title mb-4">New Icons <span class="badge badge-danger-lighten">6.5.95</span></h4>
+                    <h4 class="header-title mb-4">New Icons <span class="badge badge-danger-lighten">7.4.47</span></h4>
                     <div class="row icons-list-demo" id="newIcons"></div>
                 </div>
             </div>
