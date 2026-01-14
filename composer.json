@@ -38,6 +38,7 @@
     "yiisoft/yii2": "~2.0.50",
     "yiisoft/yii2-bootstrap5": "~2.0.4",
     "mylistryx/yii2-font-nunito": "~1.0.0",
+	"mylistryx/yii2-materialdesign-icons": "~7.4.47",
     "daixianceng/yii2-echarts": "*"
   },
   "require-dev": {
