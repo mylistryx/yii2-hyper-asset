@@ -4,10 +4,7 @@
  */
 
 use hyper\assets\HyperAsset;
-use yii\mdi\assets\MaterialDesignIconsAsset;
 use yii\web\View;
-
-MaterialDesignIconsAsset::register($this);
 
 $this->title = 'Material design icons';
 $this->params['breadcrumbs'][] = $this->title;

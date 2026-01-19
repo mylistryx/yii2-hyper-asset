@@ -39,7 +39,9 @@
     "yiisoft/yii2-bootstrap5": "~2.0.4",
     "mylistryx/yii2-font-nunito": "~1.0.0",
 	"mylistryx/yii2-materialdesign-icons": "~7.4.47",
-    "daixianceng/yii2-echarts": "*"
+    "daixianceng/yii2-echarts": "*",
+    "mylistryx/yii2-unicons-icons": "^1.0",
+    "mylistryx/yii2-remix-icons": "^4.8"
   },
   "require-dev": {
     "roave/security-advisories": "dev-latest",

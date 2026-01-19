@@ -3,6 +3,9 @@
 namespace hyper\assets;
 
 use yii\font\assets\FontNunitoAsset;
+use yii\mdi\assets\MaterialDesignIconsAsset;
+use yii\ri\assets\RemixIconsAsset;
+use yii\uil\assets\UniconsIconsAsset;
 use yii\web\AssetBundle;
 use yii\web\JqueryAsset;
 use yii\web\View;
@@ -13,7 +16,6 @@ class HyperAsset extends AssetBundle
 
     public $css = [
         ["css/app.css", 'id' => 'app-style'],
-        ["css/icons.css", 'id' => 'app-icons-style'],
     ];
 
     public $js = [
@@ -26,14 +28,15 @@ class HyperAsset extends AssetBundle
         'only' => [
             'css/*',
             'js/*',
-            'fonts/*',
             'images/*',
         ],
     ];
 
     public $depends = [
         FontNunitoAsset::class,
-//        BootstrapPluginAsset::class,
+        MaterialDesignIconsAsset::class,
+        RemixIconsAsset::class,
+        UniconsIconsAsset::class,
         JqueryAsset::class,
     ];
 }
