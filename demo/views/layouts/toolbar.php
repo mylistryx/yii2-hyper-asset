@@ -3,6 +3,9 @@
  * @var $this View
  */
 
+use yii\mdi\MDI;
+use yii\ri\RIL;
+use yii\uil\UIL;
 use yii\web\View;
 
 ?>
@@ -19,7 +22,7 @@ use yii\web\View;
                                 <span class="logo-lg">
                                     <img src="/images/logo.png" alt="logo">
                                 </span>
-                                <span class="logo-sm">
+                    <span class="logo-sm">
                                     <img src="/images/logo-sm.png" alt="small logo">
                                 </span>
                 </a>
@@ -37,7 +40,7 @@ use yii\web\View;
 
             <!-- Sidebar Menu Toggle Button -->
             <button class="button-toggle-menu">
-                <i class="mdi mdi-menu"></i>
+                <?= MDI::i('menu') ?>
             </button>
 
             <!-- Horizontal Menu Toggle Button -->
@@ -67,19 +70,28 @@ use yii\web\View;
 
                     <!-- item-->
                     <a href="javascript:void(0);" class="dropdown-item notify-item">
-                        <i class="uil-notes font-16 me-1"></i>
+                        <?= UIL::i('notes')
+                                ->addClass('font-16')
+                                ->addClass('me-1')
+                        ?>
                         <span>Analytics Report</span>
                     </a>
 
                     <!-- item-->
                     <a href="javascript:void(0);" class="dropdown-item notify-item">
-                        <i class="uil-life-ring font-16 me-1"></i>
+                        <?= UIL::i('life-ring')
+                                ->addClass('font-16')
+                                ->addClass('me-1')
+                        ?>
                         <span>How can I help you?</span>
                     </a>
 
                     <!-- item-->
                     <a href="javascript:void(0);" class="dropdown-item notify-item">
-                        <i class="uil-cog font-16 me-1"></i>
+                        <?= UIL::i('cog')
+                                ->addclass('font-16')
+                                ->addClass('me-1')
+                        ?>
                         <span>User profile settings</span>
                     </a>
 
@@ -118,7 +130,7 @@ use yii\web\View;
         <ul class="topbar-menu d-flex align-items-center gap-3">
             <li class="dropdown d-lg-none">
                 <a class="nav-link dropdown-toggle arrow-none" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
-                    <i class="ri-search-line font-22"></i>
+                    <?= RIL::i('search')->addClass('font-22') ?>
                 </a>
                 <div class="dropdown-menu dropdown-menu-animated dropdown-lg p-0">
                     <form class="p-3">
@@ -130,7 +142,12 @@ use yii\web\View;
             <li class="dropdown">
                 <a class="nav-link dropdown-toggle arrow-none" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
                     <img src="/images/flags/us.jpg" alt="user-image" class="me-0 me-sm-1" height="12">
-                    <span class="align-middle d-none d-lg-inline-block">English</span> <i class="mdi mdi-chevron-down d-none d-sm-inline-block align-middle"></i>
+                    <span class="align-middle d-none d-lg-inline-block">English</span>
+                    <?= MDI::i('chevron-down')
+                            ->addClass('d-none')
+                            ->addClass('d-sm-inline-block')
+                            ->addClass('align-middle')
+                    ?>
                 </a>
                 <div class="dropdown-menu dropdown-menu-end dropdown-menu-animated">
 
@@ -154,12 +171,17 @@ use yii\web\View;
                         <img src="/images/flags/russia.jpg" alt="user-image" class="me-1" height="12"> <span class="align-middle">Russian</span>
                     </a>
 
+                    <!-- item-->
+                    <a href="javascript:void(0);" class="dropdown-item">
+                        <img src="/images/flags/french.jpg" alt="user-image" class="me-1" height="12"> <span class="align-middle">French</span>
+                    </a>
+
                 </div>
             </li>
 
             <li class="dropdown notification-list">
                 <a class="nav-link dropdown-toggle arrow-none" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
-                    <i class="ri-notification-3-line font-22"></i>
+                    <?= RIL::i('notification-3')->addClass('font-22') ?>
                     <span class="noti-icon-badge"></span>
                 </a>
                 <div class="dropdown-menu dropdown-menu-end dropdown-menu-animated dropdown-lg py-0">
@@ -183,11 +205,13 @@ use yii\web\View;
 
                         <a href="javascript:void(0);" class="dropdown-item p-0 notify-item card unread-noti shadow-none mb-2">
                             <div class="card-body">
-                                <span class="float-end noti-close-btn text-muted"><i class="mdi mdi-close"></i></span>
+                                <span class="float-end noti-close-btn text-muted">
+                                    <?= MDI::i('close') ?>
+                                </span>
                                 <div class="d-flex align-items-center">
                                     <div class="flex-shrink-0">
                                         <div class="notify-icon bg-primary">
-                                            <i class="mdi mdi-comment-account-outline"></i>
+                                            <?= MDI::i('comment-account-outline') ?>
                                         </div>
                                     </div>
                                     <div class="flex-grow-1 text-truncate ms-2">
@@ -201,11 +225,13 @@ use yii\web\View;
                         <!-- item-->
                         <a href="javascript:void(0);" class="dropdown-item p-0 notify-item card read-noti shadow-none mb-2">
                             <div class="card-body">
-                                <span class="float-end noti-close-btn text-muted"><i class="mdi mdi-close"></i></span>
+                                <span class="float-end noti-close-btn text-muted">
+                                    <?= MDI::i('close') ?>
+                                </span>
                                 <div class="d-flex align-items-center">
                                     <div class="flex-shrink-0">
                                         <div class="notify-icon bg-info">
-                                            <i class="mdi mdi-account-plus"></i>
+                                            <?= MDI::i('account-plus') ?>
                                         </div>
                                     </div>
                                     <div class="flex-grow-1 text-truncate ms-2">
@@ -221,7 +247,9 @@ use yii\web\View;
                         <!-- item-->
                         <a href="javascript:void(0);" class="dropdown-item p-0 notify-item card read-noti shadow-none mb-2">
                             <div class="card-body">
-                                <span class="float-end noti-close-btn text-muted"><i class="mdi mdi-close"></i></span>
+                                <span class="float-end noti-close-btn text-muted">
+                                    <?= MDI::i('close') ?>
+                                </span>
                                 <div class="d-flex align-items-center">
                                     <div class="flex-shrink-0">
                                         <div class="notify-icon">
@@ -241,11 +269,13 @@ use yii\web\View;
                         <!-- item-->
                         <a href="javascript:void(0);" class="dropdown-item p-0 notify-item card read-noti shadow-none mb-2">
                             <div class="card-body">
-                                <span class="float-end noti-close-btn text-muted"><i class="mdi mdi-close"></i></span>
+                                <span class="float-end noti-close-btn text-muted">
+                                    <?= MDI::i('close') ?>
+                                </span>
                                 <div class="d-flex align-items-center">
                                     <div class="flex-shrink-0">
                                         <div class="notify-icon bg-primary">
-                                            <i class="mdi mdi-comment-account-outline"></i>
+                                            <?= MDI::i('comment-account-outline') ?>
                                         </div>
                                     </div>
                                     <div class="flex-grow-1 text-truncate ms-2">
@@ -259,7 +289,9 @@ use yii\web\View;
                         <!-- item-->
                         <a href="javascript:void(0);" class="dropdown-item p-0 notify-item card read-noti shadow-none mb-2">
                             <div class="card-body">
-                                <span class="float-end noti-close-btn text-muted"><i class="mdi mdi-close"></i></span>
+                                <span class="float-end noti-close-btn text-muted">
+                                    <?= MDI::i('close') ?>
+                                </span>
                                 <div class="d-flex align-items-center">
                                     <div class="flex-shrink-0">
                                         <div class="notify-icon">
@@ -275,7 +307,12 @@ use yii\web\View;
                         </a>
 
                         <div class="text-center">
-                            <i class="mdi mdi-dots-circle mdi-spin text-muted h3 mt-0"></i>
+                            <?= MDI::i('dots-circle')
+                                    ->spin()
+                                    ->addClass('text-muted')
+                                    ->addClass('h3')
+                                    ->addClass('mt-0')
+                            ?>
                         </div>
                     </div>
 
@@ -289,7 +326,7 @@ use yii\web\View;
 
             <li class="dropdown d-none d-sm-inline-block">
                 <a class="nav-link dropdown-toggle arrow-none" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
-                    <i class="ri-apps-2-line font-22"></i>
+                    <?= RIL::i('apps-2')->addClass('font-22') ?>
                 </a>
                 <div class="dropdown-menu dropdown-menu-end dropdown-menu-animated dropdown-lg p-0">
 
@@ -342,20 +379,20 @@ use yii\web\View;
 
             <li class="d-none d-sm-inline-block">
                 <a class="nav-link" data-bs-toggle="offcanvas" href="#theme-settings-offcanvas">
-                    <i class="ri-settings-3-line font-22"></i>
+                    <?= RIL::i('settings-3')->addClass('font-22') ?>
                 </a>
             </li>
 
             <li class="d-none d-sm-inline-block">
                 <div class="nav-link" id="light-dark-mode" data-bs-toggle="tooltip" data-bs-placement="left" title="Theme Mode">
-                    <i class="ri-moon-line font-22"></i>
+                    <?= RIL::i('moon')->addClass('font-22') ?>
                 </div>
             </li>
 
 
             <li class="d-none d-md-inline-block">
                 <a class="nav-link" href="" data-toggle="fullscreen">
-                    <i class="ri-fullscreen-line font-22"></i>
+                    <?= RIL::i('fullscreen')->addClass('font-22') ?>
                 </a>
             </li>
 
@@ -377,31 +414,31 @@ use yii\web\View;
 
                     <!-- item-->
                     <a href="javascript:void(0);" class="dropdown-item">
-                        <i class="mdi mdi-account-circle me-1"></i>
+                        <?= MDI::i('account-circle')->addClass('me-1') ?>
                         <span>My Account</span>
                     </a>
 
                     <!-- item-->
                     <a href="javascript:void(0);" class="dropdown-item">
-                        <i class="mdi mdi-account-edit me-1"></i>
+                        <?= MDI::i('account-edit')->addClass('me-1') ?>
                         <span>Settings</span>
                     </a>
 
                     <!-- item-->
                     <a href="javascript:void(0);" class="dropdown-item">
-                        <i class="mdi mdi-lifebuoy me-1"></i>
+                        <?= MDI::i('lifebuoy')->addClass('me-1') ?>
                         <span>Support</span>
                     </a>
 
                     <!-- item-->
                     <a href="javascript:void(0);" class="dropdown-item">
-                        <i class="mdi mdi-lock-outline me-1"></i>
+                        <?= MDI::i('lock-outline')->addClass('me-1') ?>
                         <span>Lock Screen</span>
                     </a>
 
                     <!-- item-->
                     <a href="javascript:void(0);" class="dropdown-item">
-                        <i class="mdi mdi-logout me-1"></i>
+                        <?= MDI::i('logout')->addClass('me-1') ?>
                         <span>Logout</span>
                     </a>
                 </div>
