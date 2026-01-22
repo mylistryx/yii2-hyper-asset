@@ -4,6 +4,7 @@
  */
 
 use hyper\assets\HyperAsset;
+use yii\mdi\MDI;
 use yii\web\View;
 
 $this->title = 'Material design icons';
@@ -38,19 +39,19 @@ $this->registerJsFile('/js/pages/demo.materialdesignicons.js', ['depends' => Hyp
 
                     <div class="row icons-list-demo">
                         <div class="col-xl-3 col-lg-4 col-sm-6">
-                            <i class="mdi mdi-18px mdi-account"></i> mdi-18px
+                            <?= MDI::i('account')->size18() ?> ...->size18()
                         </div>
 
                         <div class="col-xl-3 col-lg-4 col-sm-6">
-                            <i class="mdi mdi-24px mdi-account"></i> mdi-24px
+                            <?= MDI::i('account')->size24() ?> ...->size24()
                         </div>
 
                         <div class="col-xl-3 col-lg-4 col-sm-6">
-                            <i class="mdi mdi-36px mdi-account"></i> mdi-36px
+                            <?= MDI::i('account')->size36() ?> ...->size36()
                         </div>
 
                         <div class="col-xl-3 col-lg-4 col-sm-6">
-                            <i class="mdi mdi-48px mdi-account"></i> mdi-48px
+                            <?= MDI::i('account')->size48() ?> ...->size48()
                         </div>
                     </div>
                 </div>
@@ -68,25 +69,25 @@ $this->registerJsFile('/js/pages/demo.materialdesignicons.js', ['depends' => Hyp
 
                     <div class="row icons-list-demo">
                         <div class="col-xl-3 col-lg-4 col-sm-6">
-                            <i class="mdi mdi-rotate-45 mdi-account"></i> mdi-rotate-45
+                            <?= MDI::i('account')->rotate45() ?> ...->rotate450()
                         </div>
                         <div class="col-xl-3 col-lg-4 col-sm-6">
-                            <i class="mdi mdi-rotate-90 mdi-account"></i> mdi-rotate-90
+                            <?= MDI::i('account')->rotate90() ?> ...->rotate90()
                         </div>
                         <div class="col-xl-3 col-lg-4 col-sm-6">
-                            <i class="mdi mdi-rotate-135 mdi-account"></i> mdi-rotate-135
+                            <?= MDI::i('account')->rotate135() ?> ...->rotate135()
                         </div>
                         <div class="col-xl-3 col-lg-4 col-sm-6">
-                            <i class="mdi mdi-rotate-180 mdi-account"></i> mdi-rotate-180
+                            <?= MDI::i('account')->rotate180() ?> ...->rotate180()
                         </div>
                         <div class="col-xl-3 col-lg-4 col-sm-6">
-                            <i class="mdi mdi-rotate-225 mdi-account"></i> mdi-rotate-225
+                            <?= MDI::i('account')->rotate225() ?> ...->rotate225()
                         </div>
                         <div class="col-xl-3 col-lg-4 col-sm-6">
-                            <i class="mdi mdi-rotate-270 mdi-account"></i> mdi-rotate-270
+                            <?= MDI::i('account')->rotate270() ?> ...->rotate270()
                         </div>
                         <div class="col-xl-3 col-lg-4 col-sm-6">
-                            <i class="mdi mdi-rotate-315 mdi-account"></i> mdi-rotate-315
+                            <?= MDI::i('account')->rotate315() ?> ...->rotate315()
                         </div>
                     </div>
                 </div>
@@ -104,10 +105,61 @@ $this->registerJsFile('/js/pages/demo.materialdesignicons.js', ['depends' => Hyp
 
                     <div class="row icons-list-demo">
                         <div class="col-xl-3 col-lg-4 col-sm-6">
-                            <i class="mdi mdi-spin mdi-loading"></i> mdi-spin
+                            <?= MDI::i('loading')->spin() ?> ...->spin()
                         </div>
                         <div class="col-xl-3 col-lg-4 col-sm-6">
-                            <i class="mdi mdi-spin mdi-star"></i> mdi-spin
+                            <?= MDI::i('star')->spin() ?> ...->spin()
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end row -->
+
+    <div class="row">
+        <div class="col-12">
+            <div class="card">
+
+                <div class="card-body">
+                    <h4 class="header-title mb-4">Flip</h4>
+
+                    <div class="row icons-list-demo">
+                        <div class="col-xl-3 col-lg-4 col-sm-4">
+                            <?= MDI::i('z-wave') ?> Original
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-sm-4">
+                            <?= MDI::i('z-wave')->flipH() ?> ...->flipH()
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-sm-4">
+                            <?= MDI::i('z-wave')->flipV() ?> ...->flipV()
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end row -->
+
+    <div class="row">
+        <div class="col-12">
+            <div class="card">
+
+                <div class="card-body">
+                    <h4 class="header-title mb-4">Color</h4>
+
+                    <div class="row icons-list-demo">
+                        <div class="col-xl-3 col-lg-4 col-sm-6">
+                            <?= MDI::i('z-wave')->colorDark() ?> ...->colorDark()
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-sm-6">
+                            <?= MDI::i('z-wave')->colorDark()->inactive() ?> ...->colorDark()->inactive()
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-sm-6" style="background-color: #444 !important;">
+                            <?= MDI::i('z-wave')->colorLight() ?> ...->colorLight()
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-sm-6" style="background-color: #444 !important;">
+                            <?= MDI::i('z-wave')->colorLight()->inactive() ?> ...->colorLight()->inactive()
                         </div>
                     </div>
                 </div>
